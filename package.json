@@ -1,19 +1,21 @@
 {
   "name": "otomi2",
   "version": "1.0.0",
-  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rawonjon/otomi2.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp watch": "Hello"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rawonjon/otomi2/issues"
+  "dependencies": {
+    "@shopify/themekit": "^1.1.9"
   },
-  "homepage": "https://github.com/rawonjon/otomi2#readme"
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.44.0"
+  }
 }
