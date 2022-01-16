@@ -1,0 +1,194 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// COMMISSION /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.commission {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: calc((100% / 12) * 12);
+    padding: 0 calc((100% / 12) * 1);
+    margin-top: 64px;
+
+    // border: 1px solid red;
+}
+
+.commission article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 12) * 10);
+    margin: 0 auto;
+}
+
+
+.commission article > div {
+    width: 50%;
+    overflow-x: hidden;
+    // background-color: salmon;
+}
+
+// .commission > article div.media {
+//     width: 50%;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: flex-start;
+// }
+
+// .commission > article div.media picture {
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: calc((100% / 12) * 8);
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+// }
+
+// .commission > article div.media .deck {
+//     // border: 1px solid purple;
+//     padding-bottom: 32px;
+// }
+
+/* //////////////////////////////////////////////////////////////////// DECK /// */
+.commission > article .shopify-section section.deck-wrap {
+    width: 100%;
+    overflow: hidden;
+    padding-top: unset;
+}
+
+.commission > article .shopify-section .deck-wrap .deck .track div.card {
+    width: 100%;
+}
+
+.commission > article .shopify-section .deck-wrap .deck .track div.card picture {
+    background-image: url(//cdn.shopify.com/s/files/1/0513/8799/0203/files/textiles1.jpg?v=1605705490);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+}
+
+.commission > article .shopify-section .deck-wrap .deck .track div.card picture::before {
+    padding-top: 75%;
+}
+
+.commission > article .shopify-section .deck-wrap .control {
+    position: relative;
+    top: unset;
+    transform: unset;
+    width: calc((100% / 12) * 10);
+    height: 64px;
+    margin: 16px 0;
+}
+
+.commission > article .shopify-section .deck-wrap .control a.left,
+.commission > article .shopify-section .deck-wrap .control a.right {
+    width: 16px;
+    height: 32px;
+}
+
+.commission > article .shopify-section .deck-wrap .control div.indicator  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // width: calc((100% / 12) * 3);
+    margin: 0 auto;
+}
+
+.commission > article .shopify-section .deck-wrap .control div.indicator > div {
+    z-index: 99;
+    position: relative;
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid $pink;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1;
+    margin: 0 8px;
+    transition: background-color 400ms ease;
+    &.active {
+        background-color: $pink;
+    }
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////// INFO /// */
+
+
+.commission article .info h2 {
+    padding: unset;
+    font-family: $title;
+}
+
+.commission article .info .text p {
+    font-size: 19px;
+    margin-bottom: 32px;
+    line-height: 32px;
+}
+
+.commission article .important {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 64px;
+    // margin-left: calc((100vw / 12) * -1);
+    padding: 16px 0;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+
+    // background-color: orangered;
+}
+
+.commission article .important .text p {
+    display: flex;
+    justify-content: center;
+    // background-color: greenyellow;
+    padding: 8px;
+}
+
+section.commission:last-child {
+    margin-top: 96px;
+}
+
+section.commission:last-child article {
+    flex-direction: row-reverse;
+} 
+
+section.commission:last-child .important {
+    margin-left: unset;
+    margin-right: calc((100vw / 12) * -1);
+}
+
+/* //////////////////////////////////////////////////////////////////// BREAK /// */
+
+
+@media (max-width: $breakpoint4) {
+    .commission article > div {
+        width: 100%;
+    }
+    // .commission > article div.media {
+    //     width: 100%;
+    //     margin-bottom: 32px;
+    // }
+    .commission > article .shopify-section section.deck-wrap {
+        width: 100%;
+        order: 2;
+    }
+    .commission article .info  {
+        width: 100%;
+    }
+    .commission article .important {
+        order: 3;
+        margin-top: 32px;
+    }
+}
+

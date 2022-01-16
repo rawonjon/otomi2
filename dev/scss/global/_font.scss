@@ -1,0 +1,71 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// FONT /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////////////// Ivymode /// */
+
+// @import url("https://use.typekit.net/kxj7aaf.css");
+
+// font-family: ivymode, sans-serif;
+// font-weight: 400;
+// font-style: normal;
+
+
+
+/* //////////////////////////////////////////////////////////////////// Brown /// */
+
+// @font-face {
+//     font-family: 'BrownLight';
+//     src: url( #{'"{{ 'BrownLight.eot' | asset_url }}"'}  );
+//     src: url(#{'"{{ '/BrownLight.eot?#iefix' | asset_url }}"'}) format('embedded-opentype'),
+//       url(#{'"{{ 'BrownLight.woff2' | asset_url }}"'}) format('woff2'),
+//       url(#{'"{{ 'BrownLight.woff' | asset_url }}"'}) format('woff'),
+//       url(#{'"{{ 'BrownLight.ttf' | asset_url }}"'}) format('truetype'),
+//       url(#{'"{{ 'BrownLight.svg#BrownLight' | asset_url }}"'}) format('svg');
+//     font-weight: 300;
+//     font-style: normal;
+//   }
+
+// @font-face {
+//   font-family: 'BrownLight';
+//   src: shopify_asset('BrownLight.eot');
+//   src: shopify_asset('BrownLight.eot?#iefix') format('embedded-opentype'),
+//     shopify_asset('BrownLight.woff2') format('woff2'),
+//     shopify_asset('BrownLight.woff'),
+//     shopify_asset('BrownLight.ttf') format('truetype'),
+//     shopify_asset('BrownLight.svg#BrownLight') format('svg');
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+  
+
+  // @font-face {
+  //   font-family: 'BrownRegular';
+  //   src: url( #{'"{{ 'BrownRegular.eot' | asset_url }}"'}  );
+  //   src: url(#{'"{{ '../font/BrownRegular.eot?#iefix' | asset_url }}"'}) format('embeddedopentype'),
+  //     url(#{'"{{ 'BrownRegular.woff2' | asset_url }}"'}) format('woff2'),
+  //     url(#{'"{{ 'BrownRegular.woff' | asset_url }}"'}) format('woff'),
+  //     url(#{'"{{ 'BrownRegular.ttf' | asset_url }}"'}) format('truetype'),
+  //     url(#{'"{{ 'BrownRegular.svg#BrownRegular' | asset_url }}"'}) format('svg');
+  //   font-weight: 300;
+  //   font-style: normal;
+  // }
+
+  // @font-face {
+  //   font-family: 'BrownRegular';
+  //   src: shopify_asset('BrownRegular.eot');
+  //   src: shopify_asset('BrownRegular.eot?#iefix') format('embedded-opentype'),
+  //     shopify_asset('BrownRegular.woff2') format('woff2'),
+  //     shopify_asset('BrownRegular.woff'),
+  //     shopify_asset('BrownRegular.ttf') format('truetype'),
+  //     shopify_asset('BrownRegular.svg#BrownRegular') format('svg');
+  //   font-weight: 300;
+  //   font-style: normal;
+  // }
+
+  
+
+  $font: 'BrownLight', sans-serif;
+  $action: 'BrownRegular', sans-serif;
+  $title: 'ivymode', sans-serif;

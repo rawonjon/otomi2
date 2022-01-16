@@ -1,0 +1,29 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// ARTICLE /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////////////// HERO IMAGE /// */
+
+body.article section.hero h1 {
+    bottom: 0;
+}
+
+body.article section.block {
+    width: calc((100% / 12) * 8);
+    padding: 64px 0;
+    font-size: 19px;
+}
+
+body.article section.block div.text p:first-of-type {
+    font-size: 24px;
+}
+body.article section.block div.text p {
+    font-size: 19px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: $breakpoint4) {
+    body.article section.block {
+        width: calc((100% / 12) * 12);
+    }
+}

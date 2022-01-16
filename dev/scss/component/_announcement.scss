@@ -1,0 +1,41 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////// ANNOUNCEMENT BAR /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+body div.announcement-bar {
+    z-index: 11;
+    position: sticky;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+div.announcement-bar a {
+    color: white;   
+}
+
+div.announcement-bar a:nth-child(2) {
+    margin: 0 32px;
+}
+
+// a.close {
+//     color: red;
+// }
+
+body.announcement div.announcement-bar {
+    display: flex;
+}
+
+/* //////////////////////////////////////////////////////////////////// BREAKS /// */
+
+@media (max-width: $breakpoint6) {
+    div.announcement-bar a {
+        padding: 8px;
+        font-size: 14px;
+        line-height: 120%;
+    }
+}

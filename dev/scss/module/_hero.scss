@@ -1,0 +1,102 @@
+// /* //////////////////////////////////////////////////////////////////////////////// */
+// /* /////////////////////////////////////////////////////////////////////// HERO /// */
+// /* //////////////////////////////////////////////////////////////////////////////// */
+
+// section.hero {
+//     position: relative;
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     height: 100vh;
+//     width: 100%;
+//     // margin: 0 auto;
+//     background-color: white;
+// }
+
+// .hero h1,
+// .hero h3 {
+//     z-index: 10;
+//     position: absolute;
+//     width: 100%;
+//     margin: 0 auto;
+//     padding: 32px;
+// }
+
+// .hero h1 { bottom: 128px; }
+
+// .hero h3 { bottom: 64px; }
+
+// @media (max-width: $breakpoint4) {
+//     .hero h3 { 
+//         text-align: left; 
+//     }
+// }
+
+// @media (max-width: $breakpoint5) {
+//     .hero h1 { 
+//         font-size: 36px;
+//         line-height: 40px;
+//         letter-spacing: 2px;
+//         bottom: 64px; 
+//     }
+//     .hero h3 { 
+//         font-size: 24px;
+//         bottom: 32px;
+//         text-align: left; 
+//     }
+// }
+
+// @media (max-width: $breakpoint5) {
+//     .hero h1 { 
+//         bottom: 128px; 
+//     }
+// }
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// HERO /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.hero {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    // margin: 0 auto;
+    background-color: white;
+}
+
+.hero h1,
+.hero h3 {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+
+    text-align: left;
+    line-height: 120%;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.hero h1 { padding-bottom: 80px }
+
+// .hero h3 { bottom: 64px; }
+
+@media (max-width: $breakpoint4) {
+    .hero h1 { 
+        font-size: 36px;
+        padding-bottom: 64px;
+    }
+    .hero h3 { 
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+    }
+}

@@ -1,0 +1,23 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// info /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.info > *,
+.description {
+    margin-bottom: 32px;
+}
+
+.product > article div.info h1 {
+    color: $black;
+    font-family: $font;
+    font-size: 19px;
+    line-height: unset;
+    letter-spacing: unset;
+}
+    
+
+.product > article div.info .input {
+    width: calc(100% - 32px);
+    height: 64px;
+    background-color: rebeccapurple;
+}

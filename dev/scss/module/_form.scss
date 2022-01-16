@@ -1,0 +1,39 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// FORM /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 64px;
+}
+
+.form form {
+    width: calc((100% / 12) * 6);
+}
+
+.form form .button {
+    margin: 0 auto;
+}
+
+.form label,
+.form input {
+    width: 100%;
+}
+
+.form label {
+    padding-bottom: 16px;
+}
+
+.form input {
+    height: 32px;
+    margin-bottom: 32px;
+}
+
+.form input[type=textarea] {
+    height: 128px;
+}
+

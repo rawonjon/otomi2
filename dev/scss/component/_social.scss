@@ -1,0 +1,26 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// SOCIAL /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+div.social nav{
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: nowrap;
+    a > svg,
+    a > svg path {
+        fill: $pink;
+    }
+}
+
+div.social a {
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+

@@ -1,0 +1,107 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// LINKS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.link {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    // max-width: 1544px;
+    width: calc((100% / 12) * 10);
+    padding: 0 calc((100% / 12) * 1);
+    padding-bottom: 64px;
+    margin: 0 auto;
+}
+
+.link h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}   
+
+.link article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(((100% / 12) * 3) + 32px);
+}
+
+.link article > div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    // width: 452px;
+    height: 335px;
+    padding: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+// .link article div h3, 
+// .link article div .text {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%); 
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100%;
+//     text-align: center;
+//     padding: 32px;
+//     opacity: 1;
+//     transition: all 0.5s ease-in-out;
+//     // background-color: cadetblue;
+    
+// }
+.link article div .text { 
+    opacity: 0; 
+    font-family: $action;
+    font-size: 19px;
+}
+
+.link article div .text p:first-child {
+    padding-bottom: 16px;
+}
+   
+.link article:hover div {
+    h3 { 
+        opacity: 1;
+    }
+    .text { 
+        opacity: 0; 
+    }
+}
+
+.link .button {
+    margin: 32px;
+}
+
+/* //////////////////////////////////////////////////////////////////// BREAK /// */
+
+@media (max-width: $breakpoint3) {
+    .link article div .text { font-size: 16px; }
+}
+
+@media (max-width: $breakpoint4) {
+    .link article:hover div {
+        h3 { 
+            opacity: 1;
+        }
+        .text { 
+            opacity: 0; 
+        }
+    }
+}
+
+@media (max-width: $breakpoint5) {
+    .link article { width: 100% }
+}

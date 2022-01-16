@@ -1,0 +1,59 @@
+div.actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 48px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    // background-color: rebeccapurple;
+}
+
+div#SearchDrawer {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    // top: 0;
+    // right: 0;
+    width: 100%;
+    // width: fit-content;
+    // border: 1px solid red;
+    height: 48px;
+}
+
+.search-form__container form {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    input {
+        height: 100%;
+        margin: 0 16px;
+        display: none;
+    }
+}
+
+button.search-bar__submit {
+    display: block;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    margin: 0;
+    font-family: unset;
+    font-size: 16px;
+    color: #06041a;
+    text-transform: unset;
+    text-align: unset;
+    border: 0;
+    line-height: unset;
+    // border: 1px solid red;
+    background-color: unset;
+    cursor: pointer;
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 32px;
+        width: 32px;
+        fill: $turq;
+    }
+}

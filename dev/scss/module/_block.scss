@@ -1,0 +1,162 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// BLOCK /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.block {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: calc((100% / 12) * 12);
+    // padding: 32px;
+    padding: 32px calc((100% / 12) * 1);
+    font-size: 24px;;
+}
+
+.block div.media,
+.block div.text {
+    width: 100%;
+}
+.block div.media picture {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block div.media picture::before {
+    padding-top: 66.666%;
+}
+
+.block div.text {
+    padding: 0 32px;
+}   
+
+.block div.text a {
+    color: $pink;
+}   
+
+.block div.text p {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    flex: 0 4 auto;   
+}
+
+.block div.text div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    // background-color: slateblue;
+}
+
+.block div.text a.button {
+    width: calc(((100% / 10) * 5) - 16px);
+    min-width: unset;
+    max-width: unset;
+    height: 80px;
+    color: $black
+}
+
+.block div.text a.button:hover {
+    color: white;
+}
+
+.block div.text.center p { 
+    text-align: center; 
+    padding: 16px 0;
+}
+
+.block div.text blockquote p {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 32px;
+    line-height: 130%;
+    text-align: center;
+    font-size: 36px;
+
+    // background-color: aquamarine;
+
+}   
+
+.block div.text blockquote footer {
+    justify-content: center;
+    font-family: $title;   
+    // background-color: aqua;
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    margin: unset;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* //////////////////////////////////////////////////////////////////// PAGE TEMPLATE /// */
+
+body.page .block div.text h2 {
+    font-family: $title;
+    color: $black;
+    text-transform: capitalize;
+    padding: 32px 0;
+}
+body.page .block div.text h2:first-of-type {
+    padding-top: 64px;
+}
+
+body.page .block div.text h3 {
+    font-family: $font;
+    color: $black;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 16px 0;
+}
+
+body.page .block div.text p {
+    margin-bottom: 32px;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+body.page .block div.text ul {
+    font-size: 19px;
+}
+
+body.page .block div.text ul li {
+
+} 
+
+/* //////////////////////////////////////////////////////////////////// ADDRESS /// */
+.block div.text div.address {
+    flex-direction: column;
+    & p {
+        margin-bottom: unset;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////////////// BREAKS /// */
+
+@media (max-width: $breakpoint2) {
+    .block div.text blockquote p {
+        font-size: 24px;
+    }
+    .block div.text p {
+        font-size: 19px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: $breakpoint3) {
+    section.block {
+        flex-wrap: wrap;
+    }
+    .block div.media,
+    .block div.text {
+        min-width: 100%;
+        padding: 0;
+    }  
+    .block div.text blockquote footer {
+        padding: 0;
+        text-align: center;
+    }
+}

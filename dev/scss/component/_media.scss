@@ -1,0 +1,24 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// MEDIA /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.media {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+div.media picture {
+    display: flex;
+    width: 100%;
+    
+    // background-color: seagreen;
+}
+
+div.media picture::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
