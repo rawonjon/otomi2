@@ -2230,6 +2230,10 @@ input[type='checkbox'] {
   width: 100%;
 }
 
+svg.logo {
+  width: 120px;
+}
+
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
