@@ -1,6 +1,6 @@
 const gulp = require('gulp');
-// const themeKit = require('@shopify/themekit');
 const sass = require('gulp-sass')(require('sass'));
+// const autoprefixer = require('gulp-autoprefixer');
 const clean = require('gulp-clean-css');
 
 gulp.task('sass', function() {

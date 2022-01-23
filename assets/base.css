@@ -2184,7 +2184,7 @@ input[type='checkbox'] {
       'left-icon heading icons'
       'navigation navigation navigation';
   }
-
+ 
   .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 1.05rem;
   }
