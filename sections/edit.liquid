@@ -1,0 +1,62 @@
+<h2>{{ section.settings.heading | escape }}</h2>
+
+{%- assign collection = collections[section.settings.collection] -%}
+
+
+
+<section class="deck-wrap">
+      <div class="deck">
+          <div class="track">
+            
+         		{% for product in collection.products %}
+
+              	<a class="card" href="{{ product.url }}">
+                  <picture style="background-image: url({{ product.featured_image | img_url: 'master' }}); background-repeat: no-repeat; background-size: cover;" >
+                  </picture>
+                  <h4>{{ product.title }}</h4>
+              </a>
+            {% endfor %}
+          </div> 
+      </div> 
+      <div class="control">
+          <a class="left active"></a>
+          <a class="right active"></a>
+      </div>
+</section>
+    
+                  
+{% if section.settings.show_view_all %}
+ 
+<a href="{{ collection.url }}" class="button">Shop the Edit</a>
+                  
+              
+{% endif %}
+
+
+
+
+
+{% schema %}
+  {
+    "name": "sections.edit.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+					{
+						"type":"text",
+                      	"label": "Heading",
+						"id": "heading"
+					},
+					{
+                      "id": "collection",
+                      "type": "collection",
+                      "label": "Collection"
+					},
+                    {
+                      "type": "checkbox",
+                      "id": "show_view_all",
+                      "label": "Show view all button"
+      				}
+				]
+  }
+{% endschema %}

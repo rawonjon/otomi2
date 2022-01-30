@@ -1,5 +1,5 @@
 sticky-header {
-    background: transparent;
+    background: white;
 }
 
 .header {
@@ -27,6 +27,12 @@ h1.header__heading {
     // border: 1px solid blue;
     a {
         padding: 0;
+    }
+}
+
+.shopify-section-header-hidden {
+    h1.header__heading {
+        transform: translate(-50%, -10px);
     }
 }
 
@@ -72,7 +78,20 @@ h1.header__heading {
 }
 
 /* ////////////////////////////////////////////////// STICKY HEADER BACKGROUNDS /// */
-.header-wrapper {
+.header-wrapper,
+.header-wrapper.transparent:hover {
+    background-color: white;
+    border-bottom: 1px solid white;
+    transition: background-color 0.3s ease-in-out;
+    .header__menu-item {
+        color: black;
+        &:hover {
+            color: $pink;
+        }
+    }
+} 
+
+.header-wrapper.transparent {
     background-color: transparent;
     border-bottom: 1px solid white;
     .header__menu-item {

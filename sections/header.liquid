@@ -677,7 +677,8 @@
 
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
+      const header = document.querySelector(".header-wrapper");
+      
       if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
@@ -697,10 +698,21 @@
       } else if (scrollTop <= this.headerBounds.top) {
         requestAnimationFrame(this.reset.bind(this));
       }
+      
+       if (scrollTop <= 20) {
+        console.log("at top");
+        header.classList.add("transparent");
+        
+      } else {
+        console.log("not at top");
+        header.classList.remove("transparent");
 
+      } 
 
-      this.currentScrollTop = scrollTop;
+      this.currentScrollTop = scrollTop; 
     }
+
+    
 
     hide() {
       this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
