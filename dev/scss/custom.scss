@@ -20,14 +20,14 @@
 
 // @import 'structure/document';
 @import 'structure/header';
-// @import 'structure/main';
+@import 'structure/main';
 // @import 'structure/footer';
 // @import 'structure/shopify';
 
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////// COMPONENT /// */
 /* //////////////////////////////////////////////////////////////////////////////// */
-// @import 'component/button';
+@import 'component/button';
 // @import 'component/texture';
 // @import 'component/logo';
 // @import 'component/social';
@@ -38,7 +38,7 @@
 // @import 'component/link';
 // @import 'component/announcement';
 // @import 'component/nav';
-// @import 'component/search';
+@import 'component/carousel';
 
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////// MODULE /// */
@@ -50,7 +50,7 @@
 // @import 'module/journal';
 // @import 'module/subscribe';
 // @import 'module/deck';
-// @import 'module/slider';
+    // @import 'module/carousel';
 // @import 'module/banner';
 // @import 'module/collection';
 // @import 'module/product';

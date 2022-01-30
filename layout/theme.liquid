@@ -196,7 +196,6 @@
       }
     {% endstyle %}
 
-    {{ 'tailwind.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
 
@@ -225,6 +224,7 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
+    
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>

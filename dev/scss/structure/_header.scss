@@ -1,5 +1,10 @@
+sticky-header {
+    background: transparent;
+}
+
 .header {
     padding: 0;
+    background-color: transparent;
 }
 
 .header--top-center {
@@ -66,16 +71,26 @@ h1.header__heading {
     }
 }
 
+/* ////////////////////////////////////////////////// STICKY HEADER BACKGROUNDS /// */
+.header-wrapper {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    .header__menu-item {
+        color: white;
+    }
+} 
+
 
 /* ///////////////////////////////////////////////////////////////// SHOP ICONS /// */
 
 .header__icons {
-    border: 1px solid orange;
+    // border: 1px solid orange;
 }
 
 .header__icon--search {
     position: absolute;
     left: 0;
+    color: $turq;
 }
 
 .header__icon--search {
@@ -86,4 +101,5 @@ h1.header__heading {
 .header__icon--cart {
     position: absolute;
     right: 1rem;
+    color: $turq;
 }
