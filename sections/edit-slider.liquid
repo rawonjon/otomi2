@@ -1,0 +1,167 @@
+{{ 'flickity.css' | asset_url | stylesheet_tag }}
+{{ 'flickity.js' | asset_url | script_tag }}
+
+<!-- <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript> -->
+
+<!-- {%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%} -->
+
+{%- liquid
+  assign products_to_display = section.settings.collection.all_products_count
+
+   if section.settings.collection.all_products_count > section.settings.products_to_show
+    assign products_to_display = section.settings.products_to_show
+    assign more_in_collection = true
+  endif 
+-%}
+
+
+
+<div class="featured-cards">
+  <div class="carousel">
+   
+    {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+
+    <div class="carousel-cell">
+      <a href="{{ product.url }}">
+        {% render 'card-product',
+        card_product: product,
+        media_aspect_ratio: section.settings.image_ratio,
+        show_secondary_image: section.settings.show_secondary_image,
+        show_vendor: section.settings.show_vendor,
+        show_rating: section.settings.show_rating
+      %}
+        <!-- <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" /> -->
+        <!-- <h4>{{ product.title }}</h4> -->
+      </a>
+    </div>
+    
+    {%- endfor -%}
+
+  </div>
+</div>
+
+{%- if section.settings.show_view_all and more_in_collection -%}
+<div class="center collection__view-all{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}">
+  <a href="{{ section.settings.collection.url }}"
+    class="button"
+    aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+  >
+    {{ 'sections.featured_collection.view_all' | t }}
+  </a>
+</div>
+{%- endif -%}
+
+<script>
+  var elem = document.querySelector('.featured-cards .carousel');
+  var flkty = new Flickity( elem, {
+    contain: true,
+    imagesLoaded: true,
+    lazyLoad: 2,
+    wrapAround: true,
+    pageDots: true,
+  });
+</script>
+
+
+
+
+
+{% schema %}
+{
+  "name": "sections.edit-slider.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Shop the Edit",
+      "label": "sections.edit-slider.settings.title.label"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "sections.edit-slider.settings.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 24,
+      "step": 1,
+      "default": 4,
+      "label": "sections.edit-slider.settings.products_to_show.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "default": true,
+      "label": "sections.edit-slider.settings.show_view_all.label"
+    },
+    {
+      "type": "header",
+      "content": "sections.edit-slider.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "sections.edit-slider.settings.ratio.opt1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "sections.edit-slider.settings.ratio.opt2.label"
+        },
+        {
+          "value": "square",
+          "label": "sections.edit-slider.settings.ratio.opt3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "sections.edit-slider.settings.ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "sections.edit-slider.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "sections.edit-slider.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "sections.edit-slider.settings.show_rating.label",
+      "info": "sections.edit-slider.settings.show_rating.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "sections.edit-slider.presets.name"
+    }
+  ]
+}
+{% endschema %}

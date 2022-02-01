@@ -13,6 +13,7 @@
 // @import 'global/font';
 
 @import 'global/colours';
+@import 'global/base';
 
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////// STRUCTURE /// */
@@ -28,6 +29,9 @@
 /* ////////////////////////////////////////////////////////////////// COMPONENT /// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 @import 'component/button';
+@import 'component/edit';
+@import 'component/card';
+@import 'component/deck';
 // @import 'component/texture';
 // @import 'component/logo';
 // @import 'component/social';
@@ -52,7 +56,7 @@
 // @import 'module/deck';
     // @import 'module/carousel';
 // @import 'module/banner';
-// @import 'module/collection';
+@import 'module/collection';
 // @import 'module/product';
 // @import 'module/commission';
 // @import 'module/form';

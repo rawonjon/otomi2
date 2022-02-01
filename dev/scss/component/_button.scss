@@ -29,6 +29,19 @@
     }
 }
 
+.button-pink {
+    border: 1px solid $pink;
+    color: $pink;
+    margin: 0 auto;
+    align-self: center;
+    &:hover {
+        
+        background-color: $pink;
+        color: white;
+    }
+
+}
+
 // .button::before,
 // .button::after {
 //     content: none;

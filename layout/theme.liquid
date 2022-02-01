@@ -229,7 +229,57 @@
       {{ content_for_layout }}
     </main>
 
-    {% section 'footer' %}
+    <!-- {% section 'footer' %} -->
+
+    <footer>
+      <div class="copyright">
+        <a href="" class="logo">Logo</a>
+        <p>© Montes & Clark 2020 </p>
+      </div>
+  
+      <div class="quicklinks">
+          <h5>quicklinks</h5>
+          <nav>
+              <div>
+                  <a>Shop</a>
+                  <a>Made To Order</a>
+                  <a>About</a>
+                  <a>Journal</a>
+              </div>
+              <div>
+                  <a>FAQ</a>
+                  <a>Privacy</a>
+                  <a>Terms & Conditions</a>
+                  <a>Returns</a>
+              </div>
+          </nav>
+      </div>
+  
+      <div class="contact">
+          <h5>Contact</h5>
+          <a href="tel:+441747228861">+44 (0)1747 228861</a>
+          <a href="mailto:info@montesandclark.co.uk">info@montesandclark.co.uk</a>
+      </div>
+  
+      <div class="social">
+          <h5>follow us</h5>
+          <nav>
+              <a href="" class="pinterest"></a>
+              <a href="" class="instagram"></a>
+              <a href="" class="facebook"></a>
+          </nav>
+      </div>
+  
+  </footer>
+  
+  
+  <!-- {{ 'jquery.js' | asset_url | script_tag }}
+  {{ 'application.js' | asset_url | script_tag }} -->
+  </body>
+  
+  
+  </html>
+
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

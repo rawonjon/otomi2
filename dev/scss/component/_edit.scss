@@ -1,0 +1,37 @@
+.featured-cards {
+    // max-width: 1600px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 32px;
+    margin-top: 55px;
+}
+    
+.featured-cards img {
+    width: 100%;
+}
+
+.featured-cards .carousel-cell {
+    background: #fff;
+    border-radius: 16px;
+    margin: auto;
+    padding: 18px;
+    margin: 12px;
+    width: calc(25% - 10px);
+    border: 1px solid lime;
+}
+
+.product-btn {
+    width: 100%;
+}
+
+@media only screen and ( max-width: 767px ) {
+    .featured-cards .carousel-cell {
+        width: calc(50% - 10px);
+    }
+}
+
+@media only screen and ( max-width: 479px ) {
+    .featured-cards .carousel-cell {
+        width: calc(100% - 10px);
+    }
+}

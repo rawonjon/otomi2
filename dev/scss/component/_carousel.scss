@@ -36,3 +36,15 @@ main#MainContent {
 }
 
 /* ///////////////////////////////////////////////// HOMEPAGE PRODUCT CAROUSELS /// */
+.section-edit {
+   slideshow-component {
+      height: 500px;
+      border: 1px solid pink;
+      .slideshow {
+         height: 100%;
+      }
+   }
+   .slideshow__controls.slider-buttons.no-js-hidden {
+      display: flex;
+   }
+} 

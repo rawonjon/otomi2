@@ -1,0 +1,29 @@
+<h2>The Montes & Clark Collection</h2> 
+<nav class="department">
+ 	{% for block in section.blocks limit: 6 %}
+        {%- assign collection = collections[block.settings.collection] -%}
+   			  <a href="{{collection.url}}" style="background-image: url({{ collection.image | img_url: 'master' }});"><h3>{{collection.title}}</h3></a>
+     {% endfor %}
+   		
+ </nav>
+
+
+{% schema %}
+  {
+    "name": "principal_collections",
+    "class": "section-collection",
+	"blocks" : 	[
+					{
+						"type":"collection",
+						"name":"collection",
+						"settings":	[
+                            {
+                                "type": "collection",
+                                "label": "collection",
+                                "id":"collection"
+                            }
+                        ]
+					}
+				]
+  }
+{% endschema %}
