@@ -1,0 +1,31 @@
+
+ {% if blogs.journal.articles.size >= 1 %}
+<div class="journal">
+    <h2>Journal</h2>  
+    
+   
+    {% for article in blogs.journal.articles limit:1 %}
+   
+        <article>
+        
+        <picture style="background-image: url({{ article.image | img_url: 'master' }})">
+        </picture>
+        
+        <div class="text">
+
+        <h3>{{ article.title }}</h3>
+        <div>{{ article.excerpt }}</div>
+        <div>
+                <a href="{{article.url}}" class="button">Read more</a>
+                {% unless blogs.journal.articles_count <= 1 %}
+                <a href="/blogs/journal" class="button">See all Entries</a>
+                {% endunless %}
+            </div>
+        </div>
+        </article>
+  ​{% endfor %}
+  
+
+</div>
+{% endif %}
+  

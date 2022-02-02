@@ -1,35 +1,16 @@
 {{ 'flickity.css' | asset_url | stylesheet_tag }}
 {{ 'flickity.js' | asset_url | script_tag }}
 
-<!-- <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
-
-<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript> -->
-
-<!-- {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%} -->
-
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
 
-   if section.settings.collection.all_products_count > section.settings.products_to_show
+  if section.settings.collection.all_products_count > section.settings.products_to_show
     assign products_to_display = section.settings.products_to_show
     assign more_in_collection = true
   endif 
 -%}
 
+<h2> {{ section.settings.title }} </h2>
 
 
 <div class="featured-cards">
@@ -41,13 +22,12 @@
       <a href="{{ product.url }}">
         {% render 'card-product',
         card_product: product,
-        media_aspect_ratio: section.settings.image_ratio,
+        media_aspect_ratio: section.settings.ratio,
         show_secondary_image: section.settings.show_secondary_image,
         show_vendor: section.settings.show_vendor,
         show_rating: section.settings.show_rating
       %}
-        <!-- <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" /> -->
-        <!-- <h4>{{ product.title }}</h4> -->
+
       </a>
     </div>
     
@@ -57,14 +37,16 @@
 </div>
 
 {%- if section.settings.show_view_all and more_in_collection -%}
+
 <div class="center collection__view-all{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}">
   <a href="{{ section.settings.collection.url }}"
     class="button"
-    aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+    aria-label="{{ 'sections.edit-slider.view_all_label' | t: collection_name: section.settings.collection.title }}"
   >
     {{ 'sections.featured_collection.view_all' | t }}
   </a>
 </div>
+
 {%- endif -%}
 
 <script>
@@ -84,7 +66,7 @@
 
 {% schema %}
 {
-  "name": "sections.edit-slider.name",
+  "name": "Shop the Edit Slider",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -92,31 +74,31 @@
       "type": "text",
       "id": "title",
       "default": "Shop the Edit",
-      "label": "sections.edit-slider.settings.title.label"
+      "label": "Section heading"
     },
     {
       "type": "collection",
       "id": "collection",
-      "label": "sections.edit-slider.settings.collection.label"
+      "label": "choose collection"
     },
     {
       "type": "range",
       "id": "products_to_show",
-      "min": 2,
+      "min": 4,
       "max": 24,
       "step": 1,
       "default": 4,
-      "label": "sections.edit-slider.settings.products_to_show.label"
+      "label": "Number of products to show"
     },
     {
       "type": "checkbox",
       "id": "show_view_all",
       "default": true,
-      "label": "sections.edit-slider.settings.show_view_all.label"
+      "label": "Add View all button"
     },
     {
       "type": "header",
-      "content": "sections.edit-slider.settings.header.content"
+      "content": "settings"
     },
     {
       "type": "select",
@@ -124,38 +106,25 @@
       "options": [
         {
           "value": "adapt",
-          "label": "sections.edit-slider.settings.ratio.opt1.label"
+          "label": "adapt"
         },
         {
           "value": "portrait",
-          "label": "sections.edit-slider.settings.ratio.opt2.label"
+          "label": "portrait"
         },
         {
           "value": "square",
-          "label": "sections.edit-slider.settings.ratio.opt3.label"
+          "label": "square"
         }
       ],
-      "default": "adapt",
-      "label": "sections.edit-slider.settings.ratio.label"
+      "default": "square",
+      "label": "Image Ratio"
     },
     {
       "type": "checkbox",
       "id": "show_secondary_image",
       "default": false,
-      "label": "sections.edit-slider.settings.show_secondary_image.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": false,
-      "label": "sections.edit-slider.settings.show_vendor.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "default": false,
-      "label": "sections.edit-slider.settings.show_rating.label",
-      "info": "sections.edit-slider.settings.show_rating.info"
+      "label": "Show secondary image?"
     }
   ],
   "presets": [

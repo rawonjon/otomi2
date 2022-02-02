@@ -231,10 +231,27 @@
 
     <!-- {% section 'footer' %} -->
 
+    <div class="subscribe">
+      <div>
+          <h4>Subscribe to our newsletter for news and offers</h4>
+            {% form 'customer' %}
+     
+          <form>
+            <input id="contact_tags" name="contact[tags]" type="hidden" value="prospect,newsletter" />
+            <div class="email-container">
+                <input id="contact_email" name="contact[email]" type="text" placeholder="Enter email" required />
+                  <button type="submit">subscribe</button>
+            </div>
+              
+          </form>
+        {% endform %}
+      </div>
+  </div>
+
     <footer>
       <div class="copyright">
-        <a href="" class="logo">Logo</a>
-        <p>© Montes & Clark 2020 </p>
+        <a href="" class="logo">{% render 'logo' %}</a>
+        <p>© Montes & Clark 2022 </p>
       </div>
   
       <div class="quicklinks">
@@ -255,31 +272,23 @@
           </nav>
       </div>
   
-      <div class="contact">
-          <h5>Contact</h5>
-          <a href="tel:+441747228861">+44 (0)1747 228861</a>
-          <a href="mailto:info@montesandclark.co.uk">info@montesandclark.co.uk</a>
-      </div>
+        <div class="contact">
+            <h5>Contact</h5>
+            <a href="tel:+441747228861">+44 (0)1747 228861</a>
+            <a href="mailto:info@montesandclark.co.uk">info@montesandclark.co.uk</a>
+        </div>
+    
+        <div class="social">
+            <h5>follow us</h5>
+            <nav>
+                <a href="" class="pinterest"></a>
+                <a href="" class="instagram"></a>
+                <a href="" class="facebook"></a>
+            </nav>
+        </div>
+    
+    </footer>
   
-      <div class="social">
-          <h5>follow us</h5>
-          <nav>
-              <a href="" class="pinterest"></a>
-              <a href="" class="instagram"></a>
-              <a href="" class="facebook"></a>
-          </nav>
-      </div>
-  
-  </footer>
-  
-  
-  <!-- {{ 'jquery.js' | asset_url | script_tag }}
-  {{ 'application.js' | asset_url | script_tag }} -->
-  </body>
-  
-  
-  </html>
-
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

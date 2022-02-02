@@ -1,0 +1,16 @@
+<div class="subscribe">
+    <div>
+        <h4>Subscribe to our newsletter for news and offers</h4>
+          {% form 'customer' %}
+   
+        <form>
+          <input id="contact_tags" name="contact[tags]" type="hidden" value="prospect,newsletter" />
+          <div class="email-container">
+              <input id="contact_email" name="contact[email]" type="text" placeholder="Enter email" required />
+                <button type="submit">subscribe</button>
+          </div>
+            
+        </form>
+      {% endform %}
+    </div>
+</div>

@@ -1,0 +1,130 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// LINKS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.about {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    // max-width: 1544px;
+    // width: calc((100% / 12) * 10);
+    padding: 0 calc((100% / 12) * 1);
+    width: 100%;
+    padding-bottom: 64px;
+    margin: 0 auto;
+    border-bottom: 1px dotted black;
+    // border: 1px solid lime;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    
+}   
+
+.about h3 {
+    font-size: 32px;
+    color: white;
+
+}
+
+.about .wrap {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(((100% / 12) * 3) + 32px);
+}
+
+.about .page > div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    // width: 452px;
+    height: 335px;
+    padding: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+// .about .page div h3, 
+// .about .page div .text {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%); 
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100%;
+//     text-align: center;
+//     padding: 32px;
+//     opacity: 1;
+//     transition: all 0.5s ease-in-out;
+//     // background-color: cadetblue;
+    
+// }
+.about .page div .text { 
+    opacity: 0; 
+    // font-family: $action;
+    font-size: 19px;
+}
+
+.about .page div .text p:first-child {
+    padding-bottom: 16px;
+}
+   
+.about .page:hover div {
+    h3 { 
+        opacity: 1;
+    }
+    .text { 
+        opacity: 0; 
+    }
+}
+
+.about .button {
+    margin: 32px;
+    border-color: black;
+    color: black;
+    &:hover {
+        border-color: $pink;
+    color: white;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////////// BREAK /// */
+
+// @media (max-width: $breakpoint3) {
+//     .about article div .text { font-size: 16px; }
+// }
+
+// @media (max-width: $breakpoint4) {
+//     .about article:hover div {
+//         h3 { 
+//             opacity: 1;
+//         }
+//         .text { 
+//             opacity: 0; 
+//         }
+//     }
+// }
+
+// @media (max-width: $breakpoint5) {
+//     .about article { width: 100% }
+// }

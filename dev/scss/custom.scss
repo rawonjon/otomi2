@@ -22,7 +22,7 @@
 // @import 'structure/document';
 @import 'structure/header';
 @import 'structure/main';
-// @import 'structure/footer';
+@import 'structure/footer';
 // @import 'structure/shopify';
 
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -32,7 +32,7 @@
 @import 'component/edit';
 @import 'component/card';
 @import 'component/deck';
-// @import 'component/texture';
+@import 'component/texture';
 // @import 'component/logo';
 // @import 'component/social';
 // @import 'component/card';
@@ -49,10 +49,10 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 // @import 'module/hero';
 // @import 'module/edit';
-// @import 'module/shop';
-// @import 'module/link';
-// @import 'module/journal';
-// @import 'module/subscribe';
+@import 'module/shop';
+@import 'module/link';
+@import 'module/journal';
+@import 'module/subscribe';
 // @import 'module/deck';
     // @import 'module/carousel';
 // @import 'module/banner';

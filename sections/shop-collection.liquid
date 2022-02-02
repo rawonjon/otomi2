@@ -2,15 +2,19 @@
 <nav class="department">
  	{% for block in section.blocks limit: 6 %}
         {%- assign collection = collections[block.settings.collection] -%}
-   			  <a href="{{collection.url}}" style="background-image: url({{ collection.image | img_url: 'master' }});"><h3>{{collection.title}}</h3></a>
+   			  <a href="{{collection.url}}">
+            
+            <h3>{{collection.title}}</h3>
+          
+          </a>
      {% endfor %}
    		
- </nav>
+</nav>
 
 
 {% schema %}
   {
-    "name": "principal_collections",
+    "name": "shop-collection",
     "class": "section-collection",
 	"blocks" : 	[
 					{

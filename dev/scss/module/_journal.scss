@@ -1,0 +1,163 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// JOURNAL /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.journal {
+    width: calc((100% / 12) * 10);
+    // padding: 0 calc((100% / 12) * 1);
+    padding-bottom: 96px;
+    margin: 0 auto;
+
+    // background-color: palegoldenrod;
+}
+
+
+.journal article {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 32px;
+
+}
+
+.journal article picture {
+    width: calc((100% / 12) * 5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+.journal article picture::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.journal article .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: calc((100% / 12) * 1); 
+    font-size: 19px;
+}
+
+.journal article .text div:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.journal article .text div p {
+    margin-bottom: 16px;
+}
+
+.journal article .text a:not(.button) {
+    color: $pink;
+}
+
+.journal article h3 {
+    font-size: 24px;
+    color: $black;
+    // padding-bottom: 32px;
+    margin-top: auto;
+}
+
+
+.journal article .text div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
+
+.journal article .text div a.button:hover {
+    color: white;
+}
+
+.journal article a.button { margin-right: 32px; }
+.journal article a.button:last-of-type { margin-right: auto; }
+
+
+/* //////////////////////////////////////////////////////////////////// SHORT /// */
+section.journal.short {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: unset;
+}
+
+.journal.short article {
+    width: calc((100% / 10) * 3);
+    flex-direction: column;
+    
+    // background-color: orange;
+}
+
+.journal.short article picture { width: 100%; }
+
+.journal.short article h3 { padding: 16px 0;}
+
+.journal.short article .text  { 
+    width: 100%; 
+    padding: unset;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.journal.short article a.button {
+    width: calc((100% / 12) * 4);
+    margin: 16px 0 32px 0;
+    min-width: unset;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// BREAK /// */
+
+// @media (max-width: $breakpoint4) {
+//     section.journal {
+//         width: 100%;
+//         padding: 0 16px;
+//         padding-bottom: 96px;
+//     }
+//     .journal article .text h3 {
+//         text-align: left;
+//     }
+//     .journal article .text p {
+//         font-size: 16px;
+//     }
+//     section.journal.short {
+//         width: calc((100% / 12) * 10);
+//     }
+//     section.journal.short article{
+//         width: calc((100% / 10) * 5);
+//     }
+
+
+// }
+
+// @media (max-width: $breakpoint5) {
+//     .journal article {
+//         flex-wrap: wrap;
+//     }
+//     .journal article picture {
+//         width: 100%;
+//         margin-bottom: 32px;
+//     }
+//     .journal article .text {
+//         padding-left: unset;
+//         padding-right: calc((100% / 12) * 1);
+//         width: 100%;
+//     }
+//     .journal article .text p {
+//         margin-bottom: 16px;
+//     }
+//     section.journal.short {
+//         width: 100%;
+//         padding: 0 16px;
+//     }
+//     section.journal.short article{
+//         width: 100%;
+//     }
+//     // .journal.short article a.button {
+//     //     width: calc((100% / 12) * 8);
+//     // }
+// }

@@ -54,99 +54,59 @@
       }
     },
     "edit-slider": {
-      "type": "edit-slider"
-    },
-    "principal_collections": {
-      "type": "shop-collection"
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+      "type": "edit-slider",
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Shop the Edit",
+        "collection": "lighting",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "ratio": "adapt",
+        "show_secondary_image": false
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
+    "principal_collections": {
+      "type": "shop-collection",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
+          "type": "collection",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
+            "collection": "accessories"
           }
         },
-        "button": {
-          "type": "buttons",
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
+          "type": "collection",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "collection": "lighting"
+          }
+        },
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
+          "type": "collection",
+          "settings": {
+            "collection": "tabletop"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7",
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+      }
+    },
+    "main-about": {
+      "type": "main-about",
+      "settings": {
+      }
+    },
+    "texture-bar": {
+      "type": "texture-bar",
+      "settings": {
+      }
+    },
+    "journal": {
+      "type": "journal",
+      "settings": {
       }
     }
   },
@@ -154,7 +114,8 @@
     "1642950103eddb2254",
     "edit-slider",
     "principal_collections",
-    "multi_column",
-    "image_banner"
+    "main-about",
+    "texture-bar",
+    "journal"
   ]
 }
