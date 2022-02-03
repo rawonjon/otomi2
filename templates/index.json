@@ -77,11 +77,11 @@
       "type": "edit-slider",
       "settings": {
         "title": "Shop the Edit",
-        "collection": "lighting",
-        "products_to_show": 4,
+        "collection": "accessories",
+        "products_to_show": 17,
         "show_view_all": true,
-        "ratio": "adapt",
-        "show_secondary_image": false
+        "ratio": "square",
+        "show_secondary_image": true
       }
     },
     "principal_collections": {
