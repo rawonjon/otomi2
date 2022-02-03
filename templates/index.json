@@ -121,6 +121,17 @@
     },
     "texture-bar": {
       "type": "texture-bar",
+      "blocks": {
+        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322"
+      ],
       "settings": {
       }
     },
