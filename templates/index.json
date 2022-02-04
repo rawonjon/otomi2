@@ -96,6 +96,40 @@
     },
     "main-about": {
       "type": "main-about",
+      "blocks": {
+        "7e805e77-9c95-4904-bdce-e98206c3aa14": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "title": "Link 1",
+            "buttonText": "Find out more",
+            "link": "shopify:\/\/pages\/lookbook"
+          }
+        },
+        "a0f71403-2e52-4e95-8701-3b42e4ac7d1c": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "title": "Link",
+            "buttonText": "Find Out more",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "52e3b721-f4f5-4391-a18e-c02f9e5d90ac": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.jpg",
+            "title": "Link 3",
+            "buttonText": "Find Out more",
+            "link": "shopify:\/\/products\/ming-vase"
+          }
+        }
+      },
+      "block_order": [
+        "7e805e77-9c95-4904-bdce-e98206c3aa14",
+        "a0f71403-2e52-4e95-8701-3b42e4ac7d1c",
+        "52e3b721-f4f5-4391-a18e-c02f9e5d90ac"
+      ],
       "settings": {
       }
     },

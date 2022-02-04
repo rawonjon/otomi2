@@ -3,17 +3,17 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 div.about {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    // max-width: 1544px;
-    // width: calc((100% / 12) * 10);
-    padding: 0 calc((100% / 12) * 1);
-    width: 100%;
-    padding-bottom: 64px;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // align-items: flex-start;
+    // justify-content: space-between;
+    max-width: 1544px;
+    // // width: calc((100% / 12) * 10);
+    // padding: 0 calc((100% / 12) * 1);
+    // width: 100%;
+    // padding-bottom: 64px;
     margin: 0 auto;
-    border-bottom: 1px dotted black;
+    // border-bottom: 1px dotted black;
     // border: 1px solid lime;
 }
 
@@ -29,36 +29,51 @@ div.about {
 .about h3 {
     font-size: 32px;
     color: white;
-
 }
 
 .about .wrap {
     // border: 1px solid red;
     display: flex;
     justify-content: space-between;
+    border: 3px solid orange;
 }
 
 .about .page {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    width: calc(((100% / 12) * 3) + 32px);
+    width: 100%;
+    height: 100%;
+    border: 3px solid lime;
 }
 
-.about .page > div {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    width: 100%;
-    // width: 452px;
-    height: 335px;
-    padding: 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: aliceblue;
+.block-link {   
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
+    display: block;
+    max-width: 25%;
+    height: 100%;
+    overflow: hidden;
+    border: 10px solid purple;
+    background: aliceblue;
+
+    .image-wrapper {
+        display: none;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid red;
+        img {
+            display: none;
+            // max-width: 100%;
+            // width: 10%;
+            // object-fit: contain;
+            // position: absolute;
+        }
+
+    }
+
 }
 
 // .about .page div h3, 
