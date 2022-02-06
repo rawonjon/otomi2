@@ -1,0 +1,43 @@
+<section class="banner">
+    <h1>{{ collection.title }}</h1>
+  </section>
+  
+  <section class="banner" style="background-image: url({{ collection.image | img_url: 'master' }})">
+  </section>
+  
+  <section class="collection">
+    <div class="sort">
+        <!-- <h5>Sort</h5> -->
+        {% render 'collection-sorting' %}
+    </div>
+  
+    <aside class="list">
+      <!-- <h5>Filter</h5> -->
+      {% render 'collection-filter' %}
+  
+      
+    </aside>
+    
+  
+    <!-- {{ collection.all_products_count }} total products in this collection -->
+  
+    {% paginate collection.products by 48 %}
+    <div class="range">
+     
+      {% for product in collection.products %}
+        <a href="{{ product.url | within: collection }}" class="card">
+          <picture style="background-image: url({{ product.featured_image | img_url: 'master' }}); background-repeat: no-repeat; background-size: cover;" >
+            </picture>
+            <h4>{{ product.title }}</h4>
+          <p class="price"><span style="color: red; text-decoration: line-through;">{% if product.price < product.compare_at_price %} {{ product.compare_at_price | money }}{% endif %}</span> {{ product.price  | money }}  </p>
+        </a>
+      {% endfor %}
+  
+    </div>  
+    <div class="paginate">
+        {% if paginate.pages > 1 %}
+      {{ paginate | default_pagination }}
+    {% endif %}
+  {% endpaginate %}
+    </div>
+  </section>
