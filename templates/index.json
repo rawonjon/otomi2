@@ -56,12 +56,9 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
-        "title": "Shop the Edit",
+        "heading": "Shop the Edit",
         "collection": "lighting",
-        "products_to_show": 10,
-        "show_view_all": true,
-        "ratio": "adapt",
-        "show_secondary_image": false
+        "show_view_all": true
       }
     },
     "principal_collections": {
@@ -92,13 +89,11 @@
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9"
       ],
       "settings": {
+        "title": "THE MONTES & CLARK COLLECTION"
       }
     },
     "main-about": {
       "type": "main-about",
-      "settings": {
-        "title": "About Us"
-      },
       "blocks": {
         "7e805e77-9c95-4904-bdce-e98206c3aa14": {
           "type": "linkblock",
@@ -134,15 +129,30 @@
         "52e3b721-f4f5-4391-a18e-c02f9e5d90ac"
       ],
       "settings": {
-      }
-    },
-    "texture-bar": {
-      "type": "texture-bar",
-      "settings": {
+        "title": "About Us"
       }
     },
     "collection-slider-2": {
       "type": "collection-slider-2",
+      "settings": {
+        "heading": "New Arrivals",
+        "collection": "lighting",
+        "show_view_all": true
+      }
+    },
+    "texture-bar": {
+      "type": "texture-bar",
+      "blocks": {
+        "478873cd-d985-4feb-a586-20edd434a5bf": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/homepage-texture.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "478873cd-d985-4feb-a586-20edd434a5bf"
+      ],
       "settings": {
       }
     },
