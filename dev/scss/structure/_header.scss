@@ -17,7 +17,8 @@ sticky-header {
     }
 }
 
-h1.header__heading {
+h1.header__heading,
+a.header__heading-link {
     position: absolute;
     bottom: 0;
     left: 50%;
