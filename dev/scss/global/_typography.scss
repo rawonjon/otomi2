@@ -1,0 +1,60 @@
+h1 {
+	font-size: 64px;
+	font-family: $title;
+	color: white;
+	text-transform: uppercase;
+	line-height: 72px;
+	letter-spacing: 4px;
+    // text-align: center;
+}
+
+h2 {
+	font-family: $font;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding: 96px 0 32px;
+    text-align: center;
+
+}
+
+// h2 {
+//     font-family: BrownLight,sans-serif;
+//     font-size: 32px;
+//     text-transform: uppercase;
+//     padding: 96px 0 32px;
+//     text-align: center;
+// }
+
+h3 {
+	font-size: 32px;
+	font-family: $title;
+	color: white;
+
+}
+
+h4 {
+	font-family: $font;
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-family: $font;
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: $black;
+	&:hover {
+		color: $pink;
+	}
+	// &:visited {
+	// 	text-decoration: none;
+	// 	decoration: none;
+	// }
+}

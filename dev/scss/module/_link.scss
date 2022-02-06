@@ -11,9 +11,9 @@ div.about {
     // // width: calc((100% / 12) * 10);
     // padding: 0 calc((100% / 12) * 1);
     // width: 100%;
-    // padding-bottom: 64px;
+    padding-bottom: 64px;
     margin: 0 auto;
-    // border-bottom: 1px dotted black;
+    
     // border: 1px solid lime;
 }
 
@@ -44,74 +44,28 @@ div.about {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    border: 3px solid lime;
+    // border: 3px solid lime;
 }
 
-.block-link {   
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: space-between;
-    display: block;
-    max-width: 25%;
-    height: 100%;
-    overflow: hidden;
-    border: 10px solid purple;
-    background: aliceblue;
 
-    .image-wrapper {
-        display: none;
-        overflow: hidden;
-        position: relative;
-        border: 1px solid red;
-        img {
-            display: none;
-            // max-width: 100%;
-            // width: 10%;
-            // object-fit: contain;
-            // position: absolute;
-        }
-
-    }
-
-}
-
-// .about .page div h3, 
-// .about .page div .text {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%); 
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-//     text-align: center;
-//     padding: 32px;
-//     opacity: 1;
-//     transition: all 0.5s ease-in-out;
-//     // background-color: cadetblue;
-    
+// .about .page div .text { 
+//     opacity: 0; 
+//     // font-family: $action;
+//     font-size: 19px;
 // }
-.about .page div .text { 
-    opacity: 0; 
-    // font-family: $action;
-    font-size: 19px;
-}
 
-.about .page div .text p:first-child {
-    padding-bottom: 16px;
-}
+// .about .page div .text p:first-child {
+//     padding-bottom: 16px;
+// }
    
-.about .page:hover div {
-    h3 { 
-        opacity: 1;
-    }
-    .text { 
-        opacity: 0; 
-    }
-}
+// .about .page:hover div {
+//     h3 { 
+//         opacity: 1;
+//     }
+//     .text { 
+//         opacity: 0; 
+//     }
+// }
 
 .about .button {
     margin: 32px;

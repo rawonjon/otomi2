@@ -1,4 +1,72 @@
-{{ 'flickity.css' | asset_url | stylesheet_tag }}
+
+<h2>{{ section.settings.heading | escape }}</h2>
+
+{%- assign collection = collections[section.settings.collection] -%}
+
+
+
+<div class="deck-wrap">
+      <div class="deck">
+          <div class="track">
+            
+         		{% for product in collection.products %}
+
+              	<div class="card">
+                  <picture style="background-image: url({{ product.featured_image | img_url: 'master' }}); background-repeat: no-repeat; background-size: cover;" >
+
+                   
+                  </picture>
+                  <a href="{{ product.url }}" ><h4>{{ product.title }}</h4></a>
+              </div>
+            {% endfor %}
+          </div> 
+      </div> 
+      <div class="control">
+          <a class="left active"></a>
+          <a class="right active"></a>
+      </div>
+    </div>
+    
+                  
+{% if section.settings.show_view_all %}
+ 
+<a href="{{ collection.url }}" class="button">Shop the Edit</a>
+                  
+              
+{% endif %}
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Collection Slider",
+    "settings": [
+					{
+						"type":"text",
+                      	"label": "Heading",
+						"id": "heading"
+					},
+					{
+                      "id": "collection",
+                      "type": "collection",
+                      "label": "Collection"
+					},
+                    {
+                      "type": "checkbox",
+                      "id": "show_view_all",
+                      "label": "Show view all button"
+      				}
+				]
+  }
+{% endschema %}
+
+
+
+
+
+<!-- {{ 'flickity.css' | asset_url | stylesheet_tag }}
 {{ 'flickity.js' | asset_url | script_tag }}
 
 {%- liquid
@@ -49,7 +117,7 @@
 
 {%- endif -%}
 
-<script>
+<!-- <script>
   var elem = document.querySelector('.featured-cards .carousel');
   var flkty = new Flickity( elem, {
     contain: true,
@@ -58,12 +126,12 @@
     wrapAround: true,
     pageDots: true,
   });
-</script>
+</script> -->
 
 
 
 
-
+<!-- 
 {% schema %}
 {
   "name": "Shop the Edit Slider",
@@ -133,4 +201,4 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %} --> -->

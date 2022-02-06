@@ -8,6 +8,8 @@
     border-bottom: 1px dotted black;
 }
 
+
+
 // .shop .shopify-section {
 //     width: 100%;
 //     display: flex;
@@ -15,21 +17,28 @@
 //     align-items: center;
 // }
 
-nav.department {
+div.shop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     // width: calc((100% / 12) * 10);
     width: 100%;
-    padding: 0 calc((100% / 12) * 1);
+    // padding: 0 calc((100% / 12) * 1);
     padding-top: 32px;
     margin: 0 auto;
     margin-right: 0;
     
 }
 
-.department a {
+.shop .block-link {
+    width: 25%;
+    a {
+        width: 100%;
+    }
+}
+
+a.department {
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -42,43 +51,46 @@ nav.department {
     background-repeat: no-repeat; 
     background-size: cover;
     text-decoration: none !important;
-
-}
-.department a::before {
-    content: '';
-    display: block;
-    padding-top: 133.333%;
-}
-.department a::after {
-    z-index: 5;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    // background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(255,255,255,0) 15%);
-    transition: background-color 400ms ease;
-}
-.department a:hover::after {
-    // background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(255,255,255,0) 15%);
-    // background: linear-gradient(0deg, rgba(175,175,175,0) 0%, rgba(255,255,255,0) 15%);
-    background-color:  rgba($pink, 0.9);
 }
 
 
 
-.department a h3 {
-    z-index: 10;
-    position: relative;
-    padding: 16px;
-    margin: 0;
-    font-size: 32px;
-    color: white;
+// }
+// .department a::before {
+//     content: '';
+//     display: block;
+//     padding-top: 133.333%;
+// }
+// .department a::after {
+//     z-index: 5;
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     display: block;
+//     height: 100%;
+//     width: 100%;
+//     background: transparent;
+//     // background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(255,255,255,0) 15%);
+//     transition: background-color 400ms ease;
+// }
+// .department a:hover::after {
+//     // background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(255,255,255,0) 15%);
+//     // background: linear-gradient(0deg, rgba(175,175,175,0) 0%, rgba(255,255,255,0) 15%);
+//     background-color:  rgba($pink, 0.9);
+// }
+
+
+
+// .department a h3 {
+//     z-index: 10;
+//     position: relative;
+//     padding: 16px;
+//     margin: 0;
+//     font-size: 32px;
+//     color: white;
     
-}
+// }
 
 
 /* //////////////////////////////////////////////////////////////////// BREAK /// */

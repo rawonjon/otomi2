@@ -1,0 +1,104 @@
+
+
+<h2>{{ section.settings.heading | escape }}</h2>
+
+{%- assign collection = collections[section.settings.collection] -%}
+
+
+
+<div class="deck-wrap">
+            <div class="track-2">
+            
+         		{% for product in collection.products %}
+
+              <div class="block-card"> 
+                <a href="{{ product.url }}" >
+                  <div class="image-wrapper" style="padding-top: 100%;">
+                  
+                    <img
+                        srcset="{%- if product.featured_image.width >= 275 -%}{{ product.featured_image | img_url: '275x' }} 275w,{%- endif -%}
+                            {%- if product.featured_image.width >= 550 -%}{{ product.featured_image | img_url: '550x' }} 550w,{%- endif -%}
+                            {%- if product.featured_image.width >= 710 -%}{{ product.featured_image | img_url: '710x' }} 710w,{%- endif -%}
+                            {%- if product.featured_image.width >= 1420 -%}{{ product.featured_image | img_url: '1420x' }} 1420w,{%- endif -%}
+                            {{ product.featured_image | img_url: 'master' }} {{ product.featured_image.width }}w"
+                            data-flickity-lazyload="{{ product.featured_image | img_url: '550x' }}"
+                        sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                            (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                            calc(100vw - 30px)"
+                        alt="{{ product.featured_image.alt }}"
+                        >
+                    
+                        
+                  </div>
+                  <h4>{{ product.title }}</h4>
+                </a>
+                
+              </div>
+
+            {% endfor %}
+          </div> 
+          {% if section.settings.show_view_all %}
+ 
+            <a href="{{ collection.url }}" class="button button-black">Shop the Edit</a>
+                            
+          {% endif %}
+
+    </div>
+    
+                  
+
+
+{% javascript %}
+
+function slider2() {
+  var elem2 = document.querySelector('.track-2');
+  var flkty2 = new Flickity( elem2, {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    autoPlay: 7000,
+    imagesLoaded: true,
+    lazyLoad: true,
+    accessibility: false,
+    arrowShape: { 
+      x0: 10,
+      x1: 60, y1: 50,
+      x2: 65, y2: 50,
+      x3: 15
+    }
+
+  });
+}
+
+slider2();
+
+{% endjavascript %}
+
+
+
+{% schema %}
+  {
+    "name": "collection-slider-2",
+    "class": "section-collection-slider-2",
+    "settings": [
+					{
+						"type":"text",
+            "label": "Heading",
+            "default": "Shop the Edit",
+						"id": "heading"
+					},
+					{
+            "id": "collection",
+            "type": "collection",
+            "label": "Collection"
+					},
+          {
+            "type": "checkbox",
+            "id": "show_view_all",
+            "label": "Show view all button"
+          }
+				]
+  }
+{% endschema %}
+
+

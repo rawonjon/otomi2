@@ -1,22 +1,57 @@
-<h2>The Montes & Clark Collection</h2> 
-<nav class="department">
+<h2>{{ section.settings.title }}</h2> 
+<div class="shop">
+
  	{% for block in section.blocks limit: 6 %}
+
         {%- assign collection = collections[block.settings.collection] -%}
-   			  <a href="{{collection.url}}">
-            
-            <h3>{{collection.title}}</h3>
+        
+        <div class="block-link"> 
+            <a href="{{collection.url}}" class="department">
+              <div class="image-wrapper" style="padding-top: 150%;">
+                  <img
+                      srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
+                          {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
+                          {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | img_url: '710x' }} 710w,{%- endif -%}
+                          {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | img_url: '1420x' }} 1420w,{%- endif -%}
+                          {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | img_url: '550x' }}"
+                      sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                          (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                          calc(100vw - 30px)"
+                      alt="{{ block.settings.image.alt }}"
+                      loading="lazy"
+                      >
+
+                  <h3>{{ collection.title }}</h3>
+              </div> 
+            </a>
+        </div>
           
-          </a>
      {% endfor %}
+
+     {% if section.settings.show_view_all %}
+ 
+            <a href="{{ collection.url }}" class="button">Shop the Edit</a>
+                  
+              
+        {% endif %}
    		
-</nav>
+</div>
 
 
 {% schema %}
   {
     "name": "shop-collection",
     "class": "section-collection",
-	"blocks" : 	[
+    "settings": [
+                  {
+                  "type": "text",
+                  "id": "title",
+                  "default": "THE MONTES & CLARK COLLECTION",
+                  "label": "Heading"
+                  }
+                ],
+	  "blocks" : 	[
 					{
 						"type":"collection",
 						"name":"collection",
@@ -25,6 +60,11 @@
                                 "type": "collection",
                                 "label": "collection",
                                 "id":"collection"
+                            },
+                            {
+                                "type": "image_picker",
+                                "label": "Collection Front Page Image",
+                                "id":"image"
                             }
                         ]
 					}

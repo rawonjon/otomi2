@@ -1,0 +1,41 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// BLOCKS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.block-link {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+    .image-wrapper {
+        display: block;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+        h3 {
+            font-size: 32px;
+            z-index: 10;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 2rem;
+            margin-bottom: 0rem;
+            width: 100%;
+            color: white;
+            background: rgb(185,185,185);
+            background: linear-gradient(0deg, rgba(185,185,185,0.5536589635854341) 0%, rgba(255,255,255,0) 100%);
+        }
+    }
+}
+
+.block-card a {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    img {
+        height: 100%;
+    }
+}

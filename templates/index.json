@@ -53,12 +53,12 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "edit-slider": {
-      "type": "edit-slider",
+    "collection-slider": {
+      "type": "collection-slider",
       "settings": {
         "title": "Shop the Edit",
         "collection": "lighting",
-        "products_to_show": 4,
+        "products_to_show": 10,
         "show_view_all": true,
         "ratio": "adapt",
         "show_secondary_image": false
@@ -96,6 +96,9 @@
     },
     "main-about": {
       "type": "main-about",
+      "settings": {
+        "title": "About Us"
+      },
       "blocks": {
         "7e805e77-9c95-4904-bdce-e98206c3aa14": {
           "type": "linkblock",
@@ -138,6 +141,11 @@
       "settings": {
       }
     },
+    "collection-slider-2": {
+      "type": "collection-slider-2",
+      "settings": {
+      }
+    },
     "journal": {
       "type": "journal",
       "settings": {
@@ -146,9 +154,10 @@
   },
   "order": [
     "1642950103eddb2254",
-    "edit-slider",
+    "collection-slider",
     "principal_collections",
     "main-about",
+    "collection-slider-2",
     "texture-bar",
     "journal"
   ]

@@ -6,104 +6,59 @@ div.deck-wrap {
     z-index: 10;
     position: relative;
     padding-top: 32px;
-    // width: 100%;
-    // background-color: orange;
-}
-
-.deck-wrap .deck {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    // justify-content: center;
-    // width: calc((100% / 12) * 10);
-    // height: 400px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
-    // border: 1px solid red;
-
-}
-
-.deck-wrap .deck .track {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: nowrap;
     width: 100%;
-    // width: calc((100% / 12) * 12);
-    // height: 400px;
-    // background-color: orange;
-    transition: transform 400ms ease;
-
-    // border: 1px solid limegreen;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    .button {
+        margin: 32px 0;
+    }    
 }
 
-.deck-wrap .deck .track div.card,
-.deck-wrap .deck .track a.card  {
+
+.deck-wrap .track,
+.deck-wrap .track-2 {
+    display: block;
+    width: calc((100% / 12) * 10);
+}
+
+.deck-wrap .track .block-card,
+.deck-wrap .track-2 .block-card {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 25%;
-    // width: calc(100% / 5);
-    // margin-right: calc((100% / 5) / 3);
+    flex: 0 0 auto;
+    width: calc(100% / 5);
+    margin-right: calc((100% / 5) / 3);
+   
+}
+.flickity-button {
+    background: none;
+}
+.flickity-prev-next-button {
+    color: $turq;
+    &:hover {
+        color: $pink;
+    }
+}
+.flickity-prev-next-button.previous {
+    left: -60px;
+}
+.flickity-prev-next-button.next {
+    right: -60px;
 }
 
-// .deck-wrap .control {
-//     z-index: 99;
-//     position: absolute;
-//     top: 50%;
-//     right: 0;
-//     transform: translateY(-50%);
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     width: 100%;
-//     height: 32px;
-
-//     // background-color: orchid;
-// }
-
-
-// .deck-wrap .control a {
-//     z-index: 99;
-//     position: absolute;
-//     display: block;
-//     width: 32px;
-//     height: 64px;
-//     // margin-left: 64px;
-//     // padding: 0 64px;
-//     opacity: 0;
-//     cursor: none;
-//     pointer-events: none;
-//     background-image: shopify-asset('left_sprite.png');
-//     background-size: cover;
-//     background-position: left;
-//     background-repeat: no-repeat;
-
-//     background-color: white;
-// }
-// .deck-wrap .control a:hover,
-// .deck-wrap .control a.right:hover, { 
-//     background-position: center;
-// }
-// .deck-wrap .control a.active {
-//     opacity: 1;
-//     cursor: pointer;
-//     pointer-events: all;
-// }   
-
-
-// .deck-wrap .control a.left {
-//     z-index: 100;
-//     // left: -64px;
-// }
-
-// .deck-wrap .control a.right {
-//     z-index: 200;
-//     background-image: shopify-asset('right_sprite.png');
-//     background-position: right;
-//     right: 0;
-// }
+.block-card a {
+    text-decoration: none;
+}
+.block-card h4 {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        align-self: flex-start;
+}
 
 /* //////////////////////////////////////////////////////////////////// BREAK /// */
 

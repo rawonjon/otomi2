@@ -1,10 +1,10 @@
 <div class="about">
-    <h2>About Us</h2>
+    <h2>{{ section.settings.title }}</h2>
 
         <div class="page">
             {%- for block in section.blocks -%}
-                <div style="block-link">
-                    <div class="image-wrapper">
+                <div class="block-link"> 
+                    <div class="image-wrapper" style="padding-top: 100%;">
                         <img
                             srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
                                 {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
@@ -16,12 +16,12 @@
                                 (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
                                 calc(100vw - 30px)"
                             alt="{{ block.settings.image.alt }}"
-                          
                             loading="lazy"
                             >
-                    </div>
+                        <h3>{{ block.settings.title }}</h3>
+                    </div> 
 
-                    <h3>{{ block.settings.title }}</h3>
+                    
             
                     <a href="{{ block.settings.link }}" class="button">{{ block.settings.buttonText }}</a>
                
@@ -38,6 +38,14 @@
     {
         "name": "main-about",
         "class": "section-links",
+        "settings": [
+                        {
+                        "type": "text",
+                        "id": "title",
+                        "default": "About Us",
+                        "label": "Heading"
+                        }
+                    ],
         "blocks": [
             {
             "type": "linkblock",
