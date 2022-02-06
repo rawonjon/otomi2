@@ -24,10 +24,29 @@
         "16429501039bd77cd8-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Ceramics_11.jpg",
+            "heading": "",
             "heading_size": "medium",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a14ec585-6306-464c-906e-7a1fae44ce52": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small_sixe.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -41,7 +60,8 @@
       },
       "block_order": [
         "16429501039bd77cd8-0",
-        "16429501039bd77cd8-1"
+        "16429501039bd77cd8-1",
+        "a14ec585-6306-464c-906e-7a1fae44ce52"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -56,9 +76,18 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
+<<<<<<< HEAD
         "heading": "Shop the Edit",
         "collection": "lighting",
         "show_view_all": true
+=======
+        "title": "Shop the Edit",
+        "collection": "accessories",
+        "products_to_show": 17,
+        "show_view_all": true,
+        "ratio": "square",
+        "show_secondary_image": true
+>>>>>>> 7f0bdf2bc0c381460570ca1548ded2aa0fa5d119
       }
     },
     "principal_collections": {
@@ -143,15 +172,26 @@
     "texture-bar": {
       "type": "texture-bar",
       "blocks": {
+<<<<<<< HEAD
         "478873cd-d985-4feb-a586-20edd434a5bf": {
           "type": "image",
           "settings": {
             "texture": "shopify:\/\/shop_images\/homepage-texture.jpg"
+=======
+        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
+>>>>>>> 7f0bdf2bc0c381460570ca1548ded2aa0fa5d119
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "478873cd-d985-4feb-a586-20edd434a5bf"
+=======
+        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322"
+>>>>>>> 7f0bdf2bc0c381460570ca1548ded2aa0fa5d119
       ],
       "settings": {
       }
