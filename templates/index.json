@@ -137,7 +137,7 @@
         "5a00cb45-d776-4600-b99b-787d0674b67b": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fabrics_26.jpg",
+            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
             "title": "Look Book",
             "buttonText": "SEE MORE",
             "link": "shopify:\/\/pages\/our-makers"
@@ -146,7 +146,7 @@
         "7fe82287-301b-4e1b-ad06-373e4d6af9f9": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
+            "image": "shopify:\/\/shop_images\/Indian_Painted_Textiles.jpg",
             "title": "Our Makers",
             "buttonText": "FIND OUT MORE",
             "link": "shopify:\/\/pages\/our-makers"
@@ -155,8 +155,9 @@
         "7f10a2ec-5aef-4bff-ab02-7417768ed54a": {
           "type": "linkblock",
           "settings": {
-            "title": "Title",
-            "buttonText": "",
+            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "title": "Made to Measure",
+            "buttonText": "COMMISSION",
             "link": ""
           }
         }
