@@ -104,16 +104,18 @@
             "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
           }
         },
-        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "textiles",
+            "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
+          }
+        },
+        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c": {
+          "type": "collection",
+          "settings": {
+            "collection": "glass",
+            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14_-_Copy.jpg"
           }
         }
       },
@@ -122,8 +124,8 @@
         "90894e47-6bb1-4e01-ba16-ce0869238aa7",
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
         "a55e0436-2833-45f5-ad0c-52649a6651bb",
-        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c",
-        "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab"
+        "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab",
+        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c"
       ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
