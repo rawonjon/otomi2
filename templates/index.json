@@ -79,26 +79,51 @@
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
           "type": "collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
           }
         },
         "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
           "type": "collection",
           "settings": {
-            "collection": "lighting"
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
           "type": "collection",
           "settings": {
-            "collection": "tabletop"
+            "collection": "tabletop",
+            "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
+          }
+        },
+        "a55e0436-2833-45f5-ad0c-52649a6651bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        },
+        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
         "90894e47-6bb1-4e01-ba16-ce0869238aa7",
-        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9"
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
+        "a55e0436-2833-45f5-ad0c-52649a6651bb",
+        "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c",
+        "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab"
       ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
