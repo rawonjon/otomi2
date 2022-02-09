@@ -30,7 +30,7 @@
             "subheading": "Celebrating Communities of Makers and the Hand Made",
             "button_label": "FIND OUT MORE",
             "link": "shopify:\/\/collections\/lockdown-the-comfort-edit",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
