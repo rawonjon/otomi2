@@ -76,18 +76,18 @@
     "principal_collections": {
       "type": "shop-collection",
       "blocks": {
+        "a55e0436-2833-45f5-ad0c-52649a6651bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "ceramics",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        },
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
           "type": "collection",
           "settings": {
             "collection": "accessories",
             "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
-          }
-        },
-        "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
-          "type": "collection",
-          "settings": {
-            "collection": "lighting",
-            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
@@ -97,11 +97,11 @@
             "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
           }
         },
-        "a55e0436-2833-45f5-ad0c-52649a6651bb": {
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
           "type": "collection",
           "settings": {
-            "collection": "ceramics",
-            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab": {
@@ -120,10 +120,10 @@
         }
       },
       "block_order": [
-        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
-        "90894e47-6bb1-4e01-ba16-ce0869238aa7",
-        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
         "a55e0436-2833-45f5-ad0c-52649a6651bb",
+        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7",
         "a6d0a069-0e82-42b9-bc0d-4c96f9dcb8ab",
         "cccad05b-508e-4dbc-a8fa-9ab82b3fa91c"
       ],
@@ -133,6 +133,38 @@
     },
     "main-about": {
       "type": "main-about",
+      "blocks": {
+        "5a00cb45-d776-4600-b99b-787d0674b67b": {
+          "type": "linkblock",
+          "settings": {
+            "title": "",
+            "buttonText": "OUR MAKERS",
+            "link": "shopify:\/\/pages\/our-makers"
+          }
+        },
+        "7fe82287-301b-4e1b-ad06-373e4d6af9f9": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
+            "title": "Our Makers",
+            "buttonText": "FIND OUT MORE",
+            "link": "shopify:\/\/pages\/our-makers"
+          }
+        },
+        "7f10a2ec-5aef-4bff-ab02-7417768ed54a": {
+          "type": "linkblock",
+          "settings": {
+            "title": "Title",
+            "buttonText": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5a00cb45-d776-4600-b99b-787d0674b67b",
+        "7fe82287-301b-4e1b-ad06-373e4d6af9f9",
+        "7f10a2ec-5aef-4bff-ab02-7417768ed54a"
+      ],
       "settings": {
         "title": "About Us"
       }
