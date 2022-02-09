@@ -3,24 +3,6 @@
     "1642950103eddb2254": {
       "type": "slideshow",
       "blocks": {
-        "16429501039bd77cd8-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
-            "heading": "CRAFTSMANSHIP & COLOUR",
-            "heading_size": "medium",
-            "subheading": "Celebrating Communities of Makers and the Hand Made",
-            "button_label": "Discover more",
-            "link": "shopify:\/\/collections\/textiles",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "16429501039bd77cd8-1": {
           "type": "slide",
           "settings": {
@@ -30,6 +12,24 @@
             "subheading": "Celebrating Communities of Makers and the Hand Made",
             "button_label": "FIND OUT MORE",
             "link": "shopify:\/\/collections\/lockdown-the-comfort-edit",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16429501039bd77cd8-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
+            "heading": "CRAFTSMANSHIP & COLOUR",
+            "heading_size": "medium",
+            "subheading": "Celebrating Communities of Makers and the Hand Made",
+            "button_label": "Discover more",
+            "link": "shopify:\/\/collections\/textiles",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
@@ -59,8 +59,8 @@
         }
       },
       "block_order": [
-        "16429501039bd77cd8-0",
         "16429501039bd77cd8-1",
+        "16429501039bd77cd8-0",
         "a14ec585-6306-464c-906e-7a1fae44ce52"
       ],
       "settings": {
