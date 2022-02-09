@@ -137,8 +137,9 @@
         "5a00cb45-d776-4600-b99b-787d0674b67b": {
           "type": "linkblock",
           "settings": {
-            "title": "",
-            "buttonText": "OUR MAKERS",
+            "image": "shopify:\/\/shop_images\/Fabrics_26.jpg",
+            "title": "Look Book",
+            "buttonText": "SEE MORE",
             "link": "shopify:\/\/pages\/our-makers"
           }
         },
