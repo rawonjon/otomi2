@@ -2,9 +2,11 @@ sticky-header {
     background: white;
 }
 
-.header {
-    padding: 0;
-    background-color: transparent;
+body.index {
+    .header {
+        padding: 0;
+        background-color: transparent;
+    }
 }
 
 .header--top-center {
@@ -86,20 +88,28 @@ a.header__heading-link {
     transition: background-color 0.3s ease-in-out;
     .header__menu-item {
         color: black;
-        &:hover {
+        &:hover,
+        &:active {
             color: $pink;
+            text-decoration: none;
+        } 
+    }
+} 
+
+.header__active-menu-item a {
+    text-decoration: none;
+    color: $pink;
+}
+
+body.index {
+    .header-wrapper.transparent {
+        background-color: transparent;
+        border-bottom: 1px solid white;
+        .header__menu-item {
+            color: white;
         }
-    }
-} 
-
-.header-wrapper.transparent {
-    background-color: transparent;
-    border-bottom: 1px solid white;
-    .header__menu-item {
-        color: white;
-    }
-} 
-
+    } 
+}
 
 /* ///////////////////////////////////////////////////////////////// SHOP ICONS /// */
 
@@ -122,4 +132,8 @@ a.header__heading-link {
     position: absolute;
     right: 1rem;
     color: $turq;
+}
+
+.nav-wrapper {
+    border: 1px solid red;
 }
