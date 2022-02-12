@@ -24,15 +24,17 @@ div.shop {
     justify-content: space-between;
     // width: calc((100% / 12) * 10);
     width: 100%;
+    max-width: 1440px;
+    // border: 1px solid red;
     // padding: 0 calc((100% / 12) * 1);
     padding-top: 32px;
     margin: 0 auto;
-    margin-right: 0;
+    // margin-right: 0;
     
 }
 
 .shop .block-link {
-    width: 25%;
+    width: 30%;
     a {
         width: 100%;
     }
