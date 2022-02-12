@@ -76,6 +76,9 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
+        "heading": "Burgundy Brilliant and Bold",
+        "collection": "lockdown-the-comfort-edit",
+        "show_view_all": true
       }
     },
     "principal_collections": {
@@ -178,4 +181,3 @@
     "journal"
   ]
 }
-
