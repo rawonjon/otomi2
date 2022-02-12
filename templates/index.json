@@ -76,15 +76,6 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
-        "heading": "Shop the Edit",
-        "collection": "lighting",
-        "show_view_all": true
-        "title": "Shop the Edit",
-        "collection": "accessories",
-        "products_to_show": 17,
-        "show_view_all": true,
-        "ratio": "square",
-        "show_secondary_image": true
       }
     },
     "principal_collections": {
@@ -168,28 +159,6 @@
     },
     "texture-bar": {
       "type": "texture-bar",
-      "blocks": {
-        "478873cd-d985-4feb-a586-20edd434a5bf": {
-          "type": "image",
-          "settings": {
-            "texture": "shopify:\/\/shop_images\/homepage-texture.jpg"
-        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322": {
-          "type": "image",
-          "settings": {
-            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
-        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322": {
-          "type": "image",
-          "settings": {
-            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "478873cd-d985-4feb-a586-20edd434a5bf"
-
-        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322"
-        "8df7bc95-ecf7-4348-b5b2-99e6d0c33322"
-      ],
       "settings": {
       }
     },
@@ -209,3 +178,4 @@
     "journal"
   ]
 }
+
