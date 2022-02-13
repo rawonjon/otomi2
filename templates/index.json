@@ -76,6 +76,9 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
+        "heading": "Burgundy Brilliant and Bold",
+        "collection": "lockdown-the-comfort-edit",
+        "show_view_all": true
       }
     },
     "principal_collections": {
@@ -84,26 +87,53 @@
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
           "type": "collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
           }
         },
         "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
           "type": "collection",
           "settings": {
-            "collection": "lighting"
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
           "type": "collection",
           "settings": {
-            "collection": "tabletop"
+            "collection": "tabletop",
+            "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
+          }
+        },
+        "a17f535c-60d2-489a-99ae-4cccda0c9618": {
+          "type": "collection",
+          "settings": {
+            "collection": "ceramics",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        },
+        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3": {
+          "type": "collection",
+          "settings": {
+            "collection": "glass",
+            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+          }
+        },
+        "12de7bc6-0492-4e7b-8c87-dae2e7a72cad": {
+          "type": "collection",
+          "settings": {
+            "collection": "textiles",
+            "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
           }
         }
       },
       "block_order": [
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
         "90894e47-6bb1-4e01-ba16-ce0869238aa7",
-        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9"
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
+        "a17f535c-60d2-489a-99ae-4cccda0c9618",
+        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3",
+        "12de7bc6-0492-4e7b-8c87-dae2e7a72cad"
       ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
@@ -115,8 +145,8 @@
         "7e805e77-9c95-4904-bdce-e98206c3aa14": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4.jpg",
-            "title": "Link 1",
+            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
+            "title": "Look Bood",
             "buttonText": "Find out more",
             "link": "shopify:\/\/pages\/lookbook"
           }
@@ -178,4 +208,3 @@
     "journal"
   ]
 }
-
