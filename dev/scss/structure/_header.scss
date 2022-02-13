@@ -2,9 +2,20 @@ sticky-header {
     background: white;
 }
 
+
+@media screen and (min-width: 990px) {
+    .header {   
+        padding-top: 16px;
+        padding-bottom: 0;
+        padding: 16px 0;
+    }
+    .header--has-menu:not(.header--middle-left) {
+        padding-bottom: 16px;
+    }
+}
+
 body.index {
     .header {
-        padding: 0;
         background-color: transparent;
     }
 }
@@ -13,7 +24,8 @@ body.index {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 154px;
+    // height: 154px;
+    // padding: 32px 0;
     .header__heading-link {
         padding: 0;
     }
@@ -25,7 +37,7 @@ a.header__heading-link {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    margin-bottom: -1rem;
+    // margin-bottom: -1rem;
     
     // border: 1px solid blue;
     a {
@@ -33,11 +45,11 @@ a.header__heading-link {
     }
 }
 
-.shopify-section-header-hidden {
-    h1.header__heading {
-        transform: translate(-50%, -10px);
-    }
-}
+// .shopify-section-header-hidden {
+//     h1.header__heading {
+//         transform: translate(-50%, -10px);
+//     }
+// }
 
 .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 0;
@@ -53,32 +65,37 @@ a.header__heading-link {
     text-decoration: none;
 }
 
-.header__shop-menu {
-    position: absolute;
-    top: 50%;
-    .link {
-        font-size: 1.8rem;
+// .header__shop-menu {
+//     position: absolute;
+//     top: 50%;
+//     .link {
+//         font-size: 1.8rem;
 
-    }
-    &-left { 
-        left: calc(33.333%);
-        transform: translateX(-33.333%);
-        .list-menu {
-            li:last-of-type {
-                padding-right: 130px;
-            }
-        }
-    }
-    &-right { 
-        right: calc(33.333%);
-        transform: translateX(33.333%);
-        .list-menu {
-            li:first-of-type {
-                padding-left: 40px;
-            }
-        }
-    }
+//     }
+//     &-left { 
+//         left: calc(33.333%);
+//         transform: translateX(-33.333%);
+//         .list-menu {
+//             li:last-of-type {
+//                 padding-right: 130px;
+//             }
+//         }
+//     }
+//     &-right { 
+//         right: calc(33.333%);
+//         transform: translateX(33.333%);
+//         .list-menu {
+//             li:first-of-type {
+//                 padding-left: 40px;
+//             }
+//         }
+//     }
+// }
+
+.list-menu--inline {
+    align-items: center;
 }
+
 
 /* ////////////////////////////////////////////////// STICKY HEADER BACKGROUNDS /// */
 .header-wrapper,
