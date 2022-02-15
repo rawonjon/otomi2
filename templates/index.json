@@ -189,6 +189,17 @@
     },
     "texture-bar": {
       "type": "texture-bar",
+      "blocks": {
+        "9dccfa09-9890-4c76-853b-ad57a6168655": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9dccfa09-9890-4c76-853b-ad57a6168655"
+      ],
       "settings": {
       }
     },
