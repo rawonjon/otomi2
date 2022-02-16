@@ -6,7 +6,7 @@
         "16429501039bd77cd8-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4.jpg",
+            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "large",
             "subheading": "Celebrating Communities of Makers and the Hand Made",
@@ -25,13 +25,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ceramics_11.jpg",
-            "heading": "",
+            "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "medium",
-            "subheading": "",
+            "subheading": "Celebrating Communities of Makers & The Hand Made",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -43,13 +43,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/small_sixe.jpg",
-            "heading": "",
+            "heading": "CRAFTSMANSHIP AND COLOUR",
             "heading_size": "medium",
-            "subheading": "",
+            "subheading": "Celebrating Communities of Makers & The Hand Made",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -84,18 +84,18 @@
     "principal_collections": {
       "type": "shop-collection",
       "blocks": {
+        "a17f535c-60d2-489a-99ae-4cccda0c9618": {
+          "type": "collection",
+          "settings": {
+            "collection": "ceramics",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        },
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
           "type": "collection",
           "settings": {
             "collection": "accessories",
             "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
-          }
-        },
-        "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
-          "type": "collection",
-          "settings": {
-            "collection": "lighting",
-            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
@@ -105,18 +105,11 @@
             "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
           }
         },
-        "a17f535c-60d2-489a-99ae-4cccda0c9618": {
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
           "type": "collection",
           "settings": {
-            "collection": "ceramics",
-            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
-          }
-        },
-        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3": {
-          "type": "collection",
-          "settings": {
-            "collection": "glass",
-            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
           }
         },
         "12de7bc6-0492-4e7b-8c87-dae2e7a72cad": {
@@ -125,15 +118,22 @@
             "collection": "textiles",
             "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
           }
+        },
+        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3": {
+          "type": "collection",
+          "settings": {
+            "collection": "glass",
+            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+          }
         }
       },
       "block_order": [
-        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
-        "90894e47-6bb1-4e01-ba16-ce0869238aa7",
-        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
         "a17f535c-60d2-489a-99ae-4cccda0c9618",
-        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3",
-        "12de7bc6-0492-4e7b-8c87-dae2e7a72cad"
+        "5b47f43e-4ce4-4d88-a370-99cb9e603c9b",
+        "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9",
+        "90894e47-6bb1-4e01-ba16-ce0869238aa7",
+        "12de7bc6-0492-4e7b-8c87-dae2e7a72cad",
+        "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3"
       ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
@@ -146,7 +146,7 @@
           "type": "linkblock",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
-            "title": "Look Bood",
+            "title": "Look Book",
             "buttonText": "Find out more",
             "link": "shopify:\/\/pages\/lookbook"
           }
@@ -154,8 +154,8 @@
         "a0f71403-2e52-4e95-8701-3b42e4ac7d1c": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.jpg",
-            "title": "Link",
+            "image": "shopify:\/\/shop_images\/Indian_Painted_Textiles.jpg",
+            "title": "Our Makers",
             "buttonText": "Find Out more",
             "link": "shopify:\/\/pages\/contact"
           }
@@ -163,8 +163,8 @@
         "52e3b721-f4f5-4391-a18e-c02f9e5d90ac": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5.jpg",
-            "title": "Link 3",
+            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "title": "Made to Measure",
             "buttonText": "Find Out more",
             "link": "shopify:\/\/products\/ming-vase"
           }
@@ -189,6 +189,17 @@
     },
     "texture-bar": {
       "type": "texture-bar",
+      "blocks": {
+        "9dccfa09-9890-4c76-853b-ad57a6168655": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9dccfa09-9890-4c76-853b-ad57a6168655"
+      ],
       "settings": {
       }
     },
