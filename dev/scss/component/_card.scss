@@ -2,29 +2,29 @@
 /* ////////////////////////////////////////////////////////////////////// PRODUCT CARD /// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 
-// div.card,
-// a.card {
-//     position: relative;
-//     display: flex;
-//     flex-direction: column;
-//     flex: 0 0 auto;
-//     // width: calc(((100% / 12) * 10) / 4);
-// }
+div.card,
+a.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    // width: calc(((100% / 12) * 10) / 4);
+}
 
-// .card h4 {
-//     margin-top: 8px;
-//     font-size: 14px;
-//     line-height: 150%;
-// }
+.card h4 {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 150%;
+}
 
-// .card picture {
-//     width: 100%;
+.card picture {
+    width: 100%;
 
-//     background-color: lightgrey;
-// }
+    background-color: lightgrey;
+}
 
-// .card picture::before {
-//     content: '';
-//     display: block;
-//     padding-top: 100%;
-// }
+.card picture::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}

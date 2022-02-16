@@ -1,0 +1,123 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// DECK /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.deck-wrap {
+    z-index: 10;
+    position: relative;
+    padding-top: 32px;
+    width: 100%;
+    // background-color: orange;
+}
+
+.deck-wrap .deck {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    width: calc((100% / 12) * 10);
+    // height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    // border: 1px solid red;
+
+}
+
+.deck-wrap .deck .track {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    // width: calc((100% / 12) * 12);
+    // height: 400px;
+    // background-color: orange;
+    transition: transform 400ms ease;
+
+    // border: 1px solid limegreen;
+}
+
+.deck-wrap .deck .track div.card,
+.deck-wrap .deck .track a.card  {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+    margin-right: calc((100% / 5) / 3);
+}
+
+.deck-wrap .control {
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+
+    // background-color: orchid;
+}
+
+
+.deck-wrap .control a {
+    z-index: 99;
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 64px;
+    // margin-left: 64px;
+    // padding: 0 64px;
+    opacity: 0;
+    cursor: none;
+    pointer-events: none;
+    background-image: shopify-asset('left_sprite.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    background-color: white;
+}
+.deck-wrap .control a:hover,
+.deck-wrap .control a.right:hover, { 
+    background-position: center;
+}
+.deck-wrap .control a.active {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: all;
+}   
+
+
+.deck-wrap .control a.left {
+    z-index: 100;
+    // left: -64px;
+}
+
+.deck-wrap .control a.right {
+    z-index: 200;
+    background-image: shopify-asset('right_sprite.png');
+    background-position: right;
+    right: 0;
+}
+
+/* //////////////////////////////////////////////////////////////////// BREAK /// */
+
+@media (max-width: $breakpoint4) {
+    .deck-wrap .deck .track div.card,
+    .deck-wrap .deck .track a.card {
+        width: calc(100% / 4);
+        margin-right: calc((100% / 4) / 2);
+    }
+}
+
+@media (max-width: $breakpoint5) {
+    .deck-wrap .deck .track div.card,
+    .deck-wrap .deck .track a.card {
+        width: 100%;
+        margin-right: unset;
+    }
+}

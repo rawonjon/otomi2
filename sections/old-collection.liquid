@@ -1,20 +1,70 @@
-<section class="banner">
+<section class="banner" style="background-image: url({{ collection.image | img_url: 'master' }})">
     <h1>{{ collection.title }}</h1>
   </section>
   
-  <section class="banner" style="background-image: url({{ collection.image | img_url: 'master' }})">
-  </section>
+  <!-- <section class="banner" >
+  </section> -->
   
   <section class="collection">
     <div class="sort">
         <!-- <h5>Sort</h5> -->
-        {% render 'collection-sorting' %}
+        <!-- {% render 'collection-sorting' %} -->
+        <div>
+          <label for="SortBy">Sort by</label>
+          <select name="SortBy" id="SortBy">
+              {% for option in collection.sort_options %}
+                  <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% endif %}>{{ option.name }}</option>
+              {% endfor %}
+          </select>
+      </div>
+      
+      <script>
+      // Save existing sort parameters
+      Shopify.queryParams = {};
+      if(location.search.length) {
+          for(var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+          aKeyValue = aCouples[i].split('=');
+              if (aKeyValue.length > 1) {
+                  Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+              }
+          }
+      }
+      
+      // Add existing sort parameters to current URL
+      document.querySelector('#SortBy').addEventListener('change', function(e) {
+          var value = e.currentTarget.value;
+          Shopify.queryParams.sort_by = value;
+          location.search = new URLSearchParams(Shopify.queryParams).toString();
+      });
+      </script>
     </div>
   
     <aside class="list">
       <!-- <h5>Filter</h5> -->
-      {% render 'collection-filter' %}
-  
+      <!-- {% render 'collection-filter' %} -->
+      <ul>
+        <li{% unless current_tags %} class="active"{% endunless %}>
+          {% if collection.handle %}
+          <a href="/collections/{{ collection.handle }}{% if collection.sort_by %}?sort_by={{ collection.sort_by }}{% endif %}">All</a>
+          {% elsif collection.current_type %}
+          <a href="{{ collection.current_type | url_for_type | sort_by: collection.sort_by }}">All</a>
+          {% elsif collection.current_vendor %}
+          <a href="{{ collection.current_vendor | url_for_vendor | sort_by: collection.sort_by }}">All</a>
+          {% endif %}
+        </li>
+        {% for tag in collection.all_tags %}
+        {% if current_tags contains tag %}
+        <li class="active">
+          {{ tag | link_to_remove_tag: tag }}
+        </li>
+        {% else %}
+        <li>
+          {{ tag | link_to_tag: tag }}
+        </li>
+        {% endif %}
+        {% endfor %}
+        <li><a href="/products/the-montes-clark-gift-card">Gift Cards</a></li>
+      </ul>
       
     </aside>
     
@@ -41,3 +91,5 @@
   {% endpaginate %}
     </div>
   </section>
+
+

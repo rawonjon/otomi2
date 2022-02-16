@@ -1,0 +1,268 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// PRODUCT /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.product {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: calc((100% / 12) * 12);
+    padding: 64px calc((100% / 12) * 1);
+    // margin: 0 auto;
+    height: 100%;
+    // padding: 0 32px;
+    // background-color: orange;
+}
+
+
+
+.product a.back {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: $title;
+    width: calc((100% / 12) * 10);
+    padding: 16px 0;
+    padding-left: 24px;
+    margin: 0 auto;
+
+    // background-color: antiquewhite;
+}
+
+a.back {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../gfx/left_sprite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.product article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.product article > div {
+    width: 50%;
+    overflow-x: hidden;
+    // background-color: salmon;
+}
+
+/* //////////////////////////////////////////////////////////////////// PRODUCT INFO /// */
+.product > article div.info form select,
+.product > article div.info form textarea  {
+    display: none;
+}
+
+
+
+.product > article div.info .preorder {
+    color: $black;
+    border: 1px solid $black;
+    padding: 16px;
+}
+
+.product > article div.info .preorder form input:not(.button) {
+    border: 1px solid black;
+    height: 32px;
+    margin: 16px 0;
+    width: 50%;
+}
+
+.product > article div.info .preorder form input.button {
+    width: calc((100% / 12) * 4);
+    background-color: $pink;
+    color: white;
+    border: 1px solid $pink;
+}
+.product > article div.info .preorder form input.button:hover {
+    background-color: white;
+    color: $pink;
+    cursor: pointer;
+}
+
+.product > article div.info .preorder .thankyou {
+    font-size: 19px;
+    padding: unset;
+    padding-top: 16px;
+    text-transform: unset;
+}
+
+.product > article div.info > *,
+.description {
+    margin-bottom: 32px;
+}
+
+/* //////////////////////////////////////////////////////////////////// PRODUCT DECK /// */
+
+.product > article div.media {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product > article div.media picture {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% / 12) * 8);
+}
+
+.product > article div.media .deck {
+    // border: 1px solid purple;
+    padding-bottom: 32px;
+}
+
+.product section.deck-wrap {
+    padding-top: 0;
+}
+
+.product .deck-wrap .deck .track .card {
+    width: 100%;
+    margin-right: unset;
+}
+
+.product .deck-wrap .deck .track .card picture {
+    width: calc((100% / 12) * 12);
+    background-size: cover;
+}
+
+.product .deck-wrap .indicators {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 12) * 10);
+}
+
+.product .deck-wrap .indicators .panel {
+    display: block;
+    width: calc((100% / 12) * 3);
+    // border: 1px solid red;
+    padding: 0 16px;
+    margin: 16px 0;
+}
+
+.product .deck-wrap .indicators .panel:hover {
+    transform: scale(1.1);
+}
+
+.product .deck-wrap .indicators .panel picture {
+    width: calc((100% / 12) * 12);
+    background-size: cover;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// PRODUCT INFO /// */
+
+.product > article div.info form select,
+.product > article div.info form textarea  {
+    display: none;
+}
+
+
+
+.product > article div.info .preorder {
+    color: $black;
+    border: 1px solid $black;
+    padding: 16px;
+}
+
+.product > article div.info .preorder form input:not(.button) {
+    border: 1px solid black;
+    height: 32px;
+    margin: 16px 0;
+    width: 50%;
+}
+
+.product > article div.info button {
+    background-color: white;
+    cursor: pointer;
+}
+.product > article div.info button:hover {
+    background-color: $pink;
+}
+
+.product > article div.info .preorder form input.button {
+    background-color: $pink;
+    color: white;
+    border: 1px solid $pink;
+}
+.product > article div.info .preorder form input.button:hover {
+    background-color: white;
+    color: $pink;
+    cursor: pointer;
+}
+
+.product > article div.info .preorder .thankyou {
+    font-size: 19px;
+    padding: unset;
+    padding-top: 16px;
+    text-transform: unset;
+}
+
+.product > article div.info > *,
+.description {
+    margin-bottom: 32px;
+}
+
+
+// .product > article div.info h1 {
+//     color: $black;
+//     font-family: $font;
+//     font-size: 19px;
+//     line-height: unset;
+//     letter-spacing: unset;
+// }
+    
+
+// .product > article div.info .input {
+//     width: calc(100% - 32px);
+//     height: 64px;
+//     background-color: rebeccapurple;
+// }
+
+
+/* //////////////////////////////////////////////////////////////////// BREAKS /// */
+
+@media (max-width: $breakpoint5) {
+    .product article > div { 
+        width: 100%;
+    }
+    .product > article div.info .preorder form input:not(.button) {
+        width: 90%;
+    }
+}
+
+@media (max-width: $breakpoint6) {
+    .product article > div { 
+        width: 100vw;
+    }
+    section.product {
+        padding: 16px;
+    }
+    .product > article div.info > *,
+    .description {
+        margin-bottom: 16px;
+    }
+    .product > article div.info h1,
+    .product > article div.info p,
+     {
+        padding: 16px;
+    }
+    .product div.info form {
+        padding: 0 16px;
+    }
+}
