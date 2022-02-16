@@ -1,0 +1,53 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// SLIDER /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.slider,
+div.slider-inactive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.slider .frame,
+div.slider-inactive .frame {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.slider .card,
+div.slider-inactive .card  {
+    position: absolute;
+    display: block;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider .index {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    display: flex;
+}
+
+.slider .index .circle {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.slider .index .circle.active {
+    background-color: $turq;
+}

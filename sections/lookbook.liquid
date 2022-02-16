@@ -1,0 +1,40 @@
+<section class="banner">
+    <h1>{{page.title }}</h1>
+</section>
+
+<section class="lookbook">
+
+{{ page.title }}
+
+
+    {% for block in section.blocks %}
+        <picture>
+            {{block.settings.lookbook_image | img_url: 'master' | img_tag }}
+        </picture>
+    {% endfor %}
+
+</section>
+
+
+
+
+{% schema %}
+
+{
+"name": "lookbook",
+"blocks" : 	[
+         {
+             "type":"image",
+             "name":"Lookbook",
+             "settings":	[
+                             {
+                                 "type": "image_picker",
+                                 "label": "Lookbook Image",
+                                 "id":"lookbook_image"
+                             }
+                         ]
+
+         }
+     ]
+}
+{% endschema %}

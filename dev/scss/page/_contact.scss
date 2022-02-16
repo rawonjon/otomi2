@@ -1,0 +1,59 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////// PAGE CONTACT /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+// 
+
+a.hours {
+    position: relative;
+}
+
+a.hours:after {
+    display: block;
+    content: '(Mon - Fri, 10am - 4pm)';
+    position: absolute;
+    bottom: 8px;
+    font-size: 12px;
+    text-transform: capitalize;
+
+}
+
+footer a.hours:after {
+    display: block;
+    position: relative;
+    bottom: unset;
+}
+
+
+@media (max-width: $breakpoint4) {
+    
+    body.page-contact section.block { 
+        padding: 32px 0;
+    }
+    
+    
+    body.page-contact .block div.text p {
+        margin-bottom: 32px;
+        font-size: 19px;
+    }
+    
+
+    body.page-contact .block div.text a.button:first-of-type {
+        margin-bottom: 32px;
+    }
+
+    body.page-contact .form form {
+        width: calc((100% / 12) * 10);
+    }
+}
+
+
+@media (max-width: $breakpoint5) {
+    body.page-contact .block div.text a.button {
+        width: 100%;
+    }
+    body.page-contact .form form {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+}

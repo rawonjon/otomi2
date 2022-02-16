@@ -1,0 +1,29 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// EDITS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.edit {
+    z-index: 10;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px 64px 32px;
+    width: 100vw;
+    
+    // background-color: grey;
+}
+
+.edit h2 {
+    text-align: center;
+}
+
+.edit .button {
+    margin: 32px;
+    margin-bottom: 0;
+    max-width: 240px;
+}
+
+.edit ~ .edit{
+    border-top: 1px dotted $black;
+}   

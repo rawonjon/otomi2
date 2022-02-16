@@ -1,0 +1,116 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// COLLECTION /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+body.collection section.collection {
+    padding-right: 0;
+}
+body.collection .collection aside ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+body.collection .collection aside ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 32px;
+    width: auto;
+    padding: 0 8px;
+    background-color: white;
+    margin: 0 16px;
+    color: $black;
+}
+body.collection .collection aside ul li:active,
+body.collection .collection aside ul li:hover
+ {
+    background-color: $pink;
+    color: white;
+    transition: all 400ms ease;
+    & a {
+        color: white;
+    }
+}
+body.collection .collection div.range  {
+    width: calc((100% / 12) * 10);
+}
+
+// body.collection .collection div.range a {
+//     display: inline-block;
+//     width: calc(((100% / 12) * 3) - 32px);
+//     margin-right: 32px;
+//     margin-bottom: 32px;
+// }
+
+// body.collection .collection div.range .card {
+//     // margin-bottom: 32px;
+//     width: 100%;
+//     // margin-right: 32px;
+// }
+
+
+body.collection .collection div.range .card {
+    margin-bottom: 32px;
+    width: calc(((100% / 12) * 3) - 32px);
+    margin-right: 32px;
+}
+
+body.collection .collection div.sort {
+    padding-right: 32px;
+}
+
+
+
+@media (max-width: $breakpoint4) {
+    body.collection .collection div.range .card {
+        width: calc(((100% / 12) * 4) - 32px);
+    }
+}
+
+
+@media (max-width: $breakpoint5) {
+    body.collection .collection aside {
+        width: 100%;
+    }
+    body.collection .collection aside ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: auto;
+        justify-content: flex-start;
+        padding-right: 32px;
+        padding-bottom: 16px;
+    }
+    body.collection .collection aside ul li {
+        justify-content: center;
+        max-width: unset;
+        min-width: unset;
+        width: calc(((100% / 12) * 6) - 32px);
+    }
+    body.collection .collection div.range  {
+        width: calc((100% / 12) * 12);
+    }
+    body.collection .collection div.range .card {
+        width: calc(((100% / 12) * 6) - 32px);
+    }
+
+}
+
+@media (max-width: $breakpoint6) {
+
+    body.collection section.collection  {
+        width: 100vw;
+    }
+
+    body.collection section.collection .sort select {
+        width: calc(100vw - 64px);
+    }
+    body.collection .collection div.range .card {
+        width: calc(((100% / 12) * 12) - 32px);
+    }
+
+}
