@@ -1,0 +1,55 @@
+{
+    "name": "Commission",
+    "sections": {
+        "main": {
+            "type": "page-commission"
+        },
+        "texture": {
+          "type": "texture",
+          "settings": {
+
+          }
+        },
+        "deckText": {
+            "type": "deck-text",
+            "settings": {
+            
+                "block_order": [
+
+                ]
+            }
+        },
+        "important": {
+            "type": "important-text",
+            "settings": {
+
+            }
+        },
+        "deckText": {
+            "type": "deck-text",
+            "settings": {
+            
+                "block_order": [
+
+                ]
+            }
+        },
+        "banner": {
+          "type": "banner",
+          "settings": {
+
+            "block_order": [
+  
+            ]
+          }
+        }
+    },
+    "order": [
+      "main",
+      "texture",
+      "deck-text",
+      "important-text",
+      "deck-text",
+      "banner"
+    ]
+}

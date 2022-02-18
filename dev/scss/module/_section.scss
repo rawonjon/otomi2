@@ -1,0 +1,16 @@
+
+
+section.title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 160px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        color: $black;
+    }
+}

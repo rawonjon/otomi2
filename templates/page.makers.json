@@ -1,18 +1,39 @@
 {
     "name": "Makers",
     "sections": {
-      "main": {
-        "type": "page-makers",
-        "settings": {
-            
+        "main": {
+            "type": "page-makers"
         },
-        "blocks": {
+        "texture": {
+          "type": "texture",
+          "settings": {
 
+          }
+        },
+        "banner": {
+          "type": "banner",
+          "settings": {
+
+          "block_order": [
+  
+            ]
+          }
+        },
+        "maker": {
+          "type": "maker",
+          "settings": {
+
+          "block_order": [
+  
+            ]
+          }
         }
-      }
     },
     "order": [
-      "main"
+      "main",
+      "texture",
+      "banner",
+      "maker"
     ]
   }
   
