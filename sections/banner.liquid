@@ -1,0 +1,28 @@
+<section class="banner">
+    <div class="text">
+        {% for block in section.blocks %}
+            {{ block.text }}
+        {% endfor %}
+    </div>
+</section>
+
+
+{% schema %}
+{
+"name": "Banner",
+"blocks" : 	[
+                {
+                    "type":"text",
+                    "name":"Banner text",
+                    "settings":	[
+                                    {
+                                        "type": "text",
+                                        "label": "Banner Text",
+                                        "id":"banner-text"
+                                    }
+                                ]
+
+                }
+            ]
+}
+{% endschema %}

@@ -1,7 +1,8 @@
 {
+    "name": "Makers",
     "sections": {
       "main": {
-        "type": "page-lookbook",
+        "type": "page-makers",
         "settings": {
             
         },
