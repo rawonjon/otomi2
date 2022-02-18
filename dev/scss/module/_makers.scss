@@ -3,20 +3,24 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 section.makers {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: calc((100% / 12) * 12);
-    padding: 64px calc((100% / 12) * 1);
+    justify-content: space-between;
+    // width: calc((100% / 12) * 12);
+    // padding: 64px calc((100% / 12) * 1);
     
     // border: 1px solid red;
+    padding: 64px;
 }
 
 section.makers article {
     display: flex;
     flex-direction: column;
-    width: calc((100% / 10) * 3);
-    // max-width: 450px;
-    margin-bottom: 64px;
+    // width: calc((100% / 10) * 3);
+    max-width: 450px;
+    width: calc(33.333% - 64px);
+    margin: 0 32px 64px;
 }
 
 section.makers article > picture {
@@ -40,32 +44,38 @@ section.makers article h3 {
     text-align: left;
 }
 
-section.makers article div.media {
-    justify-content: space-between;
-    padding: 16px 0;
-}
+// section.makers article div.media {
+//     justify-content: space-between;
+//     padding: 16px 0;
+// }
 
-section.makers article div.media picture {
-    display: flex;
-    // width: calc((100% / 12) * 4);
-    width: calc((100% / 12) * 3);
-    // border: 1px solid hotpink;
-}
+// section.makers article div.media picture {
+//     display: flex;
+//     // width: calc((100% / 12) * 4);
+//     width: calc((100% / 12) * 3);
+//     // border: 1px solid hotpink;
+// }
 
-section.makers article a.button {
-    width: calc((100% / 12) * 3);
-    margin: 16px 0 32px 0;
-    min-width: unset;
-}
+// section.makers article a.button {
+//     width: calc((100% / 12) * 3);
+//     margin: 16px 0 32px 0;
+//     min-width: unset;
+// }
 
 @media (max-width: $breakpoint4) {
     section.makers article {
-        width: calc(((100% / 12) * 6) - 32px);
+        // width: calc(((100% / 12) * 6) - 32px);
+        width: calc(50% - 64px);
+        
     }
 }
 
 @media (max-width: $breakpoint5) {
-    section.makers article {
-        width: 100%;
+    section.makers {
+        padding: 32px;
+        justify-content: center;
+        article {
+            width: 100%;
+        }
     }
 }

@@ -1,8 +1,11 @@
 <section class="banner">
     <div class="text">
-        {% for block in section.blocks %}
-            {{ block.text }}
-        {% endfor %}
+    {% for block in section.blocks %}
+            {% if block.heading %}
+               <h2> {{ block.heading }} </h2> 
+            {% endif %}
+            <p>{{ block.settings.bannerText }} </p>
+    {% endfor %}
     </div>
 </section>
 
@@ -10,15 +13,21 @@
 {% schema %}
 {
 "name": "Banner",
+"class": "section-banner",
 "blocks" : 	[
                 {
-                    "type":"text",
+                    "type":"textarea",
                     "name":"Banner text",
                     "settings":	[
                                     {
                                         "type": "text",
+                                        "label": "Heading",
+                                        "id":"bannerHeading"
+                                    },
+                                    {
+                                        "type": "textarea",
                                         "label": "Banner Text",
-                                        "id":"banner-text"
+                                        "id":"bannerText"
                                     }
                                 ]
 

@@ -1,0 +1,92 @@
+<section class="deck-text">
+
+    <div class="deck-wrap">
+        <div class="track">
+        
+            {% for block in section.blocks %}
+                <div class="block-card">
+                    <picture style="background-image: url({{ block.settings.slider_image | img_url: 'master' }});" >
+                    </picture>
+                </div>
+            {% endfor %}
+        </div> 
+
+    </div>
+
+
+    <div class="text-wrap">
+            <h2>{{ section.settings.header }}</h2>
+            <div class="text">
+                {{section.settings.information | newline_to_br }} </p>
+            </div>
+
+    </div>
+
+</section>
+
+
+{% javascript %}
+
+function deckText1() {
+  var elem = document.querySelector('.track');
+  var flkty = new Flickity( elem, {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: true,
+    autoPlay: 7000,
+    imagesLoaded: true,
+    lazyLoad: true,
+    accessibility: false,
+    arrowShape: { 
+      x0: 10,
+      x1: 60, y1: 50,
+      x2: 65, y2: 50,
+      x3: 15
+    }
+
+  });
+}
+
+deckText1();
+
+{% endjavascript %}
+
+
+{% schema %}
+{
+  "name": "deck-text",
+  "class": "page-slider",
+  "settings": [
+        {
+            "type":"text",
+            "label": "Text Section Heading",
+            "id": "header"
+        },
+        {
+            "type":"textarea",
+            "label": "Text Section Body",
+            "id": "body"
+        },
+        {
+            "type":"checkbox",
+            "label": "Text on right",
+            "id": "text_right"
+        }
+    ],
+    "blocks" : 	[
+                    {
+                    "type": "deck",
+                      "name":"Slider Image",
+                      "settings":	[
+                                      {
+                                          "type": "image_picker",
+                                          "label": "Slider Image",
+                                          "id":"slider_image"
+                                      }
+                                    ] 
+
+                    }
+                ] 
+}
+  
+{% endschema %}

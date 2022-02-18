@@ -1,0 +1,19 @@
+<div class="important">
+    <div class="text">
+        <p> {{section.settings.important | newline_to_br }} </p>
+    </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Textiles Important",
+    "settings": [
+					{
+						"type":"textarea",
+                      	"label": "Textiles Important",
+						"id": "important"
+					}
+				]
+  }
+{% endschema %}
