@@ -1,0 +1,45 @@
+<section class="makers">
+
+    {% for block in section.blocks %}
+    <article>
+        <picture style="background-image: url({{block.settings.maker_image | img_url: 'master'}})"></picture>
+        <h3>{{block.settings.maker_name}}</h3>
+        <div class="text">
+          {{block.settings.maker_description | newline_to_br }}
+        </div>
+
+    </article>
+    {% endfor %}
+</section>
+    
+{% schema %}
+    {
+    "name": "Maker",
+    "blocks" : 	[
+                    {
+                        "type":"maker",
+                        "name":"Maker",
+                        "settings":	[
+                                        {
+                                            "type": "image_picker",
+                                            "label": "Maker Image",
+                                            "id":"maker_image"
+                                        },
+                                        {
+                                            "type":"text",
+                                            "label": "Maker Name",
+                                            "id": "maker_name"
+                                        },
+                                        {			
+                                            "type":"textarea",
+                                            "label": "Maker Description",
+                                            "id": "maker_description"
+                                        }
+                                    ]
+
+                    }
+                ]
+    }
+{% endschema %}
+
+

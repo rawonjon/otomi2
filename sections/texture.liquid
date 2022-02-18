@@ -1,0 +1,28 @@
+{% for block in section.blocks %}
+    <div class="texture" style="background-image: url({{ block.settings.image | img_url: 'master' }})">
+    </div>
+{% endfor %}
+
+
+
+
+{% schema %}
+{
+"name": "Texture Bar",
+"blocks" : 	[
+                {
+                    "type":"image",
+                    "name":"Texture Bar",
+                    "limit": 1,
+                    "settings":	[
+                                    {
+                                        "type": "image_picker",
+                                        "label": "Texture Bar",
+                                        "id":"image"
+                                    }
+                                ]
+
+                }
+            ]
+}
+{% endschema %}

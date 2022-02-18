@@ -4,9 +4,6 @@
 
 <section class="lookbook">
 
-{{ page.title }}
-
-
     {% for block in section.blocks %}
         <picture>
             {{block.settings.lookbook_image | img_url: 'master' | img_tag }}
