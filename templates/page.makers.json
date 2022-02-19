@@ -29,10 +29,18 @@
             "bannerHeading": "",
             "bannerText": "In a world that’s changing so dramatically and traditions are fast disappearing we are proud to be able to play a small role in promoting traditional crafts and artisans."
           }
+        },
+        "0fddc644-fd3f-48d3-ad34-996f377c0adc": {
+          "type": "textarea",
+          "settings": {
+            "bannerHeading": "",
+            "bannerText": "Most of our makers work within longstanding family businesses where traditional techniques have been passed down from one generation to another or within Co-operatives who are working hard to safe guard these often dying or vulnerable crafts."
+          }
         }
       },
       "block_order": [
-        "8c27847f-74a7-4368-a131-93e1f8d0a541"
+        "8c27847f-74a7-4368-a131-93e1f8d0a541",
+        "0fddc644-fd3f-48d3-ad34-996f377c0adc"
       ],
       "settings": {
       }
