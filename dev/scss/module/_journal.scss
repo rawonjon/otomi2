@@ -112,52 +112,52 @@ section.journal.short {
 
 /* //////////////////////////////////////////////////////////////////// BREAK /// */
 
-// @media (max-width: $breakpoint4) {
-//     section.journal {
-//         width: 100%;
-//         padding: 0 16px;
-//         padding-bottom: 96px;
-//     }
-//     .journal article .text h3 {
-//         text-align: left;
-//     }
-//     .journal article .text p {
-//         font-size: 16px;
-//     }
-//     section.journal.short {
-//         width: calc((100% / 12) * 10);
-//     }
-//     section.journal.short article{
-//         width: calc((100% / 10) * 5);
-//     }
+@media (max-width: $breakpoint4) {
+    section.journal {
+        width: 100%;
+        padding: 0 16px;
+        padding-bottom: 96px;
+    }
+    .journal article .text h3 {
+        text-align: left;
+    }
+    .journal article .text p {
+        font-size: 16px;
+    }
+    section.journal.short {
+        width: calc((100% / 12) * 10);
+    }
+    section.journal.short article{
+        width: calc((100% / 10) * 5);
+    }
 
 
-// }
+}
 
-// @media (max-width: $breakpoint5) {
-//     .journal article {
-//         flex-wrap: wrap;
-//     }
-//     .journal article picture {
-//         width: 100%;
-//         margin-bottom: 32px;
-//     }
-//     .journal article .text {
-//         padding-left: unset;
-//         padding-right: calc((100% / 12) * 1);
-//         width: 100%;
-//     }
-//     .journal article .text p {
-//         margin-bottom: 16px;
-//     }
-//     section.journal.short {
-//         width: 100%;
-//         padding: 0 16px;
-//     }
-//     section.journal.short article{
-//         width: 100%;
-//     }
-//     // .journal.short article a.button {
-//     //     width: calc((100% / 12) * 8);
-//     // }
-// }
+@media (max-width: $breakpoint5) {
+    .journal article {
+        flex-wrap: wrap;
+    }
+    .journal article picture {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .journal article .text {
+        padding-left: unset;
+        padding-right: calc((100% / 12) * 1);
+        width: 100%;
+    }
+    .journal article .text p {
+        margin-bottom: 16px;
+    }
+    section.journal.short {
+        width: 100%;
+        padding: 0 16px;
+    }
+    section.journal.short article{
+        width: 100%;
+    }
+    // .journal.short article a.button {
+    //     width: calc((100% / 12) * 8);
+    // }
+}
