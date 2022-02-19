@@ -14,3 +14,50 @@ section.title {
         color: $black;
     }
 }
+
+section.deck-text {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 64px;
+    &.text-left {
+        flex-direction: row-reverse;
+    }
+    div.deck-wrap {
+        display: block;
+        width: 50%;
+    }
+    div.text-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 50%;
+        h2 {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+        // background: pink;
+    }
+}
+
+div.important {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 64px;
+    // margin-left: calc((100vw / 12) * -1);
+    padding: 16px 0;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+
+}
+
+.important .text p {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
