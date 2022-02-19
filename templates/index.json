@@ -160,11 +160,21 @@
             "buttonText": "See More",
             "link": "shopify:\/\/pages\/lookbook"
           }
+        },
+        "8bd9cd1e-b723-4adb-b096-ef7bcdd8b02a": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "title": "Made to Measure",
+            "buttonText": "Commission",
+            "link": "shopify:\/\/pages\/made-to-order"
+          }
         }
       },
       "block_order": [
         "f0bd5278-51da-47d3-b61f-e69b15470fdd",
-        "cad5ade7-5824-4187-8cb9-1c77bf812e91"
+        "cad5ade7-5824-4187-8cb9-1c77bf812e91",
+        "8bd9cd1e-b723-4adb-b096-ef7bcdd8b02a"
       ],
       "settings": {
         "title": "About Us"
@@ -173,8 +183,8 @@
     "collection-slider-2": {
       "type": "collection-slider-2",
       "settings": {
-        "heading": "Shop the Edit",
-        "collection": "",
+        "heading": "New Arrivals",
+        "collection": "new-arrivals",
         "show_view_all": false,
         "button_text": ""
       }
