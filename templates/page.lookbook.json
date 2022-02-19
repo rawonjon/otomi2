@@ -6,7 +6,7 @@
         "a8a1afc1-503a-460f-812b-612aa91ab205": {
           "type": "image",
           "settings": {
-            "lookbook_image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+            "lookbook_image": "shopify:\/\/shop_images\/cat-textiles.jpg"
           }
         },
         "bbf5bacd-3e5e-4388-ba0b-7686fc6440e1": {
@@ -14,17 +14,155 @@
           "settings": {
             "lookbook_image": "shopify:\/\/shop_images\/Fabrics_25_-_Copy.jpg"
           }
+        },
+        "9413a787-2374-4508-b44f-c50baec4edb4": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg"
+          }
+        },
+        "6350204b-5723-4bb3-9979-da08448fd6df": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Ceramics_11.jpg"
+          }
+        },
+        "f62271b2-f000-44e6-9466-36316c3f6f59": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Xmas_Table_2_-_Copy.jpg"
+          }
+        },
+        "fd9e3b2a-cae1-4b1d-9513-36025ad3d104": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Fabrics_4_-_Copy.jpg"
+          }
+        },
+        "6ae36a6b-72eb-433c-adb1-11630374d769": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Kala_Rama_collection.jpg"
+          }
+        },
+        "3acc5ef3-1f1f-42eb-a2e3-ab589d18351e": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Lamps_14_2_-_Copy.jpg"
+          }
+        },
+        "08049340-92bc-4a76-af96-feccd4d0cf39": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Montes_Clark_2_-_Copy.jpg"
+          }
+        },
+        "d352cf66-c669-4954-89cd-7e757a522edd": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Ceramic_Lifestyle_11.jpg"
+          }
+        },
+        "49b632e1-ec0c-41a8-b79a-d8cd6734d2af": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Lifestyle_28.jpg"
+          }
+        },
+        "2d9a7051-aae7-4a28-b125-a10769ad406f": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Lamps_3.jpg"
+          }
+        },
+        "51f2f2e7-91a7-4f0e-a629-b3b12b96639e": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Homewares_6.jpg"
+          }
+        },
+        "cf388459-909f-4deb-bd3f-04341af38223": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Homewares_26_-_Copy.jpg"
+          }
+        },
+        "0c5c793b-ee0e-4c6e-9b11-840b254bc730": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Lamps_9.jpg"
+          }
+        },
+        "5a579e4a-e395-4218-8b85-aad79ce6d626": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/M_C_1st_Oct_18_2_-_Copy_2.jpg"
+          }
         }
       },
       "block_order": [
         "a8a1afc1-503a-460f-812b-612aa91ab205",
-        "bbf5bacd-3e5e-4388-ba0b-7686fc6440e1"
+        "bbf5bacd-3e5e-4388-ba0b-7686fc6440e1",
+        "9413a787-2374-4508-b44f-c50baec4edb4",
+        "6350204b-5723-4bb3-9979-da08448fd6df",
+        "f62271b2-f000-44e6-9466-36316c3f6f59",
+        "fd9e3b2a-cae1-4b1d-9513-36025ad3d104",
+        "6ae36a6b-72eb-433c-adb1-11630374d769",
+        "3acc5ef3-1f1f-42eb-a2e3-ab589d18351e",
+        "08049340-92bc-4a76-af96-feccd4d0cf39",
+        "d352cf66-c669-4954-89cd-7e757a522edd",
+        "49b632e1-ec0c-41a8-b79a-d8cd6734d2af",
+        "2d9a7051-aae7-4a28-b125-a10769ad406f",
+        "51f2f2e7-91a7-4f0e-a629-b3b12b96639e",
+        "cf388459-909f-4deb-bd3f-04341af38223",
+        "0c5c793b-ee0e-4c6e-9b11-840b254bc730",
+        "5a579e4a-e395-4218-8b85-aad79ce6d626"
       ],
       "settings": {
+      }
+    },
+    "1645257638a96938ba": {
+      "type": "collage",
+      "blocks": {
+        "1645257638f65b09bc-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1645257638f65b09bc-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "1645257638f65b09bc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645257638f65b09bc-0",
+        "1645257638f65b09bc-1",
+        "1645257638f65b09bc-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1645257638a96938ba"
   ]
 }
