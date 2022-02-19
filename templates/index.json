@@ -6,7 +6,7 @@
         "16429501039bd77cd8-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
+            "image": "shopify:\/\/shop_images\/4.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "large",
             "subheading": "Celebrating Communities of Makers and the Hand Made",
@@ -24,7 +24,7 @@
         "16429501039bd77cd8-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ceramics_11.jpg",
+            "image": "shopify:\/\/shop_images\/5.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "medium",
             "subheading": "Celebrating Communities of Makers & The Hand Made",
@@ -42,7 +42,7 @@
         "a14ec585-6306-464c-906e-7a1fae44ce52": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/small_sixe.jpg",
+            "image": "shopify:\/\/shop_images\/3.jpg",
             "heading": "CRAFTSMANSHIP AND COLOUR",
             "heading_size": "medium",
             "subheading": "Celebrating Communities of Makers & The Hand Made",
@@ -77,7 +77,7 @@
       "type": "collection-slider",
       "settings": {
         "heading": "Burgundy Brilliant and Bold",
-        "collection": "lockdown-the-comfort-edit",
+        "collection": "lighting",
         "show_view_all": true
       }
     },
@@ -87,43 +87,37 @@
         "a17f535c-60d2-489a-99ae-4cccda0c9618": {
           "type": "collection",
           "settings": {
-            "collection": "ceramics",
-            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+            "collection": "ceramics"
           }
         },
         "5b47f43e-4ce4-4d88-a370-99cb9e603c9b": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+            "collection": "accessories"
           }
         },
         "8b3e7284-cd2c-4d56-8089-7093f0e0e1e9": {
           "type": "collection",
           "settings": {
-            "collection": "tabletop",
-            "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
+            "collection": "tabletop"
           }
         },
         "90894e47-6bb1-4e01-ba16-ce0869238aa7": {
           "type": "collection",
           "settings": {
-            "collection": "lighting",
-            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
+            "collection": "lighting"
           }
         },
         "12de7bc6-0492-4e7b-8c87-dae2e7a72cad": {
           "type": "collection",
           "settings": {
-            "collection": "textiles",
-            "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
+            "collection": "textiles"
           }
         },
         "5e37cb18-b7a0-45f6-bd32-10dbfe80bfc3": {
           "type": "collection",
           "settings": {
-            "collection": "glass",
-            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+            "collection": "glass"
           }
         }
       },
@@ -145,7 +139,6 @@
         "7e805e77-9c95-4904-bdce-e98206c3aa14": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
             "title": "Look Book",
             "buttonText": "Find out more",
             "link": "shopify:\/\/pages\/lookbook"
@@ -154,7 +147,6 @@
         "a0f71403-2e52-4e95-8701-3b42e4ac7d1c": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Indian_Painted_Textiles.jpg",
             "title": "Our Makers",
             "buttonText": "Find Out more",
             "link": "shopify:\/\/pages\/contact"
@@ -163,7 +155,6 @@
         "52e3b721-f4f5-4391-a18e-c02f9e5d90ac": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/textiles1.jpg",
             "title": "Made to Measure",
             "buttonText": "Find Out more",
             "link": "shopify:\/\/products\/ming-vase"
@@ -193,7 +184,6 @@
         "9dccfa09-9890-4c76-853b-ad57a6168655": {
           "type": "image",
           "settings": {
-            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
           }
         }
       },

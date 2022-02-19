@@ -1,62 +1,48 @@
 {
-    "name": "Commission",
-    "sections": {
-        "main": {
-            "type": "page-commission"
-        },
-        "texture": {
-          "type": "texture",
-          "settings": {
-
-          }
-        },
-        "deckText": {
-            "type": "deck-text",
-            "settings": {
-            
-                "block_order": [
-
-                ]
-            }
-        },
-        "important": {
-            "type": "important-text",
-            "settings": {
-
-            }
-        },
-        "deckText2": {
-            "type": "deck-text-2",
-            "settings": {
-            
-                "block_order": [
-
-                ]
-            }
-        },
-        "banner": {
-          "type": "banner",
-          "settings": {
-
-            "block_order": [
-  
-            ]
-          }
-        },
-        "contact-form": {
-            "type": "contact-form",
-            "settings": {
-  
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "page-commission",
+      "settings": {
+      }
     },
-    "order": [
-      "main",
-      "texture",
-      "deckText",
-      "important",
-      "deckText2",
-      "banner",
-      "contact-form"
-    ]
+    "texture": {
+      "type": "texture",
+      "settings": {
+      }
+    },
+    "deckText": {
+      "type": "deck-text",
+      "settings": {
+      }
+    },
+    "important": {
+      "type": "important-text",
+      "settings": {
+      }
+    },
+    "deckText2": {
+      "type": "deck-text-2",
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "texture",
+    "deckText",
+    "important",
+    "deckText2",
+    "banner",
+    "contact-form"
+  ]
 }
