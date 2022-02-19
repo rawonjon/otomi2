@@ -25,8 +25,8 @@
 
             }
         },
-        "deckText": {
-            "type": "deck-text",
+        "deckText2": {
+            "type": "deck-text-2",
             "settings": {
             
                 "block_order": [
@@ -42,14 +42,21 @@
   
             ]
           }
+        },
+        "contact-form": {
+            "type": "contact-form",
+            "settings": {
+  
+            }
         }
     },
     "order": [
       "main",
       "texture",
-      "deck-text",
-      "important-text",
-      "deck-text",
-      "banner"
+      "deckText",
+      "important",
+      "deckText2",
+      "banner",
+      "contact-form"
     ]
 }

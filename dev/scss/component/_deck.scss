@@ -60,6 +60,31 @@ div.deck-wrap {
         align-self: flex-start;
 }
 
+/* ////////////////////////////////////////////////////////////////// DECK-TEXT /// */
+
+.deck-text {
+    .deck-wrap {
+        height: 100%;
+        padding-top: 0;;
+    .track,
+    .track-2 {
+        .block-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            min-height: 300px;
+            max-height: 420px;
+            margin-right: calc((100% / 5) / 3);
+            }
+        }
+    }
+}
+
+
+
 /* //////////////////////////////////////////////////////////////////// BREAK /// */
 
 // @media (max-width: $breakpoint4) {

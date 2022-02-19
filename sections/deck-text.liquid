@@ -1,12 +1,34 @@
-<section class="deck-text">
+
+{% if section.settings.text_right == false %}
+    <section class="deck-text text-left ">
+{% else %}
+    <section class="deck-text">
+{% endif %}
 
     <div class="deck-wrap">
         <div class="track">
         
             {% for block in section.blocks %}
                 <div class="block-card">
-                    <picture style="background-image: url({{ block.settings.slider_image | img_url: 'master' }});" >
-                    </picture>
+                    <!-- <picture style="background-image: url( {{ block.settings.slider_image | img_url: 'master' }} );" >
+                    </picture> -->
+                    <!-- <div class="image-wrapper"> -->
+                        <img
+                        srcset="{%- if block.settings.slider_image.width >= 275 -%}{{ block.settings.slider_image | img_url: '275x' }} 275w,{%- endif -%}
+                            {%- if block.settings.slider_image.width >= 550 -%}{{ block.settings.slider_image | img_url: '550x' }} 550w,{%- endif -%}
+                            {%- if block.settings.slider_image.width >= 710 -%}{{ block.settings.slider_image | img_url: '710x' }} 710w,{%- endif -%}
+                            {%- if block.settings.slider_image.width >= 1420 -%}{{ block.settings.slider_image | img_url: '1420x' }} 1420w,{%- endif -%}
+                            {{ block.settings.slider_image | img_url: 'master' }} {{ block.settings.slider_image.width }}w"
+                            data-flickity-lazyload="{{ block.settings.slider_image | img_url: '550x' }}"
+                        sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                            (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                            calc(100vw - 30px)"
+                        alt="{{ block.settings.slider_image.alt }}"
+                        >
+                    <!-- </div> -->
+                
+                    
+
                 </div>
             {% endfor %}
         </div> 
@@ -17,7 +39,7 @@
     <div class="text-wrap">
             <h2>{{ section.settings.header }}</h2>
             <div class="text">
-                {{section.settings.information | newline_to_br }} </p>
+                {{section.settings.body | newline_to_br }}
             </div>
 
     </div>
@@ -37,6 +59,8 @@ function deckText1() {
     imagesLoaded: true,
     lazyLoad: true,
     accessibility: false,
+    wraparound: true,
+    adaptiveHeight: false,
     arrowShape: { 
       x0: 10,
       x1: 60, y1: 50,
