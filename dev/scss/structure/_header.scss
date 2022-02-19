@@ -118,6 +118,21 @@ body.index {
         }
     } 
 }
+/* /////////////////////////////////////////////////////////////////// SUB MENU /// */
+body.index {
+    .header-wrapper.transparent {
+        .header__submenu {
+            .header__menu-item {
+                color: $black !important;
+                &:hover {
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
+
+
 
 /* ///////////////////////////////////////////////////////////////// SHOP ICONS /// */
 

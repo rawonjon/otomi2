@@ -1,0 +1,44 @@
+{
+    "name": "About",
+    "sections": {
+        "main": {
+            "type": "page-about"
+        },
+        "texture": {
+            "type": "texture",
+            "settings": {
+  
+            }
+        },
+        "image-text": {
+            "type": "image-text",
+            "settings": {
+
+            }
+        },
+        "main-about": {
+            "type": "main-about",
+            "blocks": {
+
+            },
+            "block_order": [
+            
+            ],
+            "settings": {
+                
+            }
+        },
+        "banner":  {
+            "type": "banner",
+            "settings": {
+
+            }
+        }
+    },
+    "order": [
+        "main",
+        "texture",
+        "banner",
+        "contact-form"
+    ]
+}
