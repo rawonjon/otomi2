@@ -348,7 +348,9 @@
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           
           <div class="logo-wrapper">
-          {% render 'logo' %}
+            <a href="{{ shop.secure_url }}">
+              {% render 'logo' %}
+            </a>
           </div> 
           <!-- {%- if section.settings.logo != blank -%}
             {%- assign image_size = section.settings.logo_width | append: 'x' -%}
@@ -373,7 +375,9 @@
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
             {% if forloop.index == 4 %} 
-            {% render 'logo' %}
+            <a href="{{ shop.secure_url }}">
+              {% render 'logo' %}
+            </a>
             <li>
               {%- if link.links != blank -%}
                 <details-disclosure>

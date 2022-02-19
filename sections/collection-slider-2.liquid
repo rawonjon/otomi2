@@ -39,7 +39,7 @@
           </div> 
           {% if section.settings.show_view_all %}
  
-            <a href="{{ collection.url }}" class="button button-black">Shop the Edit</a>
+            <a href="{{ collection.url }}" class="button button-black">{{ section.settings.button_text }}</a>
                             
           {% endif %}
 
@@ -96,6 +96,11 @@ slider2();
             "type": "checkbox",
             "id": "show_view_all",
             "label": "Show view all button"
+          },
+          {
+            "type": "text",
+            "label": "View all button text",
+            "id": "button_text",
           }
 				]
   }
