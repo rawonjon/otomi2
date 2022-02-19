@@ -1,23 +1,106 @@
 {
   "sections": {
+    "16452460520afde4b2": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "16452460525a62af6f-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ceramics_11.jpg",
+            "heading": "Craftsmanship & Colour",
+            "heading_size": "large",
+            "subheading": "Celebrating Communities of Makers and the Hand Made",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16452460525a62af6f-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mats_3_-_Copy.jpg",
+            "heading": "CRAFTSMANSHIP & COLOUR",
+            "heading_size": "medium",
+            "subheading": "Celebrating Communities of Makers and the Hand Made",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "db88ebf7-3adc-4217-8780-55b18f9a6638": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
+            "heading": "CRAFTSMANSHIP & COLOUR",
+            "heading_size": "medium",
+            "subheading": "Celebrating Communities of Makers and the Hand Made",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16452460525a62af6f-0",
+        "16452460525a62af6f-1",
+        "db88ebf7-3adc-4217-8780-55b18f9a6638"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
+        "heading": "Shop the Edit",
+        "collection": "",
+        "show_view_all": false,
+        "button_text": ""
       }
     },
     "principal_collections": {
       "type": "shop-collection",
       "settings": {
+        "title": "THE MONTES & CLARK COLLECTION"
       }
     },
     "main-about": {
       "type": "main-about",
       "settings": {
+        "title": "About Us"
       }
     },
     "collection-slider-2": {
       "type": "collection-slider-2",
       "settings": {
+        "heading": "Shop the Edit",
+        "collection": "",
+        "show_view_all": false,
+        "button_text": ""
       }
     },
     "texture-bar": {
@@ -29,14 +112,69 @@
       "type": "journal",
       "settings": {
       }
+    },
+    "16452460821cebff1c": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1645246082c8dc3c62-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1645246082c8dc3c62-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1645246082c8dc3c62-0",
+        "1645246082c8dc3c62-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
+    "16452460520afde4b2",
     "collection-slider",
     "principal_collections",
     "main-about",
     "collection-slider-2",
     "texture-bar",
-    "journal"
+    "journal",
+    "16452460821cebff1c"
   ]
 }
