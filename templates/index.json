@@ -6,7 +6,7 @@
         "16429501039bd77cd8-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen_60_715517d2-9fb1-456e-9f4b-2587b5832399.jpg",
+            "image": "shopify:\/\/shop_images\/4.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "large",
             "subheading": "Celebrating Communities of Makers and the Hand Made",
@@ -24,7 +24,7 @@
         "16429501039bd77cd8-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ceramics_11.jpg",
+            "image": "shopify:\/\/shop_images\/5.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "medium",
             "subheading": "Celebrating Communities of Makers & The Hand Made",
@@ -42,7 +42,7 @@
         "a14ec585-6306-464c-906e-7a1fae44ce52": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/small_sixe.jpg",
+            "image": "shopify:\/\/shop_images\/3.jpg",
             "heading": "CRAFTSMANSHIP AND COLOUR",
             "heading_size": "medium",
             "subheading": "Celebrating Communities of Makers & The Hand Made",
@@ -77,7 +77,7 @@
       "type": "collection-slider",
       "settings": {
         "heading": "Burgundy Brilliant and Bold",
-        "collection": "lockdown-the-comfort-edit",
+        "collection": "lighting",
         "show_view_all": true
       }
     },
@@ -142,37 +142,37 @@
     "main-about": {
       "type": "main-about",
       "blocks": {
-        "7e805e77-9c95-4904-bdce-e98206c3aa14": {
-          "type": "linkblock",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
-            "title": "Look Book",
-            "buttonText": "Find out more",
-            "link": "shopify:\/\/pages\/lookbook"
-          }
-        },
         "a0f71403-2e52-4e95-8701-3b42e4ac7d1c": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Indian_Painted_Textiles.jpg",
+            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
             "title": "Our Makers",
-            "buttonText": "Find Out more",
+            "buttonText": "Find out more",
             "link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "7e805e77-9c95-4904-bdce-e98206c3aa14": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook.jpg",
+            "title": "Look Book",
+            "buttonText": "See more",
+            "link": "shopify:\/\/pages\/lookbook"
           }
         },
         "52e3b721-f4f5-4391-a18e-c02f9e5d90ac": {
           "type": "linkblock",
           "settings": {
-            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "image": "shopify:\/\/shop_images\/textiles.jpg",
             "title": "Made to Measure",
-            "buttonText": "Find Out more",
+            "buttonText": "Commission",
             "link": "shopify:\/\/products\/ming-vase"
           }
         }
       },
       "block_order": [
-        "7e805e77-9c95-4904-bdce-e98206c3aa14",
         "a0f71403-2e52-4e95-8701-3b42e4ac7d1c",
+        "7e805e77-9c95-4904-bdce-e98206c3aa14",
         "52e3b721-f4f5-4391-a18e-c02f9e5d90ac"
       ],
       "settings": {
@@ -193,7 +193,7 @@
         "9dccfa09-9890-4c76-853b-ad57a6168655": {
           "type": "image",
           "settings": {
-            "texture": "shopify:\/\/shop_images\/texture-index.jpg"
+            "texture": "shopify:\/\/shop_images\/homepage-texture.jpg"
           }
         }
       },

@@ -1,18 +1,30 @@
 {
-    "sections": {
-      "main": {
-        "type": "lookbook",
-        "settings": {
-            
+  "sections": {
+    "main": {
+      "type": "lookbook",
+      "blocks": {
+        "a8a1afc1-503a-460f-812b-612aa91ab205": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+          }
         },
-        "blocks": {
-
+        "bbf5bacd-3e5e-4388-ba0b-7686fc6440e1": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/lookbook.jpg"
+          }
         }
+      },
+      "block_order": [
+        "a8a1afc1-503a-460f-812b-612aa91ab205",
+        "bbf5bacd-3e5e-4388-ba0b-7686fc6440e1"
+      ],
+      "settings": {
       }
-      
-    },
-    "order": [
-      "main"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

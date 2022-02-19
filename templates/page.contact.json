@@ -1,18 +1,18 @@
 {
   "sections": {
     "main": {
-      "type": "page-contact"
+      "type": "page-contact",
+      "settings": {
+      }
     },
     "texture": {
       "type": "texture",
       "settings": {
-
       }
     },
     "banner": {
       "type": "banner",
       "settings": {
-        
       }
     },
     "contact-form": {
