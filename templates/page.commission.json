@@ -153,6 +153,18 @@
     },
     "banner": {
       "type": "banner",
+      "blocks": {
+        "5423f63c-2251-4dba-b3f3-f21cbaba7d4d": {
+          "type": "textarea",
+          "settings": {
+            "bannerHeading": "ANYTHING ELSE",
+            "bannerText": "For any other queries regarding our products please use the form below and we will endeavour to help with your enquiry."
+          }
+        }
+      },
+      "block_order": [
+        "5423f63c-2251-4dba-b3f3-f21cbaba7d4d"
+      ],
       "settings": {
       }
     },
