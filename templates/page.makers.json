@@ -1,39 +1,52 @@
 {
-    "name": "Makers",
-    "sections": {
-        "main": {
-            "type": "page-makers"
-        },
-        "texture": {
-          "type": "texture",
+  "sections": {
+    "main": {
+      "type": "page-makers",
+      "settings": {
+      }
+    },
+    "texture": {
+      "type": "texture",
+      "blocks": {
+        "aa2e7523-e0ce-464a-a7f8-8a16751c1955": {
+          "type": "image",
           "settings": {
-
-          }
-        },
-        "banner": {
-          "type": "banner",
-          "settings": {
-
-          "block_order": [
-  
-            ]
-          }
-        },
-        "maker": {
-          "type": "maker",
-          "settings": {
-
-          "block_order": [
-  
-            ]
           }
         }
+      },
+      "block_order": [
+        "aa2e7523-e0ce-464a-a7f8-8a16751c1955"
+      ],
+      "settings": {
+      }
     },
-    "order": [
-      "main",
-      "texture",
-      "banner",
-      "maker"
-    ]
-  }
-  
+    "banner": {
+      "type": "banner",
+      "blocks": {
+        "8c27847f-74a7-4368-a131-93e1f8d0a541": {
+          "type": "textarea",
+          "settings": {
+            "bannerHeading": "",
+            "bannerText": "In a world that’s changing so dramatically and traditions are fast disappearing we are proud to be able to play a small role in promoting traditional crafts and artisans."
+          }
+        }
+      },
+      "block_order": [
+        "8c27847f-74a7-4368-a131-93e1f8d0a541"
+      ],
+      "settings": {
+      }
+    },
+    "maker": {
+      "type": "maker",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "texture",
+    "banner",
+    "maker"
+  ]
+}
