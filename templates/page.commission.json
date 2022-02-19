@@ -121,8 +121,8 @@
     "deckText2": {
       "type": "deck-text-2",
       "settings": {
-        "header": "",
-        "body": "",
+        "header": "Papercuts",
+        "body": "Working with our maker Sergio, one of the most well respected paper cutters in Metepec, we can produce your own designs for your parties and weddings in paper or plastic. Provide us with your ideas or images and Sergio will produce a bespoke design for your approval.",
         "text_right": false
       }
     },
