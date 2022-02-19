@@ -7,22 +7,123 @@
     },
     "texture": {
       "type": "texture",
+      "blocks": {
+        "62297b58-4387-40fd-9e08-8f696531ac1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/texture-commission_0b97f0d3-c032-48a0-965e-edce8d05fbf4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "62297b58-4387-40fd-9e08-8f696531ac1d"
+      ],
       "settings": {
+      }
+    },
+    "16452485096a47a1da": {
+      "type": "rich-text",
+      "blocks": {
+        "16452485093a72ecdf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "16452485093a72ecdf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you are looking for something bespoke or need something made to measure we have our own inhouse studio where we can make pieces to your specifications.<\/p><p>Please <a href=\"https:\/\/montesandclark.myshopify.com\/page\/contact\">contact us<\/a> to discuss your project<\/p>"
+          }
+        },
+        "16452485093a72ecdf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16452485093a72ecdf-0",
+        "16452485093a72ecdf-1",
+        "16452485093a72ecdf-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "deckText": {
       "type": "deck-text",
+      "blocks": {
+        "d4283487-9414-40b5-af08-546db80a2d99": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles1.jpg"
+          }
+        },
+        "25d16292-c370-46d8-a42b-d6735ad0d3ce": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles2.jpg"
+          }
+        },
+        "be4a2318-d0fd-417d-a293-36e4ce867882": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles3.jpg"
+          }
+        },
+        "fb2e9513-e53f-4b43-8cf1-6cd305ff8101": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles4.jpg"
+          }
+        },
+        "a156b5b9-bd3f-4a9c-a39d-ffc2790fef74": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles6.jpg"
+          }
+        },
+        "038d7328-47a8-438f-9681-6ce9388e02a3": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/textiles5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d4283487-9414-40b5-af08-546db80a2d99",
+        "25d16292-c370-46d8-a42b-d6735ad0d3ce",
+        "be4a2318-d0fd-417d-a293-36e4ce867882",
+        "fb2e9513-e53f-4b43-8cf1-6cd305ff8101",
+        "a156b5b9-bd3f-4a9c-a39d-ffc2790fef74",
+        "038d7328-47a8-438f-9681-6ce9388e02a3"
+      ],
       "settings": {
+        "header": "TEXTILES",
+        "body": "Montes & Clark has its own ‘in-house’ studio in Wiltshire where we create many of the pieces that we sell and where we can create bespoke items for specific projects. We also work closely with interior designers who wish to commission a unique piece from cushions to lampshades, table linen, furniture and artwork.\n\nCushions and lampshades can be made in many shapes and sizes, tablecloths from our Mexican woven fabrics can be cut to size or bought by the metre for other projects and an upholstery service is also available. Please contact us to discuss your project via the form below and we would be delighted to help you.",
+        "text_right": true
       }
     },
     "important": {
       "type": "important-text",
       "settings": {
+        "important": ""
       }
     },
     "deckText2": {
       "type": "deck-text-2",
       "settings": {
+        "header": "",
+        "body": "",
+        "text_right": false
       }
     },
     "banner": {
@@ -33,12 +134,17 @@
     "contact-form": {
       "type": "contact-form",
       "settings": {
+        "heading": "Contact form",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "texture",
+    "16452485096a47a1da",
     "deckText",
     "important",
     "deckText2",
