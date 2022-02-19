@@ -76,10 +76,10 @@
     "collection-slider": {
       "type": "collection-slider",
       "settings": {
-        "heading": "Shop the Edit",
-        "collection": "",
-        "show_view_all": false,
-        "button_text": ""
+        "heading": "BURGUNDY BRILLIANT & BOLD",
+        "collection": "lockdown-the-comfort-edit",
+        "show_view_all": true,
+        "button_text": "Shop the Edit"
       }
     },
     "principal_collections": {
