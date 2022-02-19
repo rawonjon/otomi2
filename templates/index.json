@@ -84,12 +84,88 @@
     },
     "principal_collections": {
       "type": "shop-collection",
+      "blocks": {
+        "a13268ab-394c-4993-8133-8d5289eddb66": {
+          "type": "collection",
+          "settings": {
+            "collection": "ceramics",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        },
+        "69077fc4-94af-4b71-be7d-67a054374e9d": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+          }
+        },
+        "783d1983-269f-43e5-b173-9d44e09e4966": {
+          "type": "collection",
+          "settings": {
+            "collection": "tabletop",
+            "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
+          }
+        },
+        "eb504de8-d850-4412-860a-b35bd0e0d89c": {
+          "type": "collection",
+          "settings": {
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
+          }
+        },
+        "2a8e22d9-feb5-46cf-b386-74bc5e5ffd95": {
+          "type": "collection",
+          "settings": {
+            "collection": "textiles",
+            "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
+          }
+        },
+        "f16cec47-6486-4576-9313-81713647b26e": {
+          "type": "collection",
+          "settings": {
+            "collection": "glass",
+            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a13268ab-394c-4993-8133-8d5289eddb66",
+        "69077fc4-94af-4b71-be7d-67a054374e9d",
+        "783d1983-269f-43e5-b173-9d44e09e4966",
+        "eb504de8-d850-4412-860a-b35bd0e0d89c",
+        "2a8e22d9-feb5-46cf-b386-74bc5e5ffd95",
+        "f16cec47-6486-4576-9313-81713647b26e"
+      ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
       }
     },
     "main-about": {
       "type": "main-about",
+      "blocks": {
+        "f0bd5278-51da-47d3-b61f-e69b15470fdd": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
+            "title": "Our Makers",
+            "buttonText": "Find out more",
+            "link": "shopify:\/\/pages\/our-makers"
+          }
+        },
+        "cad5ade7-5824-4187-8cb9-1c77bf812e91": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook15.jpg",
+            "title": "Lookbook",
+            "buttonText": "See More",
+            "link": "shopify:\/\/pages\/lookbook"
+          }
+        }
+      },
+      "block_order": [
+        "f0bd5278-51da-47d3-b61f-e69b15470fdd",
+        "cad5ade7-5824-4187-8cb9-1c77bf812e91"
+      ],
       "settings": {
         "title": "About Us"
       }
