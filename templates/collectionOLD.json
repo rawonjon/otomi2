@@ -1,0 +1,11 @@
+
+{
+  "sections": {
+    "old-collection": {
+      "type": "old-collection"
+    }
+  },
+  "order": [
+    "old-collection"
+  ]
+}

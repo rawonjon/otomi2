@@ -25,4 +25,10 @@ div.texture {
             min-height: 100%;
         }
     }
+    &-collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
