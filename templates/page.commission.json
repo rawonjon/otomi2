@@ -120,6 +120,31 @@
     },
     "deckText2": {
       "type": "deck-text-2",
+      "blocks": {
+        "c65d2e24-abfc-4415-9819-78fdfb6dba8d": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pc1.jpg"
+          }
+        },
+        "add53040-562b-4d09-9d02-7a70802858c3": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pc2.jpg"
+          }
+        },
+        "3c218ad3-b482-40a0-9959-ea5ba8a61740": {
+          "type": "deck",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pc3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "c65d2e24-abfc-4415-9819-78fdfb6dba8d",
+        "add53040-562b-4d09-9d02-7a70802858c3",
+        "3c218ad3-b482-40a0-9959-ea5ba8a61740"
+      ],
       "settings": {
         "header": "Papercuts",
         "body": "Working with our maker Sergio, one of the most well respected paper cutters in Metepec, we can produce your own designs for your parties and weddings in paper or plastic. Provide us with your ideas or images and Sergio will produce a bespoke design for your approval.",
