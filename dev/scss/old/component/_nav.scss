@@ -1,40 +1,23 @@
 nav {
     font-family: $font;
-    // border: 1px solid lime;
 }
 
 nav.primary {
     font-family: $action   ;
     width: 100%;
-    // padding: 0 33.333%;
     display: flex;
     justify-content: center;
-    // background-color: rgba($pink, 0.7);
     color: $pink;
     
     a {
         margin: 0.5rem 1rem;
-        // color: $pink;
     }
 }
 
-// nav.search {
-//     z-index: 10;
-//     position: relative;
-//     // top: 0;
-//     // right: 0;
-//     width: auto;
-//     height: auto;
-//     // border: 1px solid red;
-//     color: black;
-// }
-
 nav.collections {
-    // width: 50%;
     display: flex;
     align-items: center;
     margin-bottom: -32px;
-    // justify-content: space-between;
     background-color: transparent;
     a {
         margin: 0 32px;

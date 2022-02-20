@@ -1,7 +1,6 @@
 <div class="about">
     <h2>{{ section.settings.title }}</h2>
 
-        <div class="page">
             {%- for block in section.blocks -%}
                 <div class="block-link"> 
                     <div class="image-wrapper" style="padding-top: 100%;">
@@ -23,12 +22,11 @@
 
                     
             
-                    <a href="{{ block.settings.link }}" class="button">{{ block.settings.buttonText }}</a>
+                    <a href="{{ block.settings.link }}" class="button button-pink">{{ block.settings.buttonText }}</a>
                
                 </div>
         
             {%- endfor -%}
-        </div>
       
 </div>
 

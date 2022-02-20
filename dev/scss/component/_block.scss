@@ -7,14 +7,13 @@
     flex-direction: column;
     align-items: center;
     width: 25%;
-
-    .image-wrapper {
-        display: block;
-        overflow: hidden;
-        img {
-            height: 100%;
-        }
-        h3 {
+    width: 30%;
+    width: calc(((100% / 12) * 3) + 32px);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-decoration: none !important;
+    margin-bottom: 96px;
+    h3 {
             font-size: 32px;
             z-index: 10;
             position: absolute;
@@ -27,7 +26,34 @@
             background: rgb(185,185,185);
             background: linear-gradient(0deg, rgba(185,185,185,0.5536589635854341) 0%, rgba(255,255,255,0) 100%);
         }
+    a:not(.button) {
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        width: 100%;
     }
+    @media (max-width: 800px) {
+        width: calc(((100% / 12) * 6) - 32px);
+        h3 {
+            font-size: 22px;
+        }
+    }
+    @media (max-width: 500px) {
+        width: calc((100% / 12) * 12);
+    }
+    .image-wrapper {
+        display: block;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+        
+    }
+}
+
+.block-link {
+  
 }
 
 .block-card a {  
