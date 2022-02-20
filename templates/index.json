@@ -58,9 +58,9 @@
       "type": "collection-slider",
       "settings": {
         "heading": "Shop the Edit",
-        "collection": "",
-        "show_view_all": false,
-        "button_text": ""
+        "collection": "lighting",
+        "show_view_all": true,
+        "button_text": "Shop the Edit"
       }
     },
     "principal_collections": {
