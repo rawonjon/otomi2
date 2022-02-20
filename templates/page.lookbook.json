@@ -3,7 +3,7 @@
     "main": {
       "type": "lookbook",
       "blocks": {
-        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c": {
+        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c": { 
           "type": "image",
           "settings": {
             "lookbook_image": "shopify:\/\/shop_images\/password.jpg"
