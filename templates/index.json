@@ -66,6 +66,7 @@
     "principal_collections": {
       "type": "shop-collection",
       "settings": {
+        "title": "THE MONTES & CLARK COLLECTION"
       }
     },
     "main-about": {
@@ -85,6 +86,17 @@
     },
     "texture-bar": {
       "type": "texture-bar",
+      "blocks": {
+        "dfe846c4-c9dc-413f-bc49-a4dcfe6a84c6": {
+          "type": "image",
+          "settings": {
+            "texture": "shopify:\/\/shop_images\/1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dfe846c4-c9dc-413f-bc49-a4dcfe6a84c6"
+      ],
       "settings": {
       }
     },
