@@ -3,13 +3,23 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-1"
       }
     },
     "texture": {
       "type": "texture-collection",
+      "blocks": {
+        "b327c9a5-af20-4b4b-9422-dd588e376ca7": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b327c9a5-af20-4b4b-9422-dd588e376ca7"
+      ],
       "settings": {
       }
     },
