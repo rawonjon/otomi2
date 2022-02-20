@@ -4,15 +4,15 @@
 
 
 body.page-lookbook .lookbook {
-    width: calc((100% / 12) * 10);
-    margin: 0 auto;
-}
-
-body.page-lookbook .lookbook .shopify-section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    // width: calc((100% / 12) * 10);
+    width: 100%;
+    max-width: 1600px;
+    // margin: 0 auto;
+    border: 1px solid lime;
 }
 
 body.page-lookbook .lookbook picture {
