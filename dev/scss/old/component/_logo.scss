@@ -3,26 +3,9 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 a.logo {
-    // display: none;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
-    // display: flex;
-    // justify-content: center;
-    // width: 10%;
-    // background: pink;
-    // width: 120px;
-    // height: 118px;
     svg {
         width: 120px;
     }
-}
-
-@media (max-width: $breakpoint4) {
-    // a.logo:first-child {
-    //     width: 90px;
-    //     height: 88px;
-    // }
 }
 
 svg.logo {

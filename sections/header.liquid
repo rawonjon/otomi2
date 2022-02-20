@@ -374,7 +374,7 @@
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
             {% if forloop.index == 4 %} 
-            <a href="{{ shop.secure_url }}">
+            <a href="{{ shop.secure_url }}" class="nav-logo">
               {% render 'logo' %}
             </a>
             <li>

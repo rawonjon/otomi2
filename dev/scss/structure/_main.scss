@@ -1,5 +1,13 @@
 body.index {
     main#MainContent {
-        margin-top: -156px;
+        margin-top: -162px;
+        z-index: 1;
+        @media (max-width: 990px) {
+            margin-top: -65px;
+        }
     }
+}
+
+main#MainContent {
+    margin-top: 64px;
 }

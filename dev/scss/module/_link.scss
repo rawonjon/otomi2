@@ -3,15 +3,16 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 div.about {
-    // flex-direction: row;
-    // flex-wrap: wrap;
-    // align-items: flex-start;
-    // justify-content: space-between;
-    max-width: 1544px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1440px;
     // // width: calc((100% / 12) * 10);
     // padding: 0 calc((100% / 12) * 1);
     // width: 100%;
-    padding-bottom: 64px;
+    padding: 64px 32px;
     margin: 0 auto;
     
     // border: 1px solid lime;
@@ -39,11 +40,11 @@ div.about {
 }
 
 .about .page {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
+    // display: flex;
+    // flex-wrap: nowrap;
+    // justify-content: space-between;
+    // width: 100%;
+    // height: 100%;
     // border: 3px solid lime;
 }
 
@@ -69,12 +70,11 @@ div.about {
 
 .about .button {
     margin: 32px;
-    border-color: black;
-    color: black;
-    &:hover {
-        border-color: $pink;
-    color: white;
-    }
+    // border-color: black;
+    // color: black;
+    // &:hover {
+    //     border-color: $pink;
+    // color: white;
 }
 
 /* //////////////////////////////////////////////////////////////////// BREAK /// */
