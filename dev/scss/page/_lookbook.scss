@@ -4,22 +4,26 @@
 
 
 body.page-lookbook .lookbook {
-    width: calc((100% / 12) * 10);
-    margin: 0 auto;
-}
-
-body.page-lookbook .lookbook .shopify-section {
+    // width: calc((100% / 12) * 10);
+    // margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
+// body.page-lookbook .lookbook .shopify-section {
+
+// }
+
 body.page-lookbook .lookbook picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 45%;
     padding: 16px;
 }
 

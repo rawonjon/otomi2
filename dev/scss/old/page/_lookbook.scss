@@ -3,38 +3,38 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 
-body.page-lookbook .lookbook {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    // width: calc((100% / 12) * 10);
-    width: 100%;
-    max-width: 1600px;
-    // margin: 0 auto;
-    border: 1px solid lime;
-}
+// body.page-lookbook section.lookbook {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: center;
+//     // width: calc((100% / 12) * 10);
+//     width: 100%;
+//     max-width: 1600px;
+//     // margin: 0 auto;
+//     border: 1px solid lime;
+// }
 
-body.page-lookbook .lookbook picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding: 16px;
-}
+// body.page-lookbook .lookbook picture {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 50%;
+//     padding: 16px;
+// }
 
-body.page-lookbook .lookbook picture img {
-    object-fit: contain;
-    width: 100%;
-    max-height: calc((100vw / 12) * 4);
-}
+// body.page-lookbook .lookbook picture img {
+//     object-fit: contain;
+//     width: 100%;
+//     max-height: calc((100vw / 12) * 4);
+// }
 
-@media (max-width: $breakpoint5) {
-    body.page-lookbook .lookbook picture {
-        width: 100%;
-    }
-    body.page-lookbook .lookbook picture img {
-        max-height: unset;
-    }
+// @media (max-width: $breakpoint5) {
+//     body.page-lookbook .lookbook picture {
+//         width: 100%;
+//     }
+//     body.page-lookbook .lookbook picture img {
+//         max-height: unset;
+//     }
 
-}
+// }
