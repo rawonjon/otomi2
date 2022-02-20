@@ -10,6 +10,9 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1600",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -37,8 +40,8 @@
           "logo_width": 100,
           "logo_position": "top-center",
           "menu": "main-menu",
-          "collection_left": "collections-left",
-          "collection_right": "collections-right",
+          "collection_left": "",
+          "collection_right": "",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
