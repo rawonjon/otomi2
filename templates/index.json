@@ -176,7 +176,7 @@
             "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
             "title": "Lookbook",
             "buttonText": "More",
-            "link": ""
+            "link": "shopify:\/\/pages\/lookbook"
           }
         },
         "c256cfcf-1921-40c2-94ae-582befbd30df": {
@@ -185,7 +185,7 @@
             "image": "shopify:\/\/shop_images\/textiles1.jpg",
             "title": "Made to Order",
             "buttonText": "Read More",
-            "link": ""
+            "link": "shopify:\/\/pages\/made-to-order"
           }
         }
       },
