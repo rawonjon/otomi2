@@ -201,10 +201,10 @@
     "collection-slider-2": {
       "type": "collection-slider-2",
       "settings": {
-        "heading": "Shop the Edit",
-        "collection": "",
-        "show_view_all": false,
-        "button_text": ""
+        "heading": "New Arrivals",
+        "collection": "new-arrivals",
+        "show_view_all": true,
+        "button_text": "View All"
       }
     },
     "texture-bar": {
