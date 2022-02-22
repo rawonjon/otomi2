@@ -56,12 +56,30 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "b9fcb7c3-2a1e-4fae-88b4-2e28042ee6e6": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "164536852571f91a83-0",
         "16228242-30dc-4494-9329-d0f8697ea653",
-        "164536852571f91a83-1"
+        "164536852571f91a83-1",
+        "b9fcb7c3-2a1e-4fae-88b4-2e28042ee6e6"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -85,23 +103,56 @@
     "principal_collections": {
       "type": "shop-collection",
       "blocks": {
-        "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "760b4732-9e89-46e8-819f-e03766123b62": {
           "type": "collection",
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
           }
+        },
+        "627cbd74-e353-4c2a-8fb9-6d2684e86f57": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+          }
+        },
+        "7abe7b98-5670-4739-8174-395c2cf8c241": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
+          }
+        },
+        "900c704d-ac5e-48aa-901c-749d5bde4e4c": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
+          }
+        },
+        "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Cushions_3.jpg"
+          }
+        },
+        "80da5503-618c-4716-8d64-769a868b7ded": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Tumbler_Glasses_14.jpg"
+          }
         }
       },
       "block_order": [
+        "760b4732-9e89-46e8-819f-e03766123b62",
+        "627cbd74-e353-4c2a-8fb9-6d2684e86f57",
+        "7abe7b98-5670-4739-8174-395c2cf8c241",
+        "900c704d-ac5e-48aa-901c-749d5bde4e4c",
         "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63",
-        "760b4732-9e89-46e8-819f-e03766123b62"
+        "80da5503-618c-4716-8d64-769a868b7ded"
       ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
