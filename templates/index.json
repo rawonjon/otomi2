@@ -110,11 +110,11 @@
             "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
           }
         },
-        "627cbd74-e353-4c2a-8fb9-6d2684e86f57": {
+        "900c704d-ac5e-48aa-901c-749d5bde4e4c": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/Hats.jpg"
           }
         },
         "7abe7b98-5670-4739-8174-395c2cf8c241": {
@@ -124,11 +124,11 @@
             "image": "shopify:\/\/shop_images\/Salad_Servers.jpg"
           }
         },
-        "900c704d-ac5e-48aa-901c-749d5bde4e4c": {
+        "627cbd74-e353-4c2a-8fb9-6d2684e86f57": {
           "type": "collection",
           "settings": {
-            "collection": "lighting",
-            "image": "shopify:\/\/shop_images\/lamps_with_40cm_retro_pedal_loom_-_Copy.jpg"
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Baskets_32.jpg"
           }
         },
         "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63": {
@@ -148,9 +148,9 @@
       },
       "block_order": [
         "760b4732-9e89-46e8-819f-e03766123b62",
-        "627cbd74-e353-4c2a-8fb9-6d2684e86f57",
-        "7abe7b98-5670-4739-8174-395c2cf8c241",
         "900c704d-ac5e-48aa-901c-749d5bde4e4c",
+        "7abe7b98-5670-4739-8174-395c2cf8c241",
+        "627cbd74-e353-4c2a-8fb9-6d2684e86f57",
         "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63",
         "70cc187b-f2fb-4dd3-bd0b-becc68ab4188"
       ],
