@@ -182,8 +182,9 @@
         "c256cfcf-1921-40c2-94ae-582befbd30df": {
           "type": "linkblock",
           "settings": {
-            "title": "Title",
-            "buttonText": "",
+            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "title": "Made to Order",
+            "buttonText": "Read More",
             "link": ""
           }
         }
