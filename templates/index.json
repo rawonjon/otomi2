@@ -84,6 +84,25 @@
     },
     "principal_collections": {
       "type": "shop-collection",
+      "blocks": {
+        "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "760b4732-9e89-46e8-819f-e03766123b62": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "5d6d9bbe-dea0-4615-ba15-a245dfe6ce63",
+        "760b4732-9e89-46e8-819f-e03766123b62"
+      ],
       "settings": {
         "title": "THE MONTES & CLARK COLLECTION"
       }
