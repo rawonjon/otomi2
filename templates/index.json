@@ -169,10 +169,29 @@
             "buttonText": "Read More",
             "link": ""
           }
+        },
+        "bbccce22-cfdf-4633-9237-705f45e969de": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
+            "title": "Lookbook",
+            "buttonText": "More",
+            "link": ""
+          }
+        },
+        "c256cfcf-1921-40c2-94ae-582befbd30df": {
+          "type": "linkblock",
+          "settings": {
+            "title": "Title",
+            "buttonText": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "881b4071-378a-4220-b805-44e016b8b525"
+        "881b4071-378a-4220-b805-44e016b8b525",
+        "bbccce22-cfdf-4633-9237-705f45e969de",
+        "c256cfcf-1921-40c2-94ae-582befbd30df"
       ],
       "settings": {
         "title": "About Us"
