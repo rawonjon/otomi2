@@ -3,16 +3,15 @@
     "main": {
       "type": "lookbook",
       "blocks": {
-        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c": { 
-          "type": "image",
-          "settings": {
-            "lookbook_image": "shopify:\/\/shop_images\/password.jpg"
-          }
-        },
         "064a0f79-1e97-4415-8a9f-f8462b25e857": {
           "type": "image",
           "settings": {
-            "lookbook_image": "shopify:\/\/shop_images\/textiles.jpg"
+          }
+        },
+        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c": {
+          "type": "image",
+          "settings": {
+            "lookbook_image": "shopify:\/\/shop_images\/Lamps_3.jpg"
           }
         },
         "ac34ddfd-20c7-4073-a72a-58b04200b7fa": {
@@ -29,8 +28,8 @@
         }
       },
       "block_order": [
-        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c",
         "064a0f79-1e97-4415-8a9f-f8462b25e857",
+        "9859e66c-bdc0-4d8c-ba64-cbbfd7a6b76c",
         "ac34ddfd-20c7-4073-a72a-58b04200b7fa",
         "519ea85f-13b9-41bd-ad34-1238f48f4b27"
       ],
