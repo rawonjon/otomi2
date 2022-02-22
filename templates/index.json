@@ -160,6 +160,20 @@
     },
     "main-about": {
       "type": "main-about",
+      "blocks": {
+        "881b4071-378a-4220-b805-44e016b8b525": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
+            "title": "Our Makers",
+            "buttonText": "Read More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "881b4071-378a-4220-b805-44e016b8b525"
+      ],
       "settings": {
         "title": "About Us"
       }
