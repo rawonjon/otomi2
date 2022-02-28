@@ -7,18 +7,43 @@
     },
     "texture": {
       "type": "texture",
+      "blocks": {
+        "58ce9d94-78ed-4657-a9da-c987e076b3e6": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "58ce9d94-78ed-4657-a9da-c987e076b3e6"
+      ],
       "settings": {
       }
     },
     "banner": {
       "type": "banner",
+      "blocks": {
+        "da70022e-f718-495d-8a96-4ed76aed19b7": {
+          "type": "textarea",
+          "settings": {
+            "bannerHeading": "",
+            "bannerText": "If you would like to enquire about an order, have a query about a product or item, or if you have any other questions, please get in touch with us using the form below or by email or telephone:\n\nYou can also follow us on Pinterest and Facebook, and follow and message us on Instagram.\n\nWe welcome visitors to our Textiles workshop in Tisbury and our Store Room in Semley. We are generally available Monday – Saturday between the hours of 9.30am and 2.30pm. If you would like to come and see us, please email to make an appointment.\n\nFor all queries related to returning an item, please check our Returns page.\n\nIf you are interested in commissions or a bespoke item, please check our Made to Order page."
+          }
+        }
+      },
+      "block_order": [
+        "da70022e-f718-495d-8a96-4ed76aed19b7"
+      ],
       "settings": {
       }
     },
     "contact-form": {
       "type": "contact-form",
       "settings": {
-        "heading": ""
+        "heading": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
