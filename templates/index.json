@@ -6,7 +6,7 @@
         "164536852571f91a83-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ceramic_5.jpg",
+            "image": "shopify:\/\/shop_images\/candles_1.jpg",
             "heading": "CRAFTSMANSHIP & COLOUR",
             "heading_size": "medium",
             "subheading": "Celebrating Communities of Makers and the Hand Made",
@@ -67,8 +67,8 @@
         "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -195,7 +195,7 @@
         "dfe846c4-c9dc-413f-bc49-a4dcfe6a84c6": {
           "type": "image",
           "settings": {
-            "texture": "shopify:\/\/shop_images\/1.jpg"
+            "texture": "shopify:\/\/shop_images\/texture-commission_0b97f0d3-c032-48a0-965e-edce8d05fbf4.jpg"
           }
         }
       },
