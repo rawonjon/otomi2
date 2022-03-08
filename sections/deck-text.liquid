@@ -12,7 +12,7 @@
                 <div class="block-card">
                     <!-- <picture style="background-image: url( {{ block.settings.slider_image | img_url: 'master' }} );" >
                     </picture> -->
-                    <!-- <div class="image-wrapper"> -->
+                    <div class="image-wrapper">
                         <img
                         srcset="{%- if block.settings.slider_image.width >= 275 -%}{{ block.settings.slider_image | img_url: '275x' }} 275w,{%- endif -%}
                             {%- if block.settings.slider_image.width >= 550 -%}{{ block.settings.slider_image | img_url: '550x' }} 550w,{%- endif -%}
@@ -25,9 +25,7 @@
                             calc(100vw - 30px)"
                         alt="{{ block.settings.slider_image.alt }}"
                         >
-                    <!-- </div> -->
-                
-                    
+                    </div>
 
                 </div>
             {% endfor %}
@@ -53,7 +51,7 @@ function deckText1() {
   var elem = document.querySelector('.track');
   var flkty = new Flickity( elem, {
     cellAlign: 'left',
-    contain: true,
+    contain: false,
     pageDots: true,
     autoPlay: 7000,
     imagesLoaded: true,
