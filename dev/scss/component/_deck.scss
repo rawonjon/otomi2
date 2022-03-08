@@ -71,14 +71,14 @@ div.deck-wrap {
 .deck-text {
     .deck-wrap .track,
     .deck-wrap .track-2 {
-        height: 500px;
+        min-height: 500px;
     }
     .deck-wrap {
         height: 100%;
         padding-top: 0;;
     .track,
     .track-2 {
-        height: 500px;
+        min-height: 500px;
         .block-card {
             // position: relative;
             display: block;
