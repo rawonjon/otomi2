@@ -84,6 +84,9 @@ div.deck-wrap {
             min-height: 300px;
             max-height: 420px;
             margin-right: calc((100% / 5) / 3);
+                img {
+                    object-fit: contain;
+                }
             }
         }
     }
