@@ -77,16 +77,15 @@ div.deck-wrap {
         .block-card {
             position: relative;
             display: flex;
-            /* flex-direction: column; */
-            /* flex: 0 0 auto; */
-            /* width: 100%; */
-            /* height: auto; */
-            /* min-height: 300px; */
-            /* max-height: 420px; */
-            /* margin-right: 6.6666666667%; */
-            /* border: 1px solid red; */
-            min-width: 100%;
-            max-height: 100%;
+            flex-direction: column; 
+            flex: 0 0 auto; 
+            width: 100%; 
+            height: auto; 
+            min-height: 300px; 
+            max-height: 420px; 
+            margin-right: 6.6666666667%; 
+            // min-width: fit-content;
+            // max-height: 100%;
                 img {
                     object-fit: contain;
                 }
