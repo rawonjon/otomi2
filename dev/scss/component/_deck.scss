@@ -69,6 +69,10 @@ div.deck-wrap {
 /* ////////////////////////////////////////////////////////////////// DECK-TEXT /// */
 
 .deck-text {
+    .deck-wrap .track,
+    .deck-wrap .track-2 {
+        height: 500px;
+    }
     .deck-wrap {
         height: 100%;
         padding-top: 0;;
