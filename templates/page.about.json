@@ -5,6 +5,13 @@
       "settings": {
       }
     },
+    "main-about": {
+      "type": "main-about",
+      "disabled": true,
+      "settings": {
+        "title": "About Us"
+      }
+    },
     "texture": {
       "type": "texture",
       "blocks": {
@@ -21,26 +28,20 @@
       "settings": {
       }
     },
-    "banner": {
-      "type": "banner",
-      "settings": {
-      }
-    },
     "image-text": {
       "type": "image-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/about.jpg",
         "header": "",
         "body": "",
-        "quote": "",
-        "caption": "",
+        "quote": "<p>“Our primary focus is to work with crafts people and crafts communities to bring beautiful and unusual pieces to our customers. Colour and quality of craftsmanship is at the heart of everything that we do. Textiles and traditional crafts have been a lifelong passion of ours and we are incredibly lucky to work alongside these fantastic makers.“<\/p>",
+        "caption": "<p>Kate & Emily,<\/p><p>Working Directors<\/p>",
         "text_right": false
       }
     },
-    "main-about": {
-      "type": "main-about",
+    "banner": {
+      "type": "banner",
       "settings": {
-        "title": "About Us"
       }
     },
     "contact-form": {
@@ -51,10 +52,10 @@
   },
   "order": [
     "main",
-    "texture",
-    "banner",
-    "image-text",
     "main-about",
+    "texture",
+    "image-text",
+    "banner",
     "contact-form"
   ]
 }
