@@ -174,7 +174,25 @@
         <h5 class="footer-block__heading">follow us</h5>
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
-            {%- if settings.social_twitter_link != blank -%}
+            <li class="list-social__item">
+              <a href="https://www.instagram.com/montesandclark" class="link list-social__link" >
+                {%- render 'icon-pinterest' -%}
+                <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+              </a>
+            </li>
+            <li class="list-social__item">
+              <a href="https://www.facebook.com/montesandclark/" class="link list-social__link" >
+                {%- render 'icon-facebook' -%}
+                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+              </a>
+            </li>
+            <li class="list-social__item">
+              <a href="https://www.pinterest.co.uk/montesandclark/" class="link list-social__link" >
+                {%- render 'icon-instagram' -%}
+                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+              </a>
+            </li>
+            <!-- {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
                   {%- render 'icon-twitter' -%}
@@ -245,7 +263,7 @@
                   <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
                 </a>
               </li>
-            {%- endif -%}
+            {%- endif -%} -->
           </ul>
         {%- endif -%}
       </div>    
