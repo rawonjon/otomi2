@@ -5,6 +5,22 @@
       "settings": {
       }
     },
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
+    },
+    "image-text": {
+      "type": "image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about.jpg",
+        "header": "",
+        "body": "",
+        "quote": "",
+        "caption": "",
+        "text_right": false
+      }
+    },
     "texture": {
       "type": "texture",
       "blocks": {
@@ -20,26 +36,10 @@
       "settings": {
       }
     },
-    "image-text": {
-      "type": "image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/about.jpg",
-        "header": "",
-        "body": "",
-        "quote": "",
-        "caption": "",
-        "text_right": false
-      }
-    },
     "main-about": {
       "type": "main-about",
       "settings": {
         "title": "About Us"
-      }
-    },
-    "banner": {
-      "type": "banner",
-      "settings": {
       }
     },
     "contact-form": {
@@ -50,10 +50,10 @@
   },
   "order": [
     "main",
-    "texture",
-    "image-text",
-    "main-about",
     "banner",
+    "image-text",
+    "texture",
+    "main-about",
     "contact-form"
   ]
 }
