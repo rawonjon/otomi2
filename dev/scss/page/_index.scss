@@ -1,0 +1,16 @@
+body.index {
+    @media screen and (max-width: 749px) {
+    
+        div.journal {
+            article {
+                flex-wrap: wrap;
+            }
+            picture {
+                width: 100%;
+            }
+            .text {
+                width: 100%;
+            }
+        }
+    }
+}
