@@ -34,6 +34,7 @@
     },
     "banner": {
       "type": "banner",
+      "disabled": true,
       "blocks": {
         "24b392e1-6ae1-4da3-9a08-35d28348f137": {
           "type": "textarea",
@@ -63,7 +64,7 @@
         "16468410637de09f36-1": {
           "type": "text",
           "settings": {
-            "text": "<p>After two years Lucy took a step back to focus on her work as a Climate Change Campaigner and Consultant.  Emily Pinsent joined the business and since then we have expanded our collections working collaboratively with makers in Ghana, India, Italy, France, Portugal and the UK.  We work hard to find crafts people across the world and to bring their work and skills to a wider audience who appreciate and understand the value and importance of traditional crafted and sustainably produced pieces for the home.<\/p><p>We hope that through our collections you can experience our passion for the vibrancy of handmade objects.<\/p>"
+            "text": "<p>Montes & Clark was founded by Kate Clark and Lucy Montes five years ago and started with a strong desire to bring the crafts of Mexico to the UK with a particular emphasis on working with Woman’s Co-operatives and the vibrant textiles of the country.  The embroidery of the Otomi tribe and the woven fabrics of Chiapas were and still are a key part of our identity and ethos, a passion for textiles, craftsmanship and ethical trade.<\/p><p>After two years Lucy took a step back to focus on her work as a Climate Change Campaigner and Consultant.  Emily Pinsent joined the business and since then we have expanded our collections working collaboratively with makers in Ghana, India, Italy, France, Portugal and the UK.  We work hard to find crafts people across the world and to bring their work and skills to a wider audience who appreciate and understand the value and importance of traditional crafted and sustainably produced pieces for the home.<\/p><p>We hope that through our collections you can experience our passion for the vibrancy of handmade objects.<\/p>"
           }
         },
         "16468410637de09f36-2": {
