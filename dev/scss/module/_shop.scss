@@ -17,7 +17,9 @@ div.shop {
     max-width: 1440px;
     padding-top: 32px;
     margin: 0 auto;
-    
+    @media screen and (max-width: 749px) {
+        padding: 32px;
+    }
 }
 
 // .shop .block-link {

@@ -13,6 +13,9 @@
     background-size: cover;
     text-decoration: none !important;
     margin-bottom: 96px;
+    @media screen and (max-width: 749px) {
+        margin-bottom: 32px;
+    }
     h3 {
             font-size: 32px;
             z-index: 10;
