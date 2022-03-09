@@ -197,6 +197,9 @@ body.index {
         h1.header__heading,
         a.header__heading-link {
             top: calc(-50% - 30px);
+            @media screen and (max-width: 749px) {
+                top: calc(-50% - 50px);
+            }
         }
     }
 }
