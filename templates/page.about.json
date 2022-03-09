@@ -32,15 +32,27 @@
         "text_right": true
       }
     },
+    "banner": {
+      "type": "banner",
+      "blocks": {
+        "24b392e1-6ae1-4da3-9a08-35d28348f137": {
+          "type": "textarea",
+          "settings": {
+            "bannerHeading": "",
+            "bannerText": "Montes &amp; Clark was founded by Kate Clark and Lucy Montes five years ago and started with a strong desire to bring the crafts of Mexico to the UK with a particular emphasis on working with Woman’s Co-operatives and the vibrant textiles of the country.  The embroidery of the Otomi tribe and the woven fabrics of Chiapas were and still are a key part of our identity and ethos, a passion for textiles, craftsmanship and ethical trade."
+          }
+        }
+      },
+      "block_order": [
+        "24b392e1-6ae1-4da3-9a08-35d28348f137"
+      ],
+      "settings": {
+      }
+    },
     "main-about": {
       "type": "main-about",
       "settings": {
         "title": "About Us"
-      }
-    },
-    "banner": {
-      "type": "banner",
-      "settings": {
       }
     },
     "contact-form": {
@@ -57,8 +69,8 @@
     "main",
     "texture",
     "image-text",
-    "main-about",
     "banner",
+    "main-about",
     "contact-form"
   ]
 }
