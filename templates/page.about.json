@@ -1,44 +1,61 @@
 {
-    "name": "About",
-    "sections": {
-        "main": {
-            "type": "page-about"
-        },
-        "texture": {
-            "type": "texture",
-            "settings": {
-  
-            }
-        },
-        "image-text": {
-            "type": "image-text",
-            "settings": {
-
-            }
-        },
-        "main-about": {
-            "type": "main-about",
-            "blocks": {
-
-            },
-            "block_order": [
-            
-            ],
-            "settings": {
-                
-            }
-        },
-        "banner":  {
-            "type": "banner",
-            "settings": {
-
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "page-about",
+      "settings": {
+      }
     },
-    "order": [
-        "main",
-        "texture",
-        "banner",
-        "contact-form"
-    ]
+    "main-about": {
+      "type": "main-about",
+      "disabled": true,
+      "settings": {
+        "title": "About Us"
+      }
+    },
+    "texture": {
+      "type": "texture",
+      "blocks": {
+        "06ca8a86-896d-4506-ac5f-c201899c162d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage-texture.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "06ca8a86-896d-4506-ac5f-c201899c162d"
+      ],
+      "settings": {
+      }
+    },
+    "image-text": {
+      "type": "image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about.jpg",
+        "header": "",
+        "body": "",
+        "quote": "<p>“Our primary focus is to work with crafts people and crafts communities to bring beautiful and unusual pieces to our customers. Colour and quality of craftsmanship is at the heart of everything that we do. Textiles and traditional crafts have been a lifelong passion of ours and we are incredibly lucky to work alongside these fantastic makers.“<\/p>",
+        "caption": "<p>Kate & Emily,<\/p><p>Working Directors<\/p>",
+        "text_right": false
+      }
+    },
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "main-about",
+    "texture",
+    "image-text",
+    "banner",
+    "contact-form"
+  ]
 }

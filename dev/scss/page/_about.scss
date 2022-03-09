@@ -2,8 +2,44 @@
 /* ///////////////////////////////////////////////////////////////// PAGE ABOUT /// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 
-body.page-about section.link {
-    width: calc((100% / 12) * 12);
-    margin-top: 64px;
-    border-top: 1px solid black;
+// body.page-about section.link {
+//     width: calc((100% / 12) * 12);
+//     margin-top: 64px;
+//     border-top: 1px solid black;
+// }
+
+
+body.page-about {
+    .image-text {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 0;
+        .image-wrap {
+            width: 50%;
+            .block-card {
+                width: 100%;
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        @media (max-width: 990px) {
+            flex-wrap: wrap;
+            .image-wrap {
+                width: 100%;
+            }
+            .text-wrap {
+                margin-top: 16px;
+                width: 100%;
+            }
+        }
+    }
 }
+
+
+

@@ -15,7 +15,8 @@ section.title {
     }
 }
 
-section.deck-text {
+section.deck-text,
+section.image-text, {
     display: flex;
     flex-wrap: nowrap;
     padding: 64px;
