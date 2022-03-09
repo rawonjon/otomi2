@@ -1,4 +1,4 @@
-<section class="block">
+<!-- <section class="block">
     <div class="media">  
         <picture style="background-image: url({{ 'about.jpg' | asset_url }});">
         </picture>
@@ -10,7 +10,7 @@
             <footer>Kate & Emily,<br>Working Directors </footer>
         </blockquote>
     </div>
-</section>
+</section> -->
 
 
 
@@ -26,12 +26,12 @@
             </picture> -->
             <!-- <div class="image-wrapper"> -->
                 <img
-                srcset="{%- if block.settings.slider_image.width >= 275 -%}{{ block.settings.slider_image | img_url: '275x' }} 275w,{%- endif -%}
-                    {%- if block.settings.slider_image.width >= 550 -%}{{ block.settings.slider_image | img_url: '550x' }} 550w,{%- endif -%}
-                    {%- if block.settings.slider_image.width >= 710 -%}{{ block.settings.slider_image | img_url: '710x' }} 710w,{%- endif -%}
-                    {%- if block.settings.slider_image.width >= 1420 -%}{{ block.settings.slider_image | img_url: '1420x' }} 1420w,{%- endif -%}
-                    {{ block.settings.slider_image | img_url: 'master' }} {{ block.settings.slider_image.width }}w"
-                    data-flickity-lazyload="{{ block.settings.slider_image | img_url: '550x' }}"
+                srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
+                    {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
+                    {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | img_url: '710x' }} 710w,{%- endif -%}
+                    {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | img_url: '1420x' }} 1420w,{%- endif -%}
+                    {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                    data-flickity-lazyload="{{ block.settings.image | img_url: '550x' }}"
                 sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
                     (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
                     calc(100vw - 30px)"
