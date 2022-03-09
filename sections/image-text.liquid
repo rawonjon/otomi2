@@ -1,107 +1,12 @@
-<!-- <section class="block">
-    <div class="media">  
-        <picture style="background-image: url({{ 'about.jpg' | asset_url }});">
-        </picture>
-    </div>
-
-    <div class="text">
-        <blockquote>
-            <p>“Our primary focus is to work with crafts people and crafts communities to bring beautiful and unusual pieces to our customers. Colour and quality of craftsmanship is at the heart of everything that we do. Textiles and traditional crafts have been a lifelong passion of ours and we are incredibly lucky to work alongside these fantastic makers.“ </p>  
-            <footer>Kate & Emily,<br>Working Directors </footer>
-        </blockquote>
-    </div>
-</section> -->
-
-
-
-{% if section.settings.text_right == false %}
-    
-    <section class="image-text text-left ">
-{% else %}
-    <section class="image-text">
-{% endif %}
-
-    <div class="image-wrap">
-        <div class="block-card">
-            <!-- <picture style="background-image: url( {{ block.settings.slider_image | img_url: 'master' }} );" >
-            </picture> -->
-            <!-- <div class="image-wrapper"> -->
-                <img
-                srcset="{%- if section.settings.image.width >= 275 -%}{{ section.settings.image | img_url: '275x' }} 275w,{%- endif -%}
-                    {%- if section.settings.image.width >= 550 -%}{{ section.settings.image | img_url: '550x' }} 550w,{%- endif -%}
-                    {%- if section.settings.image.width >= 710 -%}{{ section.settings.image | img_url: '710x' }} 710w,{%- endif -%}
-                    {%- if section.settings.image.width >= 1420 -%}{{ section.settings.image | img_url: '1420x' }} 1420w,{%- endif -%}
-                    {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
-                    data-flickity-lazyload="{{ block.settings.image | img_url: '550x' }}"
-                sizes="(min-width: 990px) {% if section.settings.image.size <= 2 %}710px{% else %}550px{% endif %},
-                    (min-width: 750px) {% if section.settings.image.size == 1 %}710px{% else %}550px{% endif %},
-                    calc(100vw - 30px)"
-                alt="{{ section.settings.imag.alt }}"
-                >    
-        </div>
-    </div> 
-
-    <div class="text-wrap">
-            {% if section.settings.header != blank %}
-                <h2>{{ section.settings.header }}</h2>
-            {% endif %}
-
-            {% if section.settings.body != blank %}
-                <div class="text">
-                    {{section.settings.body | newline_to_br }}
-                </div>
-            {% endif %}
-
-            {% if section.settings.quote %}
-                <figure>
-                    <blockquote>
-                        <p>{{section.settings.quote | newline_to_br }} </p>  
-                        <figcaption>{{section.settings.caption | newline_to_br }} </figcaption>
-                    </blockquote>
-                </figure>   
-            {% endif %}
-            
-    </div>
-
-</section>
-
-
 {% schema %}
-{
-  "name": "image-text",
-  "class": "image-text",
-  "settings": [
-        {
-            "type":"image_picker",
-            "label": "Picture",
-            "id": "image"
-        },
-        {
-            "type":"text",
-            "label": "Text Section Heading",
-            "id": "header"
-        },
-        {
-            "type":"textarea",
-            "label": "Text Section Body",
-            "id": "body"
-        },
-        {
-            "type":"richtext",
-            "label": "Text Section Quote",
-            "id": "quote"
-        },
-        {
-            "type":"richtext",
-            "label": "Text Section Caption",
-            "id": "caption"
-        },
-        {
-            "type":"checkbox",
-            "label": "Text on right",
-            "id": "text_right"
-        }
-    ]
-}
-  
+  {
+    "name": "Section name",
+    "settings": []
+  }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
