@@ -45,7 +45,7 @@
       }
     },
     "contact-form": {
-      "type": "banner",
+      "type": "contact-form",
       "settings": {
       }
     }

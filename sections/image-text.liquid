@@ -15,6 +15,7 @@
 
 
 {% if section.settings.text_right == false %}
+    
     <section class="image-text text-left ">
 {% else %}
     <section class="image-text">
@@ -41,11 +42,11 @@
     </div> 
 
     <div class="text-wrap">
-            {% if section.settings.body %}
+            {% if section.settings.header != blank %}
                 <h2>{{ section.settings.header }}</h2>
             {% endif %}
 
-            {% if section.settings.body %}
+            {% if section.settings.body != blank %}
                 <div class="text">
                     {{section.settings.body | newline_to_br }}
                 </div>
