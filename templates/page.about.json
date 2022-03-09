@@ -1,52 +1,60 @@
 {
-    "name": "About",
-    "sections": {
-        "main": {
-            "type": "page-about"
-        },
-        "texture": {
-            "type": "texture",
-            "settings": {
-  
-            }
-        },
-        "image-text": {
-            "type": "image-text",
-            "settings": {
-
-            }
-        },
-        "main-about": {
-            "type": "main-about",
-            "blocks": {
-
-            },
-            "block_order": [
-            
-            ],
-            "settings": {
-                
-            }
-        },
-        "banner":  {
-            "type": "banner",
-            "settings": {
-
-            }
-        },
-        "contact-form":  {
-            "type": "banner",
-            "settings": {
-                "heading": "Contact form"
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "page-about",
+      "settings": {
+      }
     },
-    "order": [
-        "main",
-        "texture",
-        "image-text",
-        "main-about",
-        "banner",
-        "contact-form"
-    ]
+    "texture": {
+      "type": "texture",
+      "blocks": {
+        "06ca8a86-896d-4506-ac5f-c201899c162d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage-texture.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "06ca8a86-896d-4506-ac5f-c201899c162d"
+      ],
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
+    },
+    "image-text": {
+      "type": "image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about.jpg",
+        "header": "",
+        "body": "",
+        "quote": "",
+        "caption": "",
+        "text_right": false
+      }
+    },
+    "main-about": {
+      "type": "main-about",
+      "settings": {
+        "title": "About Us"
+      }
+    },
+    "contact-form": {
+      "type": "banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "texture",
+    "banner",
+    "image-text",
+    "main-about",
+    "contact-form"
+  ]
 }
