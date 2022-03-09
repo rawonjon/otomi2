@@ -33,11 +33,19 @@
             "settings": {
 
             }
+        },
+        "contact-form":  {
+            "type": "banner",
+            "settings": {
+                "heading": "Contact form"
+            }
         }
     },
     "order": [
         "main",
         "texture",
+        "image-text",
+        "main-about",
         "banner",
         "contact-form"
     ]
