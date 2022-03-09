@@ -112,9 +112,10 @@
         "490e4232-e252-47ab-a7ed-0162008025fe": {
           "type": "linkblock",
           "settings": {
-            "title": "Title",
-            "buttonText": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/textiles1.jpg",
+            "title": "Made to order",
+            "buttonText": "Read more",
+            "link": "shopify:\/\/pages\/made-to-order"
           }
         }
       },
