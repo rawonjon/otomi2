@@ -5,19 +5,37 @@
       "settings": {
       }
     },
-    "main-about": {
-      "type": "main-about",
-      "settings": {
-      }
-    },
     "texture": {
       "type": "texture",
+      "blocks": {
+        "b1b4be76-8eaa-4f88-a8ec-fa435a2c7663": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/texture-index.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b1b4be76-8eaa-4f88-a8ec-fa435a2c7663"
+      ],
       "settings": {
       }
     },
     "image-text": {
       "type": "image-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Face_Plates_2.jpg",
+        "header": "",
+        "body": "",
+        "quote": "<p>“Our primary focus is to work with crafts people and crafts communities to bring beautiful and unusual pieces to our customers. Colour and quality of craftsmanship is at the heart of everything that we do. Textiles and traditional crafts have been a lifelong passion of ours and we are incredibly lucky to work alongside these fantastic makers.“ <\/p>",
+        "caption": "<p>Kate & Emily,<\/p><p>Working Directors<\/p>",
+        "text_right": true
+      }
+    },
+    "main-about": {
+      "type": "main-about",
+      "settings": {
+        "title": "About Us"
       }
     },
     "banner": {
@@ -28,14 +46,18 @@
     "contact-form": {
       "type": "contact-form",
       "settings": {
+        "heading": "Contact form",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "main-about",
     "texture",
     "image-text",
+    "main-about",
     "banner",
     "contact-form"
   ]
