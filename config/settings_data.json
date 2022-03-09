@@ -15,6 +15,7 @@
     "social_pinterest_link": "https:\/\/www.pinterest.co.uk\/montesandclark\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/montesandclark",
     "predictive_search_show_price": true,
+    "favicon": "shopify:\/\/shop_images\/M_C_logo.png",
     "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
