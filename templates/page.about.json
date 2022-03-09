@@ -8,13 +8,15 @@
     "main-about": {
       "type": "main-about",
       "settings": {
+      },
+      "blocks": {
       }
     },
     "texture": {
       "type": "texture",
-      "blocks": {
-        },
       "settings": {
+      },
+      "blocks": {
       }
     },
     "image-text": {
