@@ -137,7 +137,7 @@ section.journal.short {
 
 }
 
-@media (max-width: $breakpoint5) {
+@media screen and (max-width: 990px) {
     .journal article {
         flex-wrap: wrap;
     }
