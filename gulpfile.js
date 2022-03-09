@@ -15,3 +15,5 @@ gulp.task('watch', function() {
     gulp.watch('dev/scss/**/*.scss', gulp.series('sass'))
 });
 
+
+I was looking at the morphsvg plugin (that Dave mentioned re: mud homepage) as a way of morphing the big numbers.  Could carry on with that? 
