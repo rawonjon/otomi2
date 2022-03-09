@@ -90,6 +90,39 @@
     },
     "main-about": {
       "type": "main-about",
+      "blocks": {
+        "eebffe62-496a-47fd-9cdd-0424f2fcc75a": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR_MAKERS_image.jpg",
+            "title": "Our Makers",
+            "buttonText": "Find out more",
+            "link": "shopify:\/\/pages\/our-makers"
+          }
+        },
+        "1b9da329-fb8f-403b-b0c8-ce151e9fb886": {
+          "type": "linkblock",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ceramics_70.jpg",
+            "title": "Lookbook",
+            "buttonText": "More",
+            "link": "shopify:\/\/pages\/lookbook"
+          }
+        },
+        "490e4232-e252-47ab-a7ed-0162008025fe": {
+          "type": "linkblock",
+          "settings": {
+            "title": "Title",
+            "buttonText": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "eebffe62-496a-47fd-9cdd-0424f2fcc75a",
+        "1b9da329-fb8f-403b-b0c8-ce151e9fb886",
+        "490e4232-e252-47ab-a7ed-0162008025fe"
+      ],
       "settings": {
         "title": "About Us"
       }
