@@ -7,7 +7,7 @@
     },
     "main-about": {
       "type": "main-about",
-      "disabled": true,
+      "disabled": false,
       "settings": {
         "title": "About Us"
       }
