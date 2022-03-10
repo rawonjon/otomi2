@@ -39,7 +39,9 @@ div.facets-container {
             color: $pink;
         }
     }
-
+   @media screens and (max-width: 990px) {
+       display: none;
+   } 
 }
 
 // .section-collection {
