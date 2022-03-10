@@ -9,6 +9,38 @@ div.facets-container {
     }
 }
 
+.collection-filter {
+    display: flex;
+    justify-content: flex-start;
+    // border: 1px solid red;
+    // position: absolute;
+    list-style: none;
+    font-size: 1.4rem;
+    // li:first-child {
+    //     font-weight: 700;
+    // }
+    padding-left: 0;
+    li {
+        display: block;
+        min-width: 50px;
+        margin: 0 16px;
+        padding: 4px 8px;
+        &:first-child {
+            text-transform: uppercase;
+            padding-left: 0;
+            margin-left: 0;
+        }
+    }
+    li:not(:first-child) {
+        display: block; 
+        &:hover,
+        &.active a {
+            // background: $pink;
+            color: $pink;
+        }
+    }
+
+}
 
 // .section-collection {
 //     flex-direction: row;
