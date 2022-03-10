@@ -48,7 +48,7 @@
       {%- else -%}
         <div class="collection page-width">
           <div class="loading-overlay gradient"></div>
-  
+          {% render 'collection-filter' %}
           <ul id="product-grid" data-id="{{ section.id }}" class="
             grid grid--2-col product-grid
             {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
