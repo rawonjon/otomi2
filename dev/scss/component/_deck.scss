@@ -68,11 +68,7 @@ div.deck-wrap {
 
 /* ////////////////////////////////////////////////////////////////// DECK-TEXT /// */
 
-section.deck-text {
-    @media (max-width: 1200px) {
-        flex-wrap: wrap;   
-    }
-}
+
 
 .deck-text {
     .deck-wrap .track,
