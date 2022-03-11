@@ -69,6 +69,9 @@ footer .quicklinks nav > div{
         flex-direction: column;
         flex-wrap: wrap;
         height: 120px;
+        @media (max-width: 720px) {
+            flex-wrap: nowrap;
+        }
     }
 }
 
