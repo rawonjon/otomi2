@@ -42,6 +42,17 @@ section.image-text, {
     }
 }
 
+
+section.deck-text {
+    div.deck-wrap,
+    div.text-wrap  {
+        width: 100%;
+    }
+    @media (max-width: 1200px) {
+        flex-wrap: wrap;
+    }
+}
+
 div.important {
     z-index: 10;
     position: relative;
