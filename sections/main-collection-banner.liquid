@@ -17,6 +17,9 @@
         {{- collection.title | escape -}}
       </h1>
 
+      <section class="banner" style="background-image: url({{ collection.image | img_url: 'master' }})">
+      </section>
+
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
       {%- endif -%}
