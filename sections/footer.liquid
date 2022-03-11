@@ -95,7 +95,7 @@
         <p><small class="copyright__content">&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}</small></p>
       </div>
 
-      <div class="footer__content-top page-width">
+      <div class="footer__content-top page-width footer-quicklinks">
         {%- if section.blocks.size > 0 -%}
           {%- liquid
             if section.blocks.size == 9
@@ -107,7 +107,7 @@
             endif
           -%}
 
-          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }} footer-quicklinks">
+          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
             {%- for block in section.blocks -%}
               <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
