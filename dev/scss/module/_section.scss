@@ -50,6 +50,9 @@ section.deck-text {
     }
     @media (max-width: 1200px) {
         flex-wrap: wrap;
+        div.deck-wrap .track {
+            width: 100%;
+        }
         div.text-wrap {
             margin-top: 64px;
             text-align: center;
