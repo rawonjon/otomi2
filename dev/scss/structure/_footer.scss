@@ -54,6 +54,24 @@ footer .quicklinks nav > div{
     height: auto;
 }
 
+.footer__content-top {
+    padding-left: 0;
+}
+
+.footer-quicklinks {
+    margin: 0 !important;
+    width: 33.333%;
+    .footer-block  {
+        // border: 1px solid red;
+    }
+    .footer-block__details-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 120px;
+    }
+}
+
 footer .contact {
     display: flex;
     flex-direction: column;
