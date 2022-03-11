@@ -11,11 +11,15 @@ div.facets-container {
 
 .collection-filter {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: wrap;
     // border: 1px solid red;
     // position: absolute;
     list-style: none;
     font-size: 1.4rem;
+    height: 100%;
+    max-height: 100%;
     // li:first-child {
     //     font-weight: 700;
     // }
@@ -23,8 +27,9 @@ div.facets-container {
     li {
         display: block;
         min-width: 50px;
-        margin: 0 16px;
-        padding: 4px 8px;
+        // margin: 0 16px;
+        // padding: 4px 8px;
+        padding: 0 64px 8px 0;
         &:first-child {
             text-transform: uppercase;
             padding-left: 0;
@@ -42,6 +47,49 @@ div.facets-container {
    @media screens and (max-width: 990px) {
        display: none;
    } 
+}
+
+
+.product-grid-container {
+    display: flex;
+    
+}
+
+.filter-container {
+    @media (max-width: 750px) {
+        display: none;
+    }
+    &-mobile {
+        // border: 1px solid red;
+        padding: 1.3rem 2.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        ul {
+            li:first-child {
+                position: absolute;
+                width: 100%;
+
+            }
+            li:not(:first-child) {
+                padding-left: 8rem;
+                // flex: 1 0 8px;
+            }
+        }
+    }
+}
+
+#ProductGridContainer {
+    width: 100%;
+}
+
+.mobile-facets__close {
+    top: 16.7rem !important;
+}
+
+.mobile-facets__inner {
+    margin-top: 160px;
 }
 
 // .section-collection {
