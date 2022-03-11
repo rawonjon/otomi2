@@ -51,7 +51,8 @@ section.deck-text {
     @media (max-width: 1200px) {
         flex-wrap: wrap;
         div.text-wrap {
-            margin-top: 32px;
+            margin-top: 64px;
+            text-align: center;
         }
     }
 }
