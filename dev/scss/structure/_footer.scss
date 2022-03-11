@@ -71,6 +71,7 @@ footer .quicklinks nav > div{
         height: 120px;
         @media (max-width: 720px) {
             flex-wrap: nowrap;
+            height: 100%;
         }
     }
 }
