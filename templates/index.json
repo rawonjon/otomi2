@@ -43,16 +43,16 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Wicker.jpg",
-            "heading": "CRAFTSMANSHIP & COLOUR",
+            "heading": "fOR LOGS, lAUNDRY & lIFE",
             "heading_size": "medium",
-            "subheading": "Celebrating Communities of Makers and the Hand Made",
+            "subheading": "Hand Woven in Ghana by Tradeaid Integrated",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
