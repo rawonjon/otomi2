@@ -30,7 +30,7 @@
             "subheading": "Celebrating Communities of Makers and the Hand Made",
             "button_label": "SHOP TABLETOP",
             "link": "shopify:\/\/collections\/tabletop",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
