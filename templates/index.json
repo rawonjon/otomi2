@@ -52,7 +52,7 @@
             "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
