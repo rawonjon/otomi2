@@ -23,13 +23,14 @@
     },
     "image-text": {
       "type": "image-text",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "image": "shopify:\/\/shop_images\/Gobble_2.jpg",
         "header": "",
         "body": "",
-        "quote": "<p>“Our primary focus is to work with crafts people and crafts communities to bring beautiful and unusual pieces to our customers. Colour and quality of craftsmanship is at the heart of everything that we do. Textiles and traditional crafts have been a lifelong passion of ours and we are incredibly lucky to work alongside these fantastic makers.“ <\/p>",
-        "caption": "<p>Kate Clark & Emily Pinsent<\/p><p><\/p>",
-        "text_right": true
+        "quote": "",
+        "caption": "<p><\/p><p><\/p>",
+        "text_right": false
       }
     },
     "banner": {
@@ -55,10 +56,9 @@
       "blocks": {
         "16468410637de09f36-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "emily pinsent & kate clark",
+            "heading_size": "h2"
           }
         },
         "16468410637de09f36-1": {
